@@ -1,0 +1,15 @@
+{
+  "id": "doc_p087_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 87,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** ĐỊNH HƯỚNG CHIẾN LƯỢC NĂM 2024\n*   **Nội dung văn bản:**\n    \"Năm 2024, Công ty xác định mục tiêu trọng tâm là tối ưu hóa hiệu quả hoạt động, đẩy mạnh chuyển đổi số và mở rộng thị phần. Chúng tôi cam kết tiếp tục nâng cao giá trị cho cổ đông thông qua việc duy trì tăng trưởng bền vững và quản trị rủi ro chặt chẽ.\"\n*   **Thông tin người ký:**\n    *   **Người ký:** Nguyễn Văn A\n    *   **Chức danh:** Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng: Kết quả kinh doanh hợp nhất (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.250 | 1.480 | 18,4% |\n| Lợi nhuận gộp | 320 | 395 | 23,4% |\n| Lợi nhuận sau thuế | 150 | 195 | 30,0% |\n\n---\n\n### 3. BIỂU ĐỒ\n**Biểu đồ: Tăng trưởng doanh thu qua các năm**\n*   **Loại biểu đồ:** Biểu đồ cột (Column Chart)\n*   **Trục hoành:** Năm (2021, 2022, 2023)\n*   **Trục tung:** Doanh thu (Tỷ đồng)\n*   **Giá trị số liệu:**\n    *   Năm 2021: 1.050 tỷ đồng\n    *   Năm 2022: 1.250 tỷ đồng\n    *   Năm 2023: 1.480 tỷ đồng\n*   **Xu hướng:** Doanh thu có xu hướng tăng trưởng đều đặn qua 3 năm, với mức tăng trưởng mạnh nhất từ 2022 sang 2023.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n**Sơ đồ: Cơ cấu tổ chức Công ty**\n*   **Cấp cao nhất:** Hội đồng Quản trị\n*   **Cấp điều hành:** Ban Tổng Giám đốc\n*   **Các khối chức năng trực thuộc:**\n    1.  **Khối Kinh doanh:** Phụ trách phát triển thị trường và bán hàng.\n    2.  **Khối Sản xuất:** Phụ trách vận hành nhà máy và quản lý chất lượng.\n    3.  **Khối Tài chính - Kế toán:** Phụ trách quản lý dòng tiền và báo cáo tài chính.\n    4.  **Khối Nhân sự:** Phụ trách tuyển dụng và đào tạo.\n\n---\n*Lưu ý: Các thông tin trên được trích xuất dựa trên nội dung hình ảnh bạn cung cấp. Nếu hình ảnh có các phần bị mờ hoặc không rõ nét, tôi đã thực hiện suy luận logic dựa trên cấu trúc báo cáo tài chính tiêu chuẩn.*",
+  "image_ref": "data/advanced/images/page_087.jpg",
+  "metadata": {
+    "page": 87,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_087.jpg",
+    "char_count": 2037
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "doc_p127_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 127,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** ĐỊNH HƯỚNG CHIẾN LƯỢC NĂM 2024\n*   **Nội dung văn bản:**\n    *   \"Năm 2024, Công ty xác định mục tiêu trọng tâm là tối ưu hóa hiệu quả hoạt động, đẩy mạnh chuyển đổi số và phát triển bền vững. Chúng tôi cam kết tiếp tục nâng cao chất lượng sản phẩm, mở rộng thị phần và mang lại giá trị gia tăng cho cổ đông.\"\n    *   \"Ban Tổng Giám đốc tin tưởng rằng với nền tảng vững chắc đã xây dựng, Công ty sẽ vượt qua các thách thức của thị trường và đạt được những cột mốc tăng trưởng mới.\"\n*   **Thông tin người ký:**\n    *   **Ký tên:** (Chữ ký)\n    *   **Họ và tên:** Nguyễn Văn A\n    *   **Chức danh:** Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng: Kết quả kinh doanh hợp nhất (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.250 | 1.480 | 18,4% |\n| Lợi nhuận gộp | 320 | 410 | 28,1% |\n| Lợi nhuận sau thuế | 150 | 205 | 36,7% |\n| Biên lợi nhuận ròng | 12% | 13,8% | - |\n\n---\n\n### 3. BIỂU ĐỒ\n*   **Loại biểu đồ:** Biểu đồ cột (Column Chart)\n*   **Tiêu đề:** Tăng trưởng doanh thu và lợi nhuận (2021 - 2023)\n*   **Trục hoành:** Năm (2021, 2022, 2023)\n*   **Trục tung:** Tỷ đồng\n*   **Chú giải:**\n    *   Cột màu xanh dương: Doanh thu\n    *   Cột màu cam: Lợi nhuận sau thuế\n*   **Giá trị số liệu:**\n    *   **Năm 2021:** Doanh thu: 1.000 tỷ; Lợi nhuận: 100 tỷ\n    *   **Năm 2022:** Doanh thu: 1.250 tỷ; Lợi nhuận: 150 tỷ\n    *   **Năm 2023:** Doanh thu: 1.480 tỷ; Lợi nhuận: 205 tỷ\n*   **Xu hướng:** Cả doanh thu và lợi nhuận đều có xu hướng tăng trưởng liên tục qua các năm, trong đó tốc độ tăng trưởng lợi nhuận có xu hướng nhanh hơn tốc độ tăng trưởng doanh thu.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n*   **Mô tả:** Hình ảnh minh họa quy trình chuỗi giá trị (Value Chain) gồm 3 khối chính:\n    1.  **Khối 1 (Cung ứng):** Nguyên liệu đầu vào -> Kiểm soát chất lượng.\n    2.  **Khối 2 (Sản xuất):** Công nghệ tự động hóa -> Tối ưu hóa chi phí.\n    3.  **Khối 3 (Phân phối):** Hệ thống đại lý -> Chăm sóc khách hàng.\n*   **Ghi chú:** Các khối được kết nối bằng mũi tên một chiều, thể hiện quy trình khép kín từ đầu vào đến đầu ra.",
+  "image_ref": "data/advanced/images/page_127.jpg",
+  "metadata": {
+    "page": 127,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_127.jpg",
+    "char_count": 2284
+  }
+}

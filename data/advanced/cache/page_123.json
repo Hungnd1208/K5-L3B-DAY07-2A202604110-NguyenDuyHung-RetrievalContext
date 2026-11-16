@@ -1,0 +1,15 @@
+{
+  "id": "doc_p123_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 123,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** ĐỊNH HƯỚNG CHIẾN LƯỢC NĂM 2024\n*   **Nội dung văn bản:**\n    *   \"Năm 2024, Công ty xác định mục tiêu trọng tâm là tối ưu hóa hiệu quả hoạt động, đẩy mạnh chuyển đổi số và mở rộng thị phần. Chúng tôi cam kết tiếp tục nâng cao giá trị cho cổ đông thông qua việc duy trì sự tăng trưởng bền vững và quản trị rủi ro chặt chẽ.\"\n    *   \"Ban Tổng Giám đốc tin tưởng rằng với nền tảng vững chắc đã xây dựng, Công ty sẽ vượt qua các thách thức của thị trường và đạt được những cột mốc quan trọng trong năm tới.\"\n*   **Thông tin người ký:**\n    *   **Ký tên:** (Chữ ký)\n    *   **Họ và tên:** Nguyễn Văn A\n    *   **Chức danh:** Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng: Kết quả kinh doanh hợp nhất (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.250 | 1.480 | 18,4% |\n| Lợi nhuận gộp | 350 | 420 | 20,0% |\n| Lợi nhuận sau thuế | 120 | 155 | 29,2% |\n| Tổng tài sản | 2.100 | 2.450 | 16,7% |\n\n---\n\n### 3. BIỂU ĐỒ\n**Biểu đồ: Tăng trưởng doanh thu và lợi nhuận (2021 - 2023)**\n*   **Loại biểu đồ:** Biểu đồ cột kết hợp đường (Combo chart).\n*   **Trục hoành:** Năm (2021, 2022, 2023).\n*   **Trục tung:** Đơn vị tính là Tỷ đồng.\n*   **Dữ liệu hiển thị:**\n    *   **Doanh thu (Cột):** 2021 (1.000), 2022 (1.250), 2023 (1.480).\n    *   **Lợi nhuận sau thuế (Đường):** 2021 (80), 2022 (120), 2023 (155).\n*   **Chú giải:** Cột màu xanh dương đại diện cho Doanh thu; Đường màu đỏ đại diện cho Lợi nhuận sau thuế.\n*   **Xu hướng:** Cả doanh thu và lợi nhuận đều có xu hướng tăng trưởng liên tục qua 3 năm.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n**Sơ đồ: Cơ cấu tổ chức điều hành**\n*   **Cấp cao nhất:** Hội đồng Quản trị.\n*   **Cấp điều hành:** Tổng Giám đốc.\n*   **Các khối trực thuộc Tổng Giám đốc:**\n    1.  **Khối Kinh doanh:** Phụ trách phát triển thị trường và bán hàng.\n    2.  **Khối Tài chính - Kế toán:** Phụ trách quản lý dòng tiền và báo cáo tài chính.\n    3.  **Khối Sản xuất:** Phụ trách vận hành nhà máy và chuỗi cung ứng.\n    4.  **Khối Nhân sự:** Phụ trách đào tạo và phát triển nguồn nhân lực.\n\n---\n*Lưu ý: Các thông tin trên được trích xuất dựa trên nội dung hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu so với bản gốc, vui lòng kiểm tra lại chất lượng hình ảnh đầu vào.*",
+  "image_ref": "data/advanced/images/page_123.jpg",
+  "metadata": {
+    "page": 123,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_123.jpg",
+    "char_count": 2450
+  }
+}

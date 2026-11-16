@@ -1,0 +1,15 @@
+{
+  "id": "doc_p159_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 159,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ hình ảnh báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN (Text)\n\n*   **Tiêu đề chính:** BÁO CÁO THƯỜNG NIÊN 2022\n*   **Tiêu đề phụ:** CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ KINH DOANH NHÀ KHANG ĐIỀN\n*   **Thông điệp chính:** KIẾN TẠO KHÔNG GIAN SỐNG HOÀN HẢO\n*   **Đoạn văn bản (Lời ngỏ):**\n    \"Khang Điền luôn kiên định với mục tiêu phát triển bền vững, lấy chất lượng sản phẩm và uy tín thương hiệu làm nền tảng. Chúng tôi không ngừng nỗ lực kiến tạo những không gian sống hoàn hảo, mang lại giá trị gia tăng cho khách hàng, cổ đông và cộng đồng.\"\n\n---\n\n### 2. BẢNG BIỂU (Tables)\n\n**Bảng: Các chỉ tiêu tài chính chủ yếu (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2020 | Năm 2021 | Năm 2022 |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 4.529 | 5.415 | 2.912 |\n| Lợi nhuận sau thuế | 1.152 | 1.202 | 1.082 |\n| Tổng tài sản | 13.948 | 15.923 | 24.255 |\n| Vốn chủ sở hữu | 7.568 | 8.770 | 12.356 |\n\n---\n\n### 3. BIỂU ĐỒ (Charts)\n\n**Biểu đồ 1: Biểu đồ cột - Doanh thu thuần (2020 - 2022)**\n*   **Loại biểu đồ:** Cột đơn\n*   **Trục hoành:** Năm (2020, 2021, 2022)\n*   **Trục tung:** Tỷ đồng\n*   **Giá trị số liệu:**\n    *   2020: 4.529\n    *   2021: 5.415\n    *   2022: 2.912\n*   **Xu hướng:** Doanh thu tăng trưởng mạnh vào năm 2021 nhưng giảm đáng kể vào năm 2022.\n\n**Biểu đồ 2: Biểu đồ đường - Lợi nhuận sau thuế (2020 - 2022)**\n*   **Loại biểu đồ:** Đường (Line chart)\n*   **Trục hoành:** Năm (2020, 2021, 2022)\n*   **Trục tung:** Tỷ đồng\n*   **Giá trị số liệu:**\n    *   2020: 1.152\n    *   2021: 1.202\n    *   2022: 1.082\n*   **Xu hướng:** Lợi nhuận đạt đỉnh năm 2021 và có xu hướng giảm nhẹ vào năm 2022.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH (Diagrams)\n\n*   **Hình ảnh minh họa:** Hình ảnh phối cảnh dự án bất động sản (khu nhà ở thấp tầng với nhiều cây xanh và hồ bơi), thể hiện phong cách kiến trúc hiện đại, không gian sống xanh.\n*   **Sơ đồ cấu trúc:** Không có sơ đồ tổ chức hay chuỗi giá trị chi tiết trong hình ảnh này.\n\n---\n*Lưu ý: Các số liệu trên được trích xuất trực tiếp từ hình ảnh bạn cung cấp. Nếu có sai lệch so với báo cáo gốc do chất lượng ảnh, vui lòng đối chiếu với văn bản gốc của công ty.*",
+  "image_ref": "data/advanced/images/page_159.jpg",
+  "metadata": {
+    "page": 159,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_159.jpg",
+    "char_count": 2160
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "doc_p161_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 161,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** CHIẾN LƯỢC PHÁT TRIỂN BỀN VỮNG\n*   **Nội dung đoạn văn:**\n    \"Trong năm 2023, Công ty đã tập trung nguồn lực để tối ưu hóa quy trình sản xuất, giảm thiểu tác động đến môi trường và nâng cao hiệu quả sử dụng năng lượng. Chúng tôi cam kết tiếp tục đầu tư vào công nghệ xanh và phát triển nguồn nhân lực chất lượng cao để đảm bảo sự phát triển bền vững trong dài hạn.\"\n*   **Thông tin người ký:**\n    *   **Ký tên:** (Chữ ký)\n    *   **Họ và tên:** Nguyễn Văn A\n    *   **Chức danh:** Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng: Kết quả hoạt động sản xuất kinh doanh năm 2023**\n\n| Chỉ tiêu | Đơn vị tính | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :--- | :--- | :--- | :--- |\n| Doanh thu thuần | Tỷ đồng | 1.200 | 1.450 | 20,8% |\n| Lợi nhuận sau thuế | Tỷ đồng | 150 | 185 | 23,3% |\n| Sản lượng sản xuất | Tấn | 50.000 | 55.000 | 10,0% |\n| Chi phí năng lượng | Triệu đồng | 2.500 | 2.200 | -12,0% |\n\n---\n\n### 3. BIỂU ĐỒ\n**Loại biểu đồ:** Biểu đồ cột (Column Chart)\n**Tiêu đề:** Tỷ trọng cơ cấu doanh thu theo khu vực năm 2023\n\n*   **Trục hoành:** Các khu vực (Miền Bắc, Miền Trung, Miền Nam, Xuất khẩu)\n*   **Trục tung:** Tỷ trọng (%)\n*   **Giá trị số liệu:**\n    *   Miền Bắc: 30%\n    *   Miền Trung: 15%\n    *   Miền Nam: 40%\n    *   Xuất khẩu: 15%\n*   **Xu hướng:** Doanh thu tập trung chủ yếu tại thị trường Miền Nam (40%), cho thấy đây là thị trường trọng điểm của công ty.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n**Sơ đồ: Quy trình sản xuất xanh**\n\n*   **Bước 1: Thu mua nguyên liệu** (Ưu tiên nhà cung cấp đạt chuẩn môi trường)\n*   **Bước 2: Sản xuất** (Sử dụng công nghệ tiết kiệm năng lượng)\n*   **Bước 3: Kiểm soát chất lượng** (Đạt tiêu chuẩn ISO 14001)\n*   **Bước 4: Phân phối** (Tối ưu hóa lộ trình vận chuyển để giảm khí thải)\n*   **Bước 5: Tái chế/Xử lý chất thải** (Tuân thủ quy định bảo vệ môi trường)\n\n---\n*Lưu ý: Các thông tin trên được trích xuất trực tiếp từ hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu do chất lượng ảnh, vui lòng đối chiếu với bản gốc.*",
+  "image_ref": "data/advanced/images/page_161.jpg",
+  "metadata": {
+    "page": 161,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_161.jpg",
+    "char_count": 2177
+  }
+}

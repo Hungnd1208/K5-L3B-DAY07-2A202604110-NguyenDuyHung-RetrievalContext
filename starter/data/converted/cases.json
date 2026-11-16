@@ -1,0 +1,174 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Khái niệm Machine Learning (Học máy) được định nghĩa như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Mô hình Recurrent Neural Network (RNN) được thiết kế chuyên biệt để xử lý dạng dữ liệu nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Trong bài toán thị giác máy tính, phân loại ảnh (Image Classification) có nhiệm vụ gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Hàm kích hoạt phổ biến nào trong CNN giúp tăng tốc độ huấn luyện và cải thiện hiệu suất của mạng?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Trong lớp tích chập, tham số Stride (Bước trượt) là gì và Stride lớn hơn 1 có tác dụng gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Hàm kích hoạt ReLU xử lý giá trị đầu vào nhỏ hơn hoặc bằng 0 như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Hàm kích hoạt Tanh có thể gặp phải vấn đề nghiêm trọng gì khi cấu trúc mạng quá sâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Điểm khác biệt cơ bản giữa lớp Pooling và lớp Convolution về mặt tham số là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Công thức tính toán đầu ra của một neuron trong lớp Fully Connected là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Nhược điểm lớn nhất của lớp Fully Connected là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Thuật toán lan truyền ngược (Backpropagation) dựa trên nguyên lý toán học nào từ giải tích để tính đạo hàm riêng?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Hiện tượng Vanishing Gradient xảy ra trong điều kiện nào khi nhân liên tiếp các đạo hàm qua nhiều lớp?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Trong Chương 3 về kiến trúc mô hình, thuật toán tối ưu Adam tích hợp cơ chế nào để bù đắp việc khởi tạo moment bằng 0?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Trong Chương 4 về các kiến trúc nổi tiếng, mô hình AlexNet được đề xuất bởi những tác giả nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Mô hình VGGNet sử dụng kích thước bộ lọc (filter/kernel) nào làm đặc trưng nổi bật?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Kiến trúc ResNet sử dụng giải pháp kỹ thuật nào để thông tin truyền qua nhiều lớp mà không bị suy giảm?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Trong Chương 4, mô hình GoogLeNet (Inception) được giới thiệu vào năm nào và bởi ai?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Trong cơ chế lan truyền ngược của lớp Max Pooling, gradient được truyền như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Ưu điểm quan trọng của CNN so với các phương pháp truyền thống trong việc trích xuất đặc trưng là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Tính chất 'hộp đen' (Black Box) của CNN gây ra trở ngại gì trong việc giải thích quyết định?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "u01",
+    "split": "dev",
+    "question": "Cơ chế Multi-Head Self-Attention trong kiến trúc Transformer hoạt động như thế nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu chỉ tập trung vào CNN và Deep Learning truyền thống (ANN, RNN), không có chương mục nào về Transformer hay Self-Attention."
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "question": "Thuật toán phát hiện đối tượng YOLOv8 cải tiến kiến trúc Backbone và Head như thế nào so với YOLOv5?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu chỉ nêu khái niệm chung về bài toán Object Detection, không đề cập đến họ mô hình YOLO hay phiên bản YOLOv8."
+  },
+  {
+    "id": "u03",
+    "split": "test",
+    "question": "Phòng thí nghiệm sử dụng bao nhiêu GPU NVIDIA A100 để huấn luyện mô hình ResNet-50 trong báo cáo này?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu là báo cáo lý thuyết thuần túy, không có thông số cấu hình cụ thể về số lượng GPU hay phòng lab thực nghiệm."
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "question": "Kỹ thuật FlashAttention-2 tối ưu hóa bộ nhớ SRAM và HBM trên chip GPU như thế nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu không chứa thông tin về kỹ thuật tối ưu phần cứng FlashAttention."
+  }
+]

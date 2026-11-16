@@ -1,0 +1,15 @@
+{
+  "id": "doc_p153_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 153,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ hình ảnh báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN (Text)\n\n*   **Tiêu đề chính:** BÁO CÁO THƯỜNG NIÊN 2022\n*   **Tiêu đề phụ:** CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ KINH DOANH NHÀ KHANG ĐIỀN\n*   **Thông điệp chính:** KIẾN TẠO KHÔNG GIAN SỐNG HOÀN HẢO\n*   **Đoạn văn bản (Lời ngỏ):**\n    \"Khang Điền kiên định với mục tiêu phát triển bền vững, chú trọng vào chất lượng sản phẩm, uy tín thương hiệu và trách nhiệm với cộng đồng. Chúng tôi không ngừng nỗ lực để kiến tạo những không gian sống hoàn hảo, nơi mỗi cư dân đều cảm nhận được sự an tâm, hạnh phúc và giá trị sống đích thực.\"\n\n---\n\n### 2. BẢNG BIỂU (Tables)\n\n**Bảng: Các chỉ tiêu tài chính chủ yếu (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2021 |\n| :--- | :---: | :---: |\n| Doanh thu thuần | 2.912 | 5.462 |\n| Lợi nhuận gộp | 1.365 | 2.355 |\n| Lợi nhuận sau thuế | 1.082 | 1.202 |\n| Tổng tài sản | 22.977 | 18.376 |\n| Vốn chủ sở hữu | 12.569 | 11.532 |\n\n---\n\n### 3. BIỂU ĐỒ (Charts)\n\n**Biểu đồ 1: Biểu đồ cột - Doanh thu thuần (2018 - 2022)**\n*   **Loại biểu đồ:** Cột dọc\n*   **Trục tung:** Tỷ đồng\n*   **Trục hoành:** Năm (2018, 2019, 2020, 2021, 2022)\n*   **Số liệu cụ thể:**\n    *   2018: 3.167\n    *   2019: 2.879\n    *   2020: 4.515\n    *   2021: 5.462\n    *   2022: 2.912\n*   **Xu hướng:** Doanh thu tăng trưởng mạnh từ 2019 đến 2021, sau đó giảm vào năm 2022.\n\n**Biểu đồ 2: Biểu đồ cột - Lợi nhuận sau thuế (2018 - 2022)**\n*   **Loại biểu đồ:** Cột dọc\n*   **Trục tung:** Tỷ đồng\n*   **Trục hoành:** Năm (2018, 2019, 2020, 2021, 2022)\n*   **Số liệu cụ thể:**\n    *   2018: 802\n    *   2019: 935\n    *   2020: 1.152\n    *   2021: 1.202\n    *   2022: 1.082\n*   **Xu hướng:** Lợi nhuận tăng trưởng ổn định từ 2018 đến 2021, giảm nhẹ vào năm 2022.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH (Diagrams)\n\n*   **Hình ảnh minh họa:** Hình ảnh phối cảnh dự án bất động sản (nhà phố/biệt thự) với không gian xanh, hồ bơi và kiến trúc hiện đại, thể hiện đúng thông điệp \"Kiến tạo không gian sống hoàn hảo\".\n*   **Bố cục:** Trang báo cáo được thiết kế theo phong cách chuyên nghiệp, sử dụng tông màu xanh dương (đặc trưng thương hiệu Khang Điền) làm chủ đạo, kết hợp với hình ảnh dự án tạo cảm giác tin cậy và sang trọng.",
+  "image_ref": "data/advanced/images/page_153.jpg",
+  "metadata": {
+    "page": 153,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_153.jpg",
+    "char_count": 2223
+  }
+}

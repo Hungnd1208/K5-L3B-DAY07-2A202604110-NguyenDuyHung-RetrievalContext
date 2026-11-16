@@ -1,0 +1,15 @@
+{
+  "id": "doc_p063_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 63,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** CHIẾN LƯỢC PHÁT TRIỂN BỀN VỮNG\n*   **Nội dung văn bản:**\n    *   \"Trong năm 2023, Công ty đã tập trung nguồn lực để tối ưu hóa quy trình sản xuất, giảm thiểu tác động đến môi trường và nâng cao hiệu quả sử dụng năng lượng. Chúng tôi cam kết tiếp tục đầu tư vào công nghệ xanh và phát triển nguồn nhân lực chất lượng cao để đảm bảo sự phát triển bền vững trong dài hạn.\"\n*   **Thông tin người ký:**\n    *   **NGUYỄN VĂN A**\n    *   Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng 1: Kết quả hoạt động kinh doanh (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.250 | 1.450 | 16% |\n| Lợi nhuận gộp | 350 | 420 | 20% |\n| Chi phí vận hành | 150 | 165 | 10% |\n| Lợi nhuận sau thuế | 120 | 155 | 29,2% |\n\n---\n\n### 3. BIỂU ĐỒ\n**Biểu đồ 1: Biểu đồ cột - Doanh thu và Lợi nhuận sau thuế (2021 - 2023)**\n*   **Loại biểu đồ:** Biểu đồ cột kép.\n*   **Trục hoành:** Năm (2021, 2022, 2023).\n*   **Trục tung:** Đơn vị tính là Tỷ đồng.\n*   **Chú giải:**\n    *   Cột màu xanh dương: Doanh thu thuần.\n    *   Cột màu cam: Lợi nhuận sau thuế.\n*   **Giá trị số liệu:**\n    *   **Năm 2021:** Doanh thu 1.100 tỷ đồng; Lợi nhuận 90 tỷ đồng.\n    *   **Năm 2022:** Doanh thu 1.250 tỷ đồng; Lợi nhuận 120 tỷ đồng.\n    *   **Năm 2023:** Doanh thu 1.450 tỷ đồng; Lợi nhuận 155 tỷ đồng.\n*   **Xu hướng:** Cả doanh thu và lợi nhuận đều có xu hướng tăng trưởng liên tục qua 3 năm.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n**Sơ đồ: Quy trình sản xuất xanh**\n*   **Bước 1: Thu mua nguyên liệu** (Ưu tiên nguồn cung bền vững).\n*   **Bước 2: Sản xuất** (Sử dụng năng lượng tái tạo).\n*   **Bước 3: Kiểm soát chất lượng** (Đạt tiêu chuẩn ISO 14001).\n*   **Bước 4: Phân phối** (Tối ưu hóa lộ trình vận chuyển để giảm khí thải).\n*   **Bước 5: Tái chế** (Thu hồi và xử lý bao bì sau sử dụng).\n\n---\n*Lưu ý: Các thông tin trên được trích xuất trực tiếp từ hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu do chất lượng ảnh, vui lòng đối chiếu với bản gốc.*",
+  "image_ref": "data/advanced/images/page_063.jpg",
+  "metadata": {
+    "page": 63,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_063.jpg",
+    "char_count": 2180
+  }
+}

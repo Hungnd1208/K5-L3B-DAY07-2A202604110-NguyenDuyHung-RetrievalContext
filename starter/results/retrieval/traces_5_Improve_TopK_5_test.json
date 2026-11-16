@@ -1,0 +1,185 @@
+{
+  "summary": {
+    "n": 5,
+    "hit1": 5,
+    "hit1_rate": 100.0,
+    "hit3": 5,
+    "hit3_rate": 100.0,
+    "context_hit": 5,
+    "context_evidence_rate": 100.0,
+    "avg_context_chars": 1238.6,
+    "median_ms": 376.76
+  },
+  "traces": [
+    {
+      "id": "q16",
+      "question": "Kiến trúc ResNet sử dụng giải pháp kỹ thuật nào để thông tin truyền qua nhiều lớp mà không bị suy giảm?",
+      "top_hits": [
+        {
+          "id": "bao-cao-cnn_p28_para_002",
+          "page": 28,
+          "text": "4.5 ResNet\nResNet (Residual Network) đư ợc phát tri ển bởi Kaiming He và c ộng sự tại\nMicrosoft vào "
+        },
+        {
+          "id": "bao-cao-cnn_p26_para_001",
+          "page": 26,
+          "text": "Trong quá trình phát tri ển của Convolutional Neural Network (CNN), nhi ều\nkiến trúc khác nhau đã đư"
+        },
+        {
+          "id": "bao-cao-cnn_p30_para_003",
+          "page": 30,
+          "text": "5.3 Hướng phát triển trong tương lai\nTrong những năm g ần đây, nhi ều nghiên c ứu đã đư ợc thực hiện"
+        },
+        {
+          "id": "bao-cao-cnn_p17_para_003",
+          "page": 17,
+          "text": "Attention cũng được sử dụng để tổng hợp đặc trưng thay cho FC truyền thống. 3.5.5.Kết luận Lớp Fully"
+        },
+        {
+          "id": "bao-cao-cnn_p29_para_000",
+          "page": 29,
+          "text": "29\n\nResNet đã đ ạt thành tích r ất cao trong cu ộc thi ImageNet và tr ở thành một\ntrong những kiến t"
+        }
+      ],
+      "hit1": true,
+      "hit3": true,
+      "context_hit": true
+    },
+    {
+      "id": "q17",
+      "question": "Trong Chương 4, mô hình GoogLeNet (Inception) được giới thiệu vào năm nào và bởi ai?",
+      "top_hits": [
+        {
+          "id": "bao-cao-cnn_p28_para_001",
+          "page": 28,
+          "text": "4.4 GoogLeNet (Inception)\nGoogLeNet (Inception) được giới thiệu bởi Christian Szegedy và cộng sự vào"
+        },
+        {
+          "id": "bao-cao-cnn_p26_para_002",
+          "page": 26,
+          "text": "4.1 LeNet-5\nLeNet-5 là một trong những mô hình CNN đầu tiên được phát triển bởi Yann\nLeCun vào năm 1"
+        },
+        {
+          "id": "bao-cao-cnn_p27_para_001",
+          "page": 27,
+          "text": "4.2 AlexNet AlexNet là m ột bước tiến quan tr ọng trong lĩnh v ực thị giác máy tính. Mô hình này đượ"
+        },
+        {
+          "id": "bao-cao-cnn_p28_para_002",
+          "page": 28,
+          "text": "4.5 ResNet\nResNet (Residual Network) đư ợc phát tri ển bởi Kaiming He và c ộng sự tại\nMicrosoft vào "
+        },
+        {
+          "id": "bao-cao-cnn_p27_para_003",
+          "page": 27,
+          "text": "4.3 VGGNet\nVGGNet đư ợc phát tri ển b ởi Karen Simonyan và Andrew Zisserman t ại\nUniversity of Oxfor"
+        }
+      ],
+      "hit1": true,
+      "hit3": true,
+      "context_hit": true
+    },
+    {
+      "id": "q18",
+      "question": "Trong cơ chế lan truyền ngược của lớp Max Pooling, gradient được truyền như thế nào?",
+      "top_hits": [
+        {
+          "id": "bao-cao-cnn_p21_para_001",
+          "page": 21,
+          "text": "Loại\nPooling\nCơ ch ế truyền\ntiến\nCơ ch ế truyền ngh ịch\n(Gradient Routing)\nMax\nPooling\nChọn giá trị "
+        },
+        {
+          "id": "bao-cao-cnn_p20_para_000",
+          "page": 20,
+          "text": "20\n\nĐiều này có nghĩa là l ớp tích ch ập sử dụng chính cơ ch ế vận hành c ủa nó\ntrong lượt truyền ng"
+        },
+        {
+          "id": "bao-cao-cnn_p13_para_002",
+          "page": 13,
+          "text": "chuyển tối đa một phần tử theo chiều cao hoặc chiều rộng. Trong đoạn mã bên dưới, chúng ta cài đặt q"
+        },
+        {
+          "id": "bao-cao-cnn_p19_para_001",
+          "page": 19,
+          "text": "3.6.3. Lan truyền ngược trong lớp tích chập Lớp tích ch ập là nơi di ễn ra các phép toán n ặng n ề n"
+        },
+        {
+          "id": "bao-cao-cnn_p13_para_001",
+          "page": 13,
+          "text": "Max-pooling với hình dạng cửa sổ pooling là 2x2. Nói chung, ta có thể định nghĩa một lớp pooling kíc"
+        }
+      ],
+      "hit1": true,
+      "hit3": true,
+      "context_hit": true
+    },
+    {
+      "id": "q19",
+      "question": "Ưu điểm quan trọng của CNN so với các phương pháp truyền thống trong việc trích xuất đặc trưng là gì?",
+      "top_hits": [
+        {
+          "id": "bao-cao-cnn_p29_para_001",
+          "page": 29,
+          "text": "Convolutional Neural Network (CNN) là m ột trong nh ững mô hình quan trọng trong lĩnh vực Deep Learn"
+        },
+        {
+          "id": "bao-cao-cnn_p29_para_002",
+          "page": 29,
+          "text": "CNN có khả năng tự động học và trích xuất các đặc trưng quan trọng từ dữ liệu thông qua các lớp tích"
+        },
+        {
+          "id": "bao-cao-cnn_p31_para_002",
+          "page": 31,
+          "text": "hình đã góp ph ần quan trọng trong việc phát triển các hệ thống nhận dạng hình ảnh hiện đại. Ngoài v"
+        },
+        {
+          "id": "bao-cao-cnn_p04_para_001",
+          "page": 4,
+          "text": "2.1 Giới thiệu tổng quan về CNN\nCNN (Convolutional Neural Networks - Mạng nơ-ron tích chập) là một l"
+        },
+        {
+          "id": "bao-cao-cnn_p01_para_002",
+          "page": 1,
+          "text": "có khả năng tự động học các đặc trưng quan trọng từ dữ liệu thông qua các lớp tích chập, giúp cải th"
+        }
+      ],
+      "hit1": true,
+      "hit3": true,
+      "context_hit": true
+    },
+    {
+      "id": "q20",
+      "question": "Tính chất 'hộp đen' (Black Box) của CNN gây ra trở ngại gì trong việc giải thích quyết định?",
+      "top_hits": [
+        {
+          "id": "bao-cao-cnn_p30_para_001",
+          "page": 30,
+          "text": "5.2 Hạn chế của CNN Mặc dù có nhiều ưu điểm, CNN vẫn tồn tại một số hạn chế cần được xem xét trong q"
+        },
+        {
+          "id": "bao-cao-cnn_p31_para_000",
+          "page": 31,
+          "text": "31\n\n• Hệ thống xe tự lái\n• Phân tích dữ liệu hình ảnh\nNhờ sự phát triển của phần cứng và các thu ật "
+        },
+        {
+          "id": "bao-cao-cnn_p30_para_002",
+          "page": 30,
+          "text": "thể gây khó khăn trong một số lĩnh vực yêu cầu tính minh bạch cao như y tế hoặc tài chính. Thứ tư, d"
+        },
+        {
+          "id": "bao-cao-cnn_p18_para_001",
+          "page": 18,
+          "text": "3.6 Thuật toán huấn luyện Backpropagation trong CNN 3.6.1. Cơ sở toán học và cơ chế vận hành của thu"
+        },
+        {
+          "id": "bao-cao-cnn_p29_para_001",
+          "page": 29,
+          "text": "Convolutional Neural Network (CNN) là m ột trong nh ững mô hình quan trọng trong lĩnh vực Deep Learn"
+        }
+      ],
+      "hit1": true,
+      "hit3": true,
+      "context_hit": true
+    }
+  ]
+}

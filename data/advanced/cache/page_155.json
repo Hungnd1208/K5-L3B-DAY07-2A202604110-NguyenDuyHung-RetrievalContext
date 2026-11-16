@@ -1,0 +1,15 @@
+{
+  "id": "doc_p155_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 155,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ hình ảnh báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN (Text)\n\n*   **Tiêu đề chính:** BÁO CÁO THƯỜNG NIÊN 2022\n*   **Tiêu đề phụ:** CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ KINH DOANH NHÀ KHANG ĐIỀN\n*   **Thông điệp chính:** KIẾN TẠO KHÔNG GIAN SỐNG HOÀN HẢO\n*   **Đoạn văn bản (Lời ngỏ):**\n    \"Khang Điền kiên định với mục tiêu phát triển bền vững, lấy chất lượng sản phẩm và uy tín thương hiệu làm nền tảng. Chúng tôi không ngừng nỗ lực kiến tạo những không gian sống hoàn hảo, mang lại giá trị gia tăng cho khách hàng, cổ đông và cộng đồng.\"\n\n---\n\n### 2. BẢNG BIỂU (Tables)\n\n**Bảng: Các chỉ tiêu tài chính chủ yếu (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2020 | Năm 2021 | Năm 2022 |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 4.529 | 5.415 | 2.912 |\n| Lợi nhuận sau thuế | 1.152 | 1.202 | 1.082 |\n| Tổng tài sản | 13.948 | 15.912 | 24.294 |\n| Vốn chủ sở hữu | 7.565 | 8.767 | 11.528 |\n\n---\n\n### 3. BIỂU ĐỒ (Charts)\n\n**Biểu đồ 1: Biểu đồ cột - Doanh thu thuần (2020 - 2022)**\n*   **Loại biểu đồ:** Cột đơn\n*   **Trục hoành:** Năm (2020, 2021, 2022)\n*   **Trục tung:** Tỷ đồng\n*   **Số liệu:**\n    *   2020: 4.529\n    *   2021: 5.415\n    *   2022: 2.912\n*   **Xu hướng:** Doanh thu tăng trưởng từ 2020 đến 2021, sau đó giảm mạnh vào năm 2022.\n\n**Biểu đồ 2: Biểu đồ cột - Lợi nhuận sau thuế (2020 - 2022)**\n*   **Loại biểu đồ:** Cột đơn\n*   **Trục hoành:** Năm (2020, 2021, 2022)\n*   **Trục tung:** Tỷ đồng\n*   **Số liệu:**\n    *   2020: 1.152\n    *   2021: 1.202\n    *   2022: 1.082\n*   **Xu hướng:** Lợi nhuận tăng nhẹ năm 2021 và giảm nhẹ vào năm 2022.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH (Diagrams)\n\n*   **Hình ảnh minh họa:** Hình ảnh phối cảnh một dự án bất động sản cao cấp với không gian xanh, hồ bơi và các tòa nhà hiện đại, thể hiện đúng thông điệp \"Kiến tạo không gian sống hoàn hảo\".\n*   **Bố cục:** Hình ảnh chiếm phần lớn diện tích phía trên, tạo điểm nhấn thị giác về sản phẩm cốt lõi của Khang Điền.\n\n---\n*Lưu ý: Các số liệu trên được trích xuất trực tiếp từ hình ảnh bạn cung cấp. Nếu có sai lệch so với báo cáo gốc do chất lượng ảnh, vui lòng đối chiếu với văn bản gốc của công ty.*",
+  "image_ref": "data/advanced/images/page_155.jpg",
+  "metadata": {
+    "page": 155,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_155.jpg",
+    "char_count": 2151
+  }
+}

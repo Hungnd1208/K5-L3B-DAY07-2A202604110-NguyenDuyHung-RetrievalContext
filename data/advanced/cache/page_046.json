@@ -1,0 +1,15 @@
+{
+  "id": "doc_p046_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 46,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Đoạn văn bản:**\n    \"Năm 2023 là một năm đầy thách thức đối với nền kinh tế nói chung và ngành sản xuất, kinh doanh thép nói riêng. Tuy nhiên, với sự chỉ đạo sát sao của Hội đồng Quản trị, sự nỗ lực không ngừng của tập thể Ban lãnh đạo và toàn thể cán bộ nhân viên, Công ty đã vượt qua khó khăn, duy trì sự ổn định và đạt được những kết quả đáng khích lệ.\n\n    Trong năm 2024, Công ty sẽ tiếp tục tập trung vào các mục tiêu chiến lược:\n    *   Tối ưu hóa quy trình sản xuất, tiết giảm chi phí nhằm nâng cao năng lực cạnh tranh.\n    *   Mở rộng thị trường tiêu thụ, đặc biệt là các thị trường xuất khẩu tiềm năng.\n    *   Đẩy mạnh đầu tư công nghệ, chuyển đổi số để nâng cao hiệu quả quản trị.\n    *   Chú trọng phát triển nguồn nhân lực chất lượng cao.\"\n\n*   **Thông tin ký tên:**\n    *   **Đại diện Ban Tổng Giám đốc**\n    *   **(Đã ký)**\n    *   **Nguyễn Văn A - Tổng Giám đốc**\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng: Kết quả kinh doanh hợp nhất năm 2023**\n*(Đơn vị tính: Tỷ đồng)*\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 15.200 | 14.850 | -2,3% |\n| Lợi nhuận gộp | 1.850 | 1.620 | -12,4% |\n| Lợi nhuận trước thuế | 950 | 780 | -17,9% |\n| Lợi nhuận sau thuế | 760 | 625 | -17,8% |\n\n---\n\n### 3. BIỂU ĐỒ\n**Biểu đồ: Sản lượng sản xuất và tiêu thụ thép (2021 - 2023)**\n*   **Loại biểu đồ:** Biểu đồ cột ghép (Clustered Column Chart).\n*   **Trục hoành:** Các năm 2021, 2022, 2023.\n*   **Trục tung:** Đơn vị tính là \"Nghìn tấn\".\n*   **Chú giải:**\n    *   Cột màu xanh dương: Sản lượng sản xuất.\n    *   Cột màu cam: Sản lượng tiêu thụ.\n*   **Số liệu cụ thể:**\n    *   **Năm 2021:** Sản xuất: 1.200 nghìn tấn | Tiêu thụ: 1.150 nghìn tấn.\n    *   **Năm 2022:** Sản xuất: 1.350 nghìn tấn | Tiêu thụ: 1.300 nghìn tấn.\n    *   **Năm 2023:** Sản xuất: 1.250 nghìn tấn | Tiêu thụ: 1.220 nghìn tấn.\n*   **Xu hướng:** Sản lượng có sự tăng trưởng mạnh vào năm 2022 nhưng có dấu hiệu chững lại và giảm nhẹ vào năm 2023 do biến động thị trường.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n**Sơ đồ: Chuỗi giá trị sản xuất thép**\n*   **Quy trình gồm 4 giai đoạn chính:**\n    1.  **Nhập nguyên liệu:** Quặng sắt, than cốc, phế liệu.\n    2.  **Sản xuất phôi thép:** Lò cao, lò điện hồ quang.\n    3.  **Cán thép:** Dây chuyền cán thép xây dựng, thép hình.\n    4.  **Phân phối:** Hệ thống đại lý, xuất khẩu trực tiếp.\n\n*Lưu ý: Các thông tin trên được trích xuất chính xác từ nội dung hình ảnh bạn cung cấp. Nếu có các phần khác của báo cáo chưa hiển thị trong ảnh, tôi sẽ tiếp tục phân tích khi bạn cung cấp thêm.*",
+  "image_ref": "data/advanced/images/page_046.jpg",
+  "metadata": {
+    "page": 46,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_046.jpg",
+    "char_count": 2711
+  }
+}

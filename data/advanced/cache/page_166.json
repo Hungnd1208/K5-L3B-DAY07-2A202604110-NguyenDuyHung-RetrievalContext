@@ -1,0 +1,15 @@
+{
+  "id": "doc_p166_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 166,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** ĐỊNH HƯỚNG CHIẾN LƯỢC NĂM 2024\n*   **Nội dung văn bản:**\n    *   \"Năm 2024, Công ty tiếp tục tập trung vào việc tối ưu hóa quy trình sản xuất, nâng cao chất lượng sản phẩm và mở rộng thị phần. Chúng tôi cam kết duy trì sự phát triển bền vững, mang lại giá trị tối đa cho cổ đông và khách hàng.\"\n    *   \"Ban Tổng Giám đốc tin tưởng rằng với sự đồng lòng của tập thể cán bộ nhân viên, Công ty sẽ vượt qua mọi thách thức và đạt được những mục tiêu đề ra.\"\n*   **Thông tin người ký:**\n    *   **NGUYỄN VĂN A**\n    *   Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng: Kết quả kinh doanh hợp nhất (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.250 | 1.480 | 18,4% |\n| Lợi nhuận gộp | 350 | 420 | 20,0% |\n| Chi phí bán hàng & QLDN | 180 | 210 | 16,7% |\n| Lợi nhuận sau thuế | 120 | 155 | 29,2% |\n\n---\n\n### 3. BIỂU ĐỒ\n*   **Loại biểu đồ:** Biểu đồ cột (Column Chart)\n*   **Tiêu đề:** Tăng trưởng doanh thu và lợi nhuận (2021 - 2023)\n*   **Trục hoành:** Năm (2021, 2022, 2023)\n*   **Trục tung:** Tỷ đồng\n*   **Chú giải:**\n    *   Cột màu xanh dương: Doanh thu\n    *   Cột màu cam: Lợi nhuận sau thuế\n*   **Giá trị số liệu:**\n    *   **Năm 2021:** Doanh thu: 1.000 tỷ đồng | Lợi nhuận: 80 tỷ đồng\n    *   **Năm 2022:** Doanh thu: 1.250 tỷ đồng | Lợi nhuận: 120 tỷ đồng\n    *   **Năm 2023:** Doanh thu: 1.480 tỷ đồng | Lợi nhuận: 155 tỷ đồng\n*   **Xu hướng:** Cả doanh thu và lợi nhuận đều có xu hướng tăng trưởng liên tục qua các năm.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n*   **Mô tả:** Sơ đồ chuỗi giá trị của Công ty.\n*   **Các bước trong quy trình:**\n    1.  **Nguồn nguyên liệu:** Nhập khẩu và thu mua nội địa.\n    2.  **Sản xuất:** Áp dụng công nghệ tự động hóa.\n    3.  **Phân phối:** Hệ thống đại lý trải dài 63 tỉnh thành.\n    4.  **Khách hàng:** Tập trung vào phân khúc bán lẻ và xuất khẩu.\n\n---\n*Lưu ý: Các thông tin trên được trích xuất trực tiếp từ hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu do chất lượng ảnh, vui lòng đối chiếu với bản gốc.*",
+  "image_ref": "data/advanced/images/page_166.jpg",
+  "metadata": {
+    "page": 166,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_166.jpg",
+    "char_count": 2224
+  }
+}

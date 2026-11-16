@@ -1,0 +1,15 @@
+{
+  "id": "doc_p025_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 25,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** ĐỊNH HƯỚNG CHIẾN LƯỢC NĂM 2024\n*   **Nội dung văn bản:**\n    \"Năm 2024, Công ty xác định mục tiêu trọng tâm là tối ưu hóa hiệu quả hoạt động, đẩy mạnh chuyển đổi số và mở rộng thị phần. Chúng tôi cam kết tiếp tục nâng cao giá trị cho cổ đông thông qua việc duy trì tăng trưởng bền vững và quản trị rủi ro chặt chẽ.\"\n*   **Thông tin người ký:**\n    *   **Ký tên:** (Chữ ký)\n    *   **Họ và tên:** Nguyễn Văn A\n    *   **Chức danh:** Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng: Kết quả kinh doanh hợp nhất (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.250 | 1.480 | 18,4% |\n| Lợi nhuận gộp | 320 | 410 | 28,1% |\n| Lợi nhuận sau thuế | 150 | 210 | 40,0% |\n| Biên lợi nhuận ròng | 12% | 14,2% | - |\n\n---\n\n### 3. BIỂU ĐỒ\n**Loại biểu đồ:** Biểu đồ cột chồng (Stacked Column Chart)\n**Tiêu đề:** Cơ cấu doanh thu theo khu vực địa lý (2022 - 2023)\n**Trục hoành:** Năm (2022, 2023)\n**Trục tung:** Tỷ đồng\n\n*   **Số liệu chi tiết:**\n    *   **Năm 2022:**\n        *   Miền Bắc: 500 tỷ đồng\n        *   Miền Trung: 300 tỷ đồng\n        *   Miền Nam: 450 tỷ đồng\n    *   **Năm 2023:**\n        *   Miền Bắc: 550 tỷ đồng\n        *   Miền Trung: 380 tỷ đồng\n        *   Miền Nam: 550 tỷ đồng\n\n*   **Chú giải (Legend):**\n    *   Màu xanh dương: Miền Bắc\n    *   Màu cam: Miền Trung\n    *   Màu xám: Miền Nam\n\n*   **Xu hướng:** Doanh thu tại tất cả các khu vực đều có sự tăng trưởng so với năm trước, trong đó khu vực Miền Nam có mức tăng trưởng tuyệt đối lớn nhất.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n**Sơ đồ: Chuỗi giá trị cốt lõi**\nHình ảnh mô tả quy trình khép kín gồm 4 giai đoạn chính:\n1.  **Nghiên cứu & Phát triển (R&D):** Tập trung vào đổi mới sáng tạo sản phẩm.\n2.  **Chuỗi cung ứng:** Tối ưu hóa nguồn nguyên liệu đầu vào.\n3.  **Sản xuất:** Áp dụng công nghệ tự động hóa cao.\n4.  **Phân phối:** Mở rộng mạng lưới bán lẻ và kênh thương mại điện tử.\n\n*Lưu ý: Các thông tin trên được trích xuất trực tiếp từ hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu do chất lượng ảnh, vui lòng đối chiếu với bản gốc.*",
+  "image_ref": "data/advanced/images/page_025.jpg",
+  "metadata": {
+    "page": 25,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_025.jpg",
+    "char_count": 2275
+  }
+}

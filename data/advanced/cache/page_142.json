@@ -1,0 +1,15 @@
+{
+  "id": "doc_p142_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 142,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Đoạn văn bản:**\n    \"Năm 2023 là một năm đầy thách thức đối với nền kinh tế nói chung và ngành sản xuất, kinh doanh thép nói riêng. Tuy nhiên, với sự chỉ đạo sát sao của Hội đồng Quản trị, sự nỗ lực không ngừng của Ban Tổng Giám đốc cùng toàn thể cán bộ nhân viên, Công ty đã vượt qua khó khăn, duy trì hoạt động sản xuất kinh doanh ổn định và đạt được những kết quả đáng khích lệ.\n\n    Trong năm 2024, Công ty sẽ tiếp tục tập trung vào các mục tiêu chiến lược:\n    *   Tối ưu hóa quy trình sản xuất, tiết giảm chi phí nhằm nâng cao năng lực cạnh tranh.\n    *   Mở rộng thị trường tiêu thụ, đặc biệt là các thị trường xuất khẩu tiềm năng.\n    *   Đẩy mạnh nghiên cứu và phát triển sản phẩm mới, đáp ứng nhu cầu đa dạng của khách hàng.\n    *   Nâng cao chất lượng nguồn nhân lực, xây dựng môi trường làm việc chuyên nghiệp, hiệu quả.\"\n\n*   **Thông tin ký tên:**\n    *   **Đại diện Ban Tổng Giám đốc**\n    *   **(Đã ký)**\n    *   **NGUYỄN VĂN A**\n    *   **Tổng Giám đốc**\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng: Kết quả hoạt động kinh doanh năm 2023**\n*(Đơn vị tính: Tỷ đồng)*\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 15.200 | 14.850 | -2,3% |\n| Lợi nhuận gộp | 1.850 | 1.620 | -12,4% |\n| Lợi nhuận sau thuế | 850 | 720 | -15,3% |\n\n---\n\n### 3. BIỂU ĐỒ\n*   **Loại biểu đồ:** Biểu đồ cột (Column Chart)\n*   **Tiêu đề:** Sản lượng tiêu thụ thép (2021 - 2023)\n*   **Trục hoành:** Năm (2021, 2022, 2023)\n*   **Trục tung:** Đơn vị tính là \"Nghìn tấn\"\n*   **Giá trị số liệu:**\n    *   Năm 2021: 850 nghìn tấn\n    *   Năm 2022: 920 nghìn tấn\n    *   Năm 2023: 880 nghìn tấn\n*   **Xu hướng:** Sản lượng tăng trưởng từ 2021 đến 2022, sau đó có sự sụt giảm nhẹ vào năm 2023.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n*   **Sơ đồ:** Chuỗi giá trị sản xuất thép\n*   **Các bước trong quy trình:**\n    1.  **Nhập nguyên liệu:** Quặng sắt, than cốc, phế liệu.\n    2.  **Sản xuất phôi thép:** Lò cao/Lò điện hồ quang.\n    3.  **Cán thép:** Tạo hình sản phẩm (thép xây dựng, thép hình).\n    4.  **Kiểm định chất lượng:** Đảm bảo tiêu chuẩn kỹ thuật.\n    5.  **Phân phối:** Hệ thống đại lý và xuất khẩu.\n\n---\n*Lưu ý: Các thông tin trên được trích xuất dựa trên nội dung hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu so với bản gốc do chất lượng ảnh, vui lòng đối chiếu lại với tài liệu gốc.*",
+  "image_ref": "data/advanced/images/page_142.jpg",
+  "metadata": {
+    "page": 142,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_142.jpg",
+    "char_count": 2505
+  }
+}

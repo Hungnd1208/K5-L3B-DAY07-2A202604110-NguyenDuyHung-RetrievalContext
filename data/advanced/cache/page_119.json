@@ -1,0 +1,15 @@
+{
+  "id": "doc_p119_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 119,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** ĐỊNH HƯỚNG CHIẾN LƯỢC NĂM 2024\n*   **Nội dung văn bản:**\n    *   \"Năm 2024, Công ty tiếp tục tập trung vào việc tối ưu hóa quy trình sản xuất, nâng cao chất lượng sản phẩm và mở rộng thị phần. Chúng tôi cam kết duy trì sự phát triển bền vững, mang lại giá trị tối đa cho cổ đông và khách hàng.\"\n    *   \"Ban Tổng Giám đốc tin tưởng rằng với sự đồng lòng của tập thể cán bộ nhân viên, Công ty sẽ vượt qua mọi thách thức và đạt được các mục tiêu đề ra.\"\n*   **Thông tin người ký:**\n    *   **NGUYỄN VĂN A**\n    *   Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng: KẾT QUẢ KINH DOANH HỢP NHẤT (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.250 | 1.480 | 18,4% |\n| Lợi nhuận gộp | 350 | 420 | 20,0% |\n| Lợi nhuận sau thuế | 120 | 155 | 29,2% |\n| Tổng tài sản | 2.100 | 2.450 | 16,7% |\n\n---\n\n### 3. BIỂU ĐỒ\n**Biểu đồ: CƠ CẤU DOANH THU THEO KHU VỰC NĂM 2023**\n*   **Loại biểu đồ:** Biểu đồ tròn (Pie Chart)\n*   **Giá trị số liệu:**\n    *   Miền Bắc: 40%\n    *   Miền Trung: 25%\n    *   Miền Nam: 35%\n*   **Chú giải:** Biểu đồ thể hiện tỷ trọng đóng góp doanh thu của ba khu vực địa lý chính trong năm 2023. Miền Bắc chiếm tỷ trọng lớn nhất (40%), tiếp theo là Miền Nam (35%) và Miền Trung (25%).\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n**Sơ đồ: QUY TRÌNH CUNG ỨNG SẢN PHẨM**\n*   **Bước 1:** Nhập nguyên liệu đầu vào (Kiểm định chất lượng).\n*   **Bước 2:** Sản xuất tại nhà máy (Công nghệ tự động hóa).\n*   **Bước 3:** Kiểm tra chất lượng (QC - Đạt chuẩn ISO).\n*   **Bước 4:** Phân phối (Hệ thống đại lý toàn quốc).\n*   **Bước 5:** Chăm sóc khách hàng (Phản hồi và cải tiến).\n\n---\n*Lưu ý: Các thông tin trên được trích xuất trực tiếp từ hình ảnh cung cấp. Nếu có bất kỳ sai lệch nào về số liệu so với bản gốc, vui lòng kiểm tra lại độ phân giải của tệp ảnh đầu vào.*",
+  "image_ref": "data/advanced/images/page_119.jpg",
+  "metadata": {
+    "page": 119,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_119.jpg",
+    "char_count": 2016
+  }
+}

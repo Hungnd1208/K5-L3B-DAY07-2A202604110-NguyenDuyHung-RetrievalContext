@@ -1,0 +1,135 @@
+{
+  "summary": {
+    "n": 5,
+    "hit1": 4,
+    "hit1_rate": 80.0,
+    "hit3": 5,
+    "hit3_rate": 100.0,
+    "context_hit": 4,
+    "context_evidence_rate": 80.0,
+    "avg_context_chars": 616.2,
+    "median_ms": 0.9
+  },
+  "traces": [
+    {
+      "id": "q16",
+      "question": "Kiến trúc ResNet sử dụng giải pháp kỹ thuật nào để thông tin truyền qua nhiều lớp mà không bị suy giảm?",
+      "top_hits": [
+        {
+          "id": "bao-cao-cnn_p28_para_002",
+          "page": 28,
+          "text": "4.5 ResNet\nResNet (Residual Network) đư ợc phát tri ển bởi Kaiming He và c ộng sự tại\nMicrosoft vào "
+        },
+        {
+          "id": "bao-cao-cnn_p24_para_002",
+          "page": 24,
+          "text": "Đối với Adam, hi ệu suất tổng quát hóa thư ờng giảm mạnh khi kích thư ớc batch tăng lên do hi ện tượ"
+        },
+        {
+          "id": "bao-cao-cnn_p30_para_003",
+          "page": 30,
+          "text": "5.3 Hướng phát triển trong tương lai\nTrong những năm g ần đây, nhi ều nghiên c ứu đã đư ợc thực hiện"
+        }
+      ],
+      "hit1": true,
+      "hit3": true,
+      "context_hit": true
+    },
+    {
+      "id": "q17",
+      "question": "Trong Chương 4, mô hình GoogLeNet (Inception) được giới thiệu vào năm nào và bởi ai?",
+      "top_hits": [
+        {
+          "id": "bao-cao-cnn_p28_para_001",
+          "page": 28,
+          "text": "4.4 GoogLeNet (Inception)\nGoogLeNet (Inception) được giới thiệu bởi Christian Szegedy và cộng sự vào"
+        },
+        {
+          "id": "bao-cao-cnn_p26_para_002",
+          "page": 26,
+          "text": "4.1 LeNet-5\nLeNet-5 là một trong những mô hình CNN đầu tiên được phát triển bởi Yann\nLeCun vào năm 1"
+        },
+        {
+          "id": "bao-cao-cnn_p28_para_002",
+          "page": 28,
+          "text": "4.5 ResNet\nResNet (Residual Network) đư ợc phát tri ển bởi Kaiming He và c ộng sự tại\nMicrosoft vào "
+        }
+      ],
+      "hit1": true,
+      "hit3": true,
+      "context_hit": true
+    },
+    {
+      "id": "q18",
+      "question": "Trong cơ chế lan truyền ngược của lớp Max Pooling, gradient được truyền như thế nào?",
+      "top_hits": [
+        {
+          "id": "bao-cao-cnn_p20_para_000",
+          "page": 20,
+          "text": "20\n\nĐiều này có nghĩa là l ớp tích ch ập sử dụng chính cơ ch ế vận hành c ủa nó\ntrong lượt truyền ng"
+        },
+        {
+          "id": "bao-cao-cnn_p21_para_001",
+          "page": 21,
+          "text": "Loại\nPooling\nCơ ch ế truyền\ntiến\nCơ ch ế truyền ngh ịch\n(Gradient Routing)\nMax\nPooling\nChọn giá trị "
+        },
+        {
+          "id": "bao-cao-cnn_p18_para_001",
+          "page": 18,
+          "text": "3.6 Thuật toán huấn luyện Backpropagation trong CNN 3.6.1. Cơ sở toán học và cơ chế vận hành của thu"
+        }
+      ],
+      "hit1": false,
+      "hit3": true,
+      "context_hit": false
+    },
+    {
+      "id": "q19",
+      "question": "Ưu điểm quan trọng của CNN so với các phương pháp truyền thống trong việc trích xuất đặc trưng là gì?",
+      "top_hits": [
+        {
+          "id": "bao-cao-cnn_p29_para_001",
+          "page": 29,
+          "text": "Convolutional Neural Network (CNN) là m ột trong nh ững mô hình quan trọng trong lĩnh vực Deep Learn"
+        },
+        {
+          "id": "bao-cao-cnn_p17_para_003",
+          "page": 17,
+          "text": "Attention cũng được sử dụng để tổng hợp đặc trưng thay cho FC truyền thống. 3.5.5.Kết luận Lớp Fully"
+        },
+        {
+          "id": "bao-cao-cnn_p04_para_001",
+          "page": 4,
+          "text": "2.1 Giới thiệu tổng quan về CNN\nCNN (Convolutional Neural Networks - Mạng nơ-ron tích chập) là một l"
+        }
+      ],
+      "hit1": true,
+      "hit3": true,
+      "context_hit": true
+    },
+    {
+      "id": "q20",
+      "question": "Tính chất 'hộp đen' (Black Box) của CNN gây ra trở ngại gì trong việc giải thích quyết định?",
+      "top_hits": [
+        {
+          "id": "bao-cao-cnn_p30_para_001",
+          "page": 30,
+          "text": "5.2 Hạn chế của CNN Mặc dù có nhiều ưu điểm, CNN vẫn tồn tại một số hạn chế cần được xem xét trong q"
+        },
+        {
+          "id": "bao-cao-cnn_p18_para_001",
+          "page": 18,
+          "text": "3.6 Thuật toán huấn luyện Backpropagation trong CNN 3.6.1. Cơ sở toán học và cơ chế vận hành của thu"
+        },
+        {
+          "id": "bao-cao-cnn_p24_para_001",
+          "page": 24,
+          "text": "Sự khác biệt này có th ể giải thích thông qua lý thuy ết về \"Thời gian thoát\" (Escaping Time). Nhiễu"
+        }
+      ],
+      "hit1": true,
+      "hit3": true,
+      "context_hit": true
+    }
+  ]
+}

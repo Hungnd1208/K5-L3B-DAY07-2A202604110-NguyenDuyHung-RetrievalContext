@@ -1,0 +1,15 @@
+{
+  "id": "doc_p054_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 54,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** ĐỊNH HƯỚNG CHIẾN LƯỢC NĂM 2024\n*   **Nội dung văn bản:**\n    \"Năm 2024, Công ty xác định mục tiêu trọng tâm là tối ưu hóa hiệu quả hoạt động, tập trung vào các mảng kinh doanh cốt lõi và đẩy mạnh chuyển đổi số. Chúng tôi cam kết tiếp tục nâng cao giá trị cho cổ đông thông qua việc duy trì tăng trưởng bền vững và quản trị rủi ro chặt chẽ.\"\n*   **Thông tin người ký:**\n    *   **Ký tên:** (Chữ ký)\n    *   **Họ và tên:** Nguyễn Văn A\n    *   **Chức danh:** Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng: Kết quả kinh doanh hợp nhất (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.250 | 1.420 | 13,6% |\n| Lợi nhuận gộp | 310 | 380 | 22,6% |\n| Lợi nhuận sau thuế | 150 | 195 | 30,0% |\n\n---\n\n### 3. BIỂU ĐỒ\n**Loại biểu đồ:** Biểu đồ cột (Column Chart)\n**Tiêu đề:** Tăng trưởng doanh thu và lợi nhuận (2022 - 2023)\n\n*   **Trục hoành:** Năm (2022, 2023)\n*   **Trục tung:** Tỷ đồng\n*   **Giá trị số liệu:**\n    *   **Năm 2022:** Doanh thu (1.250), Lợi nhuận (150)\n    *   **Năm 2023:** Doanh thu (1.420), Lợi nhuận (195)\n*   **Chú giải:**\n    *   Cột màu xanh dương: Doanh thu thuần\n    *   Cột màu cam: Lợi nhuận sau thuế\n*   **Xu hướng:** Cả doanh thu và lợi nhuận đều có xu hướng tăng trưởng dương trong năm 2023 so với năm 2022.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n**Sơ đồ: Cơ cấu tổ chức bộ máy điều hành**\n\n*   **Cấp cao nhất:** Hội đồng Quản trị\n*   **Cấp điều hành:** Ban Tổng Giám đốc\n*   **Các khối chức năng trực thuộc:**\n    1.  **Khối Kinh doanh:** Phụ trách phát triển thị trường và bán hàng.\n    2.  **Khối Tài chính - Kế toán:** Phụ trách quản lý dòng tiền và báo cáo tài chính.\n    3.  **Khối Sản xuất:** Phụ trách vận hành nhà máy và quản lý chất lượng.\n    4.  **Khối Nhân sự:** Phụ trách tuyển dụng và đào tạo.\n\n---\n*Lưu ý: Các thông tin trên được trích xuất dựa trên hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu do chất lượng ảnh, vui lòng đối chiếu lại với bản gốc.*",
+  "image_ref": "data/advanced/images/page_054.jpg",
+  "metadata": {
+    "page": 54,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_054.jpg",
+    "char_count": 2160
+  }
+}

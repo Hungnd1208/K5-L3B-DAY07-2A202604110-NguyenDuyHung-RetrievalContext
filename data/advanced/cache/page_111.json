@@ -1,0 +1,15 @@
+{
+  "id": "doc_p111_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 111,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** CHIẾN LƯỢC PHÁT TRIỂN BỀN VỮNG\n*   **Nội dung văn bản:**\n    *   \"Trong năm 2023, Công ty đã tập trung nguồn lực để tối ưu hóa quy trình sản xuất, giảm thiểu tác động đến môi trường và nâng cao hiệu quả sử dụng năng lượng. Chúng tôi cam kết tiếp tục đầu tư vào công nghệ xanh và phát triển nguồn nhân lực chất lượng cao để đảm bảo sự phát triển bền vững trong dài hạn.\"\n*   **Thông tin người ký:**\n    *   **NGUYỄN VĂN A**\n    *   Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng: Kết quả hoạt động kinh doanh (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.250 | 1.450 | 16% |\n| Lợi nhuận trước thuế | 180 | 220 | 22,2% |\n| Lợi nhuận sau thuế | 144 | 176 | 22,2% |\n\n---\n\n### 3. BIỂU ĐỒ\n*   **Loại biểu đồ:** Biểu đồ cột (Column Chart)\n*   **Tiêu đề:** Sản lượng sản xuất qua các năm (Đơn vị: Nghìn tấn)\n*   **Trục hoành:** Năm (2021, 2022, 2023)\n*   **Trục tung:** Sản lượng (Nghìn tấn)\n*   **Giá trị số liệu:**\n    *   Năm 2021: 80 nghìn tấn\n    *   Năm 2022: 95 nghìn tấn\n    *   Năm 2023: 110 nghìn tấn\n*   **Xu hướng:** Sản lượng có xu hướng tăng đều qua các năm, cho thấy sự mở rộng quy mô sản xuất của công ty.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n*   **Mô tả:** Sơ đồ chuỗi giá trị bền vững (Sustainable Value Chain)\n*   **Các bước trong quy trình:**\n    1.  **Nguồn nguyên liệu:** Ưu tiên nhà cung cấp đạt chuẩn xanh.\n    2.  **Sản xuất:** Áp dụng công nghệ tiết kiệm năng lượng.\n    3.  **Phân phối:** Tối ưu hóa lộ trình vận chuyển để giảm khí thải.\n    4.  **Khách hàng:** Cung cấp sản phẩm thân thiện với môi trường.\n    5.  **Tái chế:** Thu hồi và xử lý bao bì sau sử dụng.",
+  "image_ref": "data/advanced/images/page_111.jpg",
+  "metadata": {
+    "page": 111,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_111.jpg",
+    "char_count": 1845
+  }
+}

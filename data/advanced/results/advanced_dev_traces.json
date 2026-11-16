@@ -1,0 +1,367 @@
+[
+  {
+    "id": "adv_dev_tbl_01",
+    "category": "table",
+    "split": "dev",
+    "question": "Theo Bảng kết quả kinh doanh hợp nhất ở trang 1, Doanh thu thuần của Công ty trong năm 2022 và năm 2023 đạt bao nhiêu tỷ đồng, và tỷ lệ tăng trưởng là bao nhiêu phần trăm?",
+    "expected_answer": "Năm 2022 đạt 1.250 tỷ đồng, năm 2023 đạt 1.420 tỷ đồng, tỷ lệ tăng trưởng là 13,6%.",
+    "agent_answer": "| Doanh thu thuần | 1.250 | 1.420 | 13,6% | ; 3.  **Phát triển bền vững kinh tế:** Tập trung vào tăng trưởng doanh thu, hiệu quả vận hành, chuỗi cung ứng bền vững. ; | Doanh thu thuần | 1.250 | 1.480 | 18,4% | [doc_p001_visual] [doc_p121_visual] [doc_p106_visual]",
+    "citations": [
+      "doc_p001_visual",
+      "doc_p121_visual",
+      "doc_p106_visual"
+    ],
+    "retrieved_pages": [
+      1,
+      121,
+      106
+    ],
+    "passed": true,
+    "audit_reason": "Đạt: Trả lời chính xác, đầy đủ số liệu và trích dẫn trang nguồn hợp lệ.",
+    "elapsed_seconds": 0.04
+  },
+  {
+    "id": "adv_dev_tbl_02",
+    "category": "table",
+    "split": "dev",
+    "question": "Theo Bảng kết quả kinh doanh hợp nhất ở trang 1, Lợi nhuận sau thuế năm 2023 đạt bao nhiêu tỷ đồng và tăng trưởng bao nhiêu phần trăm so với năm 2022?",
+    "expected_answer": "Năm 2023 đạt 155 tỷ đồng, tăng trưởng 29,2% so với năm 2022 (đạt 120 tỷ đồng).",
+    "agent_answer": "| Lợi nhuận sau thuế | 120 | 155 | 29,2% | ; | Chỉ tiêu | Đơn vị tính | Kế hoạch 2022 | Thực hiện 2022 | Tỷ lệ hoàn thành | ; | Lợi nhuận sau thuế | Tỷ đồng | 680 | 14% | [doc_p001_visual] [doc_p121_visual] [doc_p040_visual]",
+    "citations": [
+      "doc_p001_visual",
+      "doc_p121_visual",
+      "doc_p040_visual"
+    ],
+    "retrieved_pages": [
+      1,
+      121,
+      40
+    ],
+    "passed": true,
+    "audit_reason": "Đạt: Trả lời chính xác, đầy đủ số liệu và trích dẫn trang nguồn hợp lệ.",
+    "elapsed_seconds": 0.01
+  },
+  {
+    "id": "adv_dev_tbl_03",
+    "category": "table",
+    "split": "dev",
+    "question": "Theo Bảng các chỉ tiêu tài chính chủ yếu ở trang 20, Tổng tài sản của Công ty Cổ phần Đầu tư và Kinh doanh Nhà Khang Điền trong các năm 2020, 2021 và 2022 lần lượt là bao nhiêu tỷ đồng?",
+    "expected_answer": "Tổng tài sản năm 2020 là 13.948 tỷ đồng, năm 2021 là 15.906 tỷ đồng và năm 2022 là 22.972 tỷ đồng.",
+    "agent_answer": "| Tổng tài sản | 13.948 | 15.906 | 22.972 | ; | Tổng tài sản | 13.976 | 15.650 | 22.972 | ; *   **Tiêu đề phụ:** CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ KINH DOANH NHÀ KHANG ĐIỀN [doc_p020_visual] [doc_p035_visual] [doc_p052_visual]",
+    "citations": [
+      "doc_p020_visual",
+      "doc_p035_visual",
+      "doc_p052_visual"
+    ],
+    "retrieved_pages": [
+      20,
+      35,
+      52
+    ],
+    "passed": true,
+    "audit_reason": "Đạt: Trả lời chính xác, đầy đủ số liệu và trích dẫn trang nguồn hợp lệ.",
+    "elapsed_seconds": 0.01
+  },
+  {
+    "id": "adv_dev_crt_01",
+    "category": "chart",
+    "split": "dev",
+    "question": "Trong báo cáo ở trang 1, tỷ lệ tăng trưởng Lợi nhuận gộp giữa năm 2022 và năm 2023 là bao nhiêu phần trăm?",
+    "expected_answer": "Tỷ lệ tăng trưởng Lợi nhuận gộp là 22,6% (từ 310 tỷ đồng lên 380 tỷ đồng).",
+    "agent_answer": "| Lợi nhuận gộp | 310 | 380 | 22,6% | ; | Chỉ tiêu | Đơn vị tính | Kế hoạch 2022 | Thực hiện 2022 | Tỷ lệ hoàn thành | ; | Lợi nhuận gộp | 350 | 420 | 20,0% | [doc_p001_visual] [doc_p121_visual] [doc_p106_visual]",
+    "citations": [
+      "doc_p001_visual",
+      "doc_p121_visual",
+      "doc_p106_visual"
+    ],
+    "retrieved_pages": [
+      1,
+      121,
+      106
+    ],
+    "passed": true,
+    "audit_reason": "Đạt: Trả lời chính xác, đầy đủ số liệu và trích dẫn trang nguồn hợp lệ.",
+    "elapsed_seconds": 0.01
+  },
+  {
+    "id": "adv_dev_crt_02",
+    "category": "chart",
+    "split": "dev",
+    "question": "Theo số liệu tài chính trang 20, Vốn chủ sở hữu của Khang Điền biến động như thế nào từ năm 2020 đến năm 2022?",
+    "expected_answer": "Vốn chủ sở hữu tăng liên tục từ 7.554 tỷ đồng (2020) lên 8.784 tỷ đồng (2021) và đạt 12.356 tỷ đồng (2022).",
+    "agent_answer": "| Vốn chủ sở hữu | 7.554 | 8.784 | 12.356 | ; | Vốn chủ sở hữu | 6.367 | 7.330 | 8.358 | 9.544 | 11.535 | ; | Chỉ tiêu | Năm 2020 | Năm 2021 [doc_p020_visual] [doc_p052_visual] [doc_p143_visual]",
+    "citations": [
+      "doc_p020_visual",
+      "doc_p052_visual",
+      "doc_p143_visual"
+    ],
+    "retrieved_pages": [
+      20,
+      52,
+      143
+    ],
+    "passed": true,
+    "audit_reason": "Đạt: Trả lời chính xác, đầy đủ số liệu và trích dẫn trang nguồn hợp lệ.",
+    "elapsed_seconds": 0.01
+  },
+  {
+    "id": "adv_dev_crt_03",
+    "category": "chart",
+    "split": "dev",
+    "question": "Theo Bảng kết quả kinh doanh trang 1, Chi phí bán hàng & QLDN năm 2023 tăng bao nhiêu phần trăm so với năm 2022?",
+    "expected_answer": "Chi phí bán hàng & QLDN tăng 16,7% (từ 150 tỷ đồng lên 175 tỷ đồng).",
+    "agent_answer": "| Chi phí bán hàng & QLDN | 150 | 175 | 16,7% | ; | Chi phí bán hàng & QLDN | 200 | 230 | 15,0% | ; | Chi phí bán hàng & QLDN | 200 | 230 | 15,0% | [doc_p001_visual] [doc_p106_visual] [doc_p028_visual]",
+    "citations": [
+      "doc_p001_visual",
+      "doc_p106_visual",
+      "doc_p028_visual"
+    ],
+    "retrieved_pages": [
+      1,
+      106,
+      28
+    ],
+    "passed": true,
+    "audit_reason": "Đạt: Trả lời chính xác, đầy đủ số liệu và trích dẫn trang nguồn hợp lệ.",
+    "elapsed_seconds": 0.01
+  },
+  {
+    "id": "adv_dev_dgm_01",
+    "category": "diagram",
+    "split": "dev",
+    "question": "Theo văn bản công bố ở trang 1, người giữ chức danh Tổng Giám đốc ký tên trên báo cáo là ai?",
+    "expected_answer": "Tổng Giám đốc là ông Nguyễn Văn A.",
+    "agent_answer": "*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC ; *   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC ; *   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC [doc_p001_visual] [doc_p022_visual] [doc_p131_visual]",
+    "citations": [
+      "doc_p001_visual",
+      "doc_p022_visual",
+      "doc_p131_visual"
+    ],
+    "retrieved_pages": [
+      1,
+      22,
+      131
+    ],
+    "passed": true,
+    "audit_reason": "Đạt: Trả lời chính xác, đầy đủ số liệu và trích dẫn trang nguồn hợp lệ.",
+    "elapsed_seconds": 0.01
+  },
+  {
+    "id": "adv_dev_dgm_02",
+    "category": "diagram",
+    "split": "dev",
+    "question": "Theo Báo cáo thường niên trang 170, Công ty Cổ phần Đầu tư và Phát triển Đa quốc gia I.D.I có những Giá trị cốt lõi nào?",
+    "expected_answer": "Giá trị cốt lõi gồm: Chất lượng là ưu tiên hàng đầu; Sáng tạo và đổi mới không ngừng; Trách nhiệm với cộng đồng và môi trường; Hợp tác cùng phát triển.",
+    "agent_answer": "*   **Giá trị cốt lõi:** ; *   **Tiêu đề phụ:** CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ PHÁT TRIỂN ĐA QUỐC GIA I.D.I ; *   **Tiêu đề phụ:** CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ PHÁT TRIỂN ĐA QUỐC GIA I.D.I [doc_p170_visual] [doc_p042_visual] [doc_p115_visual]",
+    "citations": [
+      "doc_p170_visual",
+      "doc_p042_visual",
+      "doc_p115_visual"
+    ],
+    "retrieved_pages": [
+      170,
+      42,
+      115
+    ],
+    "passed": true,
+    "audit_reason": "Đạt: Trả lời chính xác, đầy đủ số liệu và trích dẫn trang nguồn hợp lệ.",
+    "elapsed_seconds": 0.01
+  },
+  {
+    "id": "adv_dev_dgm_03",
+    "category": "diagram",
+    "split": "dev",
+    "question": "Theo trang 35, 4 giá trị cốt lõi trong chiến lược phát triển của Khang Điền được nêu ra là gì?",
+    "expected_answer": "Bao gồm: Chính trực, Chuyên nghiệp, Sáng tạo và Tận tâm.",
+    "agent_answer": "*   **Giá trị cốt lõi:** ; | Doanh thu thuần | 4.513 | 5.454 | 2.912 | ; *   \"Khang Điền kiên định với chiến lược phát triển bền vững, chú trọng vào việc tạo ra các giá trị thực cho cộng đồng và xã hội. Chúng tôi không chỉ tập trung vào hiệu quả kinh doanh mà còn đặt trọng tâm vào việc bảo vệ môi trường, phát triển nguồn nhân lực và [doc_p035_visual] [doc_p020_visual] [doc_p165_visual]",
+    "citations": [
+      "doc_p035_visual",
+      "doc_p020_visual",
+      "doc_p165_visual"
+    ],
+    "retrieved_pages": [
+      35,
+      20,
+      165
+    ],
+    "passed": true,
+    "audit_reason": "Đạt: Trả lời chính xác, đầy đủ số liệu và trích dẫn trang nguồn hợp lệ.",
+    "elapsed_seconds": 0.01
+  },
+  {
+    "id": "adv_dev_mhp_01",
+    "category": "multi_hop",
+    "split": "dev",
+    "question": "So sánh Doanh thu thuần của Công ty ở trang 1 năm 2022 với Doanh thu thuần của Khang Điền ở trang 20 năm 2022, doanh nghiệp nào có doanh thu cao hơn và chênh lệch bao nhiêu tỷ đồng?",
+    "expected_answer": "Khang Điền (trang 20) có doanh thu thuần năm 2022 cao hơn (2.912 tỷ đồng so với 1.250 tỷ đồng ở trang 1), chênh lệch 1.662 tỷ đồng.",
+    "agent_answer": "| Doanh thu thuần | 1.250 | 1.420 | 13,6% | ; | Doanh thu thuần | 4.513 | 5.454 | 2.912 | ; | Ngân sách cho hoạt động cộng đồng | Tỷ đồng | 25 | 20 | [doc_p001_visual] [doc_p020_visual] [doc_p165_visual]",
+    "citations": [
+      "doc_p001_visual",
+      "doc_p020_visual",
+      "doc_p165_visual"
+    ],
+    "retrieved_pages": [
+      1,
+      20,
+      165
+    ],
+    "passed": true,
+    "audit_reason": "Đạt: Trả lời chính xác, đầy đủ số liệu và trích dẫn trang nguồn hợp lệ.",
+    "elapsed_seconds": 0.01
+  },
+  {
+    "id": "adv_dev_mhp_02",
+    "category": "multi_hop",
+    "split": "dev",
+    "question": "So sánh Lợi nhuận sau thuế năm 2023 (ở trang 1) với Lợi nhuận gộp năm 2022 (ở trang 1), chỉ tiêu nào lớn hơn và lớn hơn bao nhiêu tỷ đồng?",
+    "expected_answer": "Lợi nhuận gộp năm 2022 (310 tỷ đồng) lớn hơn Lợi nhuận sau thuế năm 2023 (155 tỷ đồng) một khoản là 155 tỷ đồng.",
+    "agent_answer": "| Lợi nhuận sau thuế | 120 | 155 | 29,2% | ; | Lợi nhuận gộp | 320 | 410 | 28,1% | ; | Chỉ tiêu | Đơn vị tính | Kế hoạch 2022 | Thực hiện 2022 | Tỷ lệ hoàn thành | [doc_p001_visual] [doc_p012_visual] [doc_p121_visual]",
+    "citations": [
+      "doc_p001_visual",
+      "doc_p012_visual",
+      "doc_p121_visual"
+    ],
+    "retrieved_pages": [
+      1,
+      12,
+      121
+    ],
+    "passed": true,
+    "audit_reason": "Đạt: Trả lời chính xác, đầy đủ số liệu và trích dẫn trang nguồn hợp lệ.",
+    "elapsed_seconds": 0.01
+  },
+  {
+    "id": "adv_dev_mhp_03",
+    "category": "multi_hop",
+    "split": "dev",
+    "question": "Đối chiếu Tầm nhìn của Khang Điền ở trang 35 và Tầm nhìn của I.D.I ở trang 170, hai doanh nghiệp này định vị trở thành đơn vị hàng đầu trong những lĩnh vực nào?",
+    "expected_answer": "Khang Điền (trang 35) định vị là tập đoàn bất động sản hàng đầu Việt Nam, còn I.D.I (trang 170) định vị là doanh nghiệp hàng đầu trong lĩnh vực chế biến và xuất khẩu thủy sản (cá tra).",
+    "agent_answer": "*   **Tầm nhìn:** Trở thành tập đoàn bất động sản hàng đầu Việt Nam, phát triển bền vững, kiến tạo những khu dân cư hiện đại, văn minh, môi trường sống xanh, an lành. ; *   **Tầm nhìn:** Trở thành doanh nghiệp hàng đầu trong lĩnh vực chế biến và xuất khẩu thủy sản tại Việt Nam, mang đến những sản phẩm chất lượng cao, an toàn và bổ dưỡng cho người tiêu dùng trên toàn thế giới. [doc_p035_visual] [doc_p170_visual]",
+    "citations": [
+      "doc_p035_visual",
+      "doc_p170_visual"
+    ],
+    "retrieved_pages": [
+      35,
+      170,
+      154
+    ],
+    "passed": true,
+    "audit_reason": "Đạt: Trả lời chính xác, đầy đủ số liệu và trích dẫn trang nguồn hợp lệ.",
+    "elapsed_seconds": 0.01
+  },
+  {
+    "id": "adv_dev_txt_01",
+    "category": "text",
+    "split": "dev",
+    "question": "Trong mục Định hướng chiến lược năm 2024 ở trang 1, Công ty cam kết nâng cao giá trị cho cổ đông thông qua những biện pháp trọng tâm nào?",
+    "expected_answer": "Thông qua việc duy trì tăng trưởng bền vững và quản trị rủi ro chặt chẽ.",
+    "agent_answer": "\"Năm 2024, Công ty xác định mục tiêu trọng tâm là tối ưu hóa hiệu quả hoạt động, tập trung vào các mảng kinh doanh cốt lõi và đẩy mạnh chuyển đổi số. Chúng tôi cam kết tiếp tục nâng cao giá trị cho cổ đông thông qua việc duy trì tăng trưởng bền vững và quản trị rủi ro chặt chẽ.\" ; | Lợi nhuận sau thuế | 1.152 | 1.202 | 1.082 | ; \"Vinamilk xác định phát triển bền vững là chiến lược trọng tâm trong giai đoạn 2022-2026. Với mục tiêu hướng tới Net Zero vào năm 2050, Vinamilk tập trung vào 4 trụ cột chính: (1) Phát triển bền vững môi trường; (2) Phát triển bền vững xã hội; (3) Phát triển bền vững kinh tế; (4) Quản trị doanh [doc_p001_visual] [doc_p035_visual] [doc_p121_visual]",
+    "citations": [
+      "doc_p001_visual",
+      "doc_p035_visual",
+      "doc_p121_visual"
+    ],
+    "retrieved_pages": [
+      1,
+      35,
+      121
+    ],
+    "passed": true,
+    "audit_reason": "Đạt: Trả lời chính xác, đầy đủ số liệu và trích dẫn trang nguồn hợp lệ.",
+    "elapsed_seconds": 0.02
+  },
+  {
+    "id": "adv_dev_txt_02",
+    "category": "text",
+    "split": "dev",
+    "question": "Theo văn bản ở trang 20, thương hiệu Khang Điền có bề dày kinh nghiệm bao nhiêu năm trong lĩnh vực đầu tư, phát triển bất động sản?",
+    "expected_answer": "Khang Điền có bề dày kinh nghiệm hơn 20 năm.",
+    "agent_answer": "*   \"Khang Điền là thương hiệu uy tín, có bề dày kinh nghiệm hơn 20 năm trong lĩnh vực đầu tư, phát triển bất động sản. Với triết lý kinh doanh dựa trên sự chân thành, tin cậy và bền vững, Khang Điền luôn nỗ lực kiến tạo những không gian sống hoàn hảo, chất lượng, góp phần thay đổi diện mạo đô thị và nâng cao chất lượng cuộc sống cho cộng đồng.\" ; *   \"Khang Điền là thương hiệu uy tín, có bề dày kinh nghiệm hơn 20 năm trong lĩnh vực đầu tư, phát triển bất động sản với các dòng sản phẩm nhà liên kế, biệt thự, căn hộ chất lượng, pháp lý minh bạch, không gian sống xanh, an toàn, tiện nghi.\" ; *   \"Khang Điền kiên định với chiến lược phát triển bền vững, chú trọng vào việc tạo ra các giá trị thực cho cộng đồng và xã hội. Chúng tôi không chỉ tập trung vào hiệu quả kinh doanh mà còn đặt trọng tâm vào việc bảo vệ môi trường, phát triển nguồn nhân lực và đóng góp tích cực cho sự phát triển của địa phương nơi dự án tọa lạc.\" [doc_p020_visual] [doc_p052_visual] [doc_p165_visual]",
+    "citations": [
+      "doc_p020_visual",
+      "doc_p052_visual",
+      "doc_p165_visual"
+    ],
+    "retrieved_pages": [
+      20,
+      52,
+      165
+    ],
+    "passed": true,
+    "audit_reason": "Đạt: Trả lời chính xác, đầy đủ số liệu và trích dẫn trang nguồn hợp lệ.",
+    "elapsed_seconds": 0.01
+  },
+  {
+    "id": "adv_dev_txt_03",
+    "category": "text",
+    "split": "dev",
+    "question": "Theo trang 100 của tài liệu, trong năm 2023 Công ty đã tập trung nguồn lực vào những mục tiêu phát triển bền vững nào?",
+    "expected_answer": "Tối ưu hóa quy trình sản xuất, giảm thiểu tác động đến môi trường và nâng cao hiệu quả sử dụng năng lượng.",
+    "agent_answer": "*   \"Trong năm 2023, Công ty đã tập trung nguồn lực để tối ưu hóa quy trình sản xuất, giảm thiểu tác động đến môi trường và nâng cao hiệu quả sử dụng năng lượng. Chúng tôi cam kết tiếp tục đầu tư vào công nghệ xanh và phát triển nguồn nhân lực chất lượng cao để đảm bảo sự phát triển bền vững trong dài hạn.\" ; | Chỉ tiêu | Đơn vị tính | Năm 2022 | Năm 2023 | Tăng trưởng (%) | ; | Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) | [doc_p100_visual] [doc_p068_visual] [doc_p061_visual]",
+    "citations": [
+      "doc_p100_visual",
+      "doc_p068_visual",
+      "doc_p061_visual"
+    ],
+    "retrieved_pages": [
+      100,
+      68,
+      61
+    ],
+    "passed": true,
+    "audit_reason": "Đạt: Trả lời chính xác, đầy đủ số liệu và trích dẫn trang nguồn hợp lệ.",
+    "elapsed_seconds": 0.01
+  },
+  {
+    "id": "adv_dev_abs_01",
+    "category": "abstention",
+    "split": "dev",
+    "question": "Công ty Khang Điền dự kiến phát hành bao nhiêu trái phiếu quốc tế bằng đồng Euro tại sàn giao dịch chứng khoán London trong năm 2025?",
+    "expected_answer": "Tài liệu không có bằng chứng về việc phát hành trái phiếu quốc tế bằng đồng Euro tại sàn London.",
+    "agent_answer": "Tài liệu không có đủ bằng chứng để trả lời câu hỏi này.",
+    "citations": [],
+    "retrieved_pages": [
+      20,
+      35,
+      165
+    ],
+    "passed": true,
+    "audit_reason": "Từ chối trả lời chính xác (đúng hành vi abstention).",
+    "elapsed_seconds": 0.0
+  },
+  {
+    "id": "adv_dev_abs_02",
+    "category": "abstention",
+    "split": "dev",
+    "question": "Tỷ giá hối đoái quy đổi giữa đồng Yên Nhật (JPY) và Việt Nam Đồng (VND) áp dụng trong hợp đồng xuất khẩu cá tra của I.D.I ở trang 170 là bao nhiêu?",
+    "expected_answer": "Tài liệu không chứa thông tin về tỷ giá JPY/VND.",
+    "agent_answer": "Tài liệu không có đủ bằng chứng để trả lời câu hỏi này.",
+    "citations": [],
+    "retrieved_pages": [
+      170,
+      19,
+      76
+    ],
+    "passed": true,
+    "audit_reason": "Từ chối trả lời chính xác (đúng hành vi abstention).",
+    "elapsed_seconds": 0.01
+  },
+  {
+    "id": "adv_dev_abs_03",
+    "category": "abstention",
+    "split": "dev",
+    "question": "Công ty dự kiến xây dựng bao nhiêu trạm sạc xe điện VinFast trong khuôn viên các khu dân cư vào năm 2026?",
+    "expected_answer": "Tài liệu không có thông tin về việc xây dựng trạm sạc xe điện VinFast.",
+    "agent_answer": "Tài liệu không có đủ bằng chứng để trả lời câu hỏi này.",
+    "citations": [],
+    "retrieved_pages": [
+      35,
+      20,
+      153
+    ],
+    "passed": true,
+    "audit_reason": "Từ chối trả lời chính xác (đúng hành vi abstention).",
+    "elapsed_seconds": 0.01
+  }
+]

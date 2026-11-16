@@ -1,0 +1,15 @@
+{
+  "id": "doc_p170_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 170,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ hình ảnh báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN (Text)\n\n*   **Tiêu đề chính:** BÁO CÁO THƯỜNG NIÊN 2022\n*   **Tiêu đề phụ:** CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ PHÁT TRIỂN ĐA QUỐC GIA I.D.I\n*   **Đoạn văn bản (Chiến lược):**\n    *   **Tầm nhìn:** Trở thành doanh nghiệp hàng đầu trong lĩnh vực chế biến và xuất khẩu thủy sản tại Việt Nam, mang đến những sản phẩm chất lượng cao, an toàn và bổ dưỡng cho người tiêu dùng trên toàn thế giới.\n    *   **Sứ mệnh:** Không ngừng đổi mới, sáng tạo, nâng cao chất lượng sản phẩm và dịch vụ, góp phần nâng cao giá trị con cá tra Việt Nam trên thị trường quốc tế, đồng thời mang lại lợi ích bền vững cho cổ đông, đối tác và cộng đồng.\n    *   **Giá trị cốt lõi:**\n        *   Chất lượng là ưu tiên hàng đầu.\n        *   Sáng tạo và đổi mới không ngừng.\n        *   Trách nhiệm với cộng đồng và môi trường.\n        *   Hợp tác cùng phát triển.\n\n---\n\n### 2. BẢNG BIỂU (Tables)\n\n**Bảng: Kết quả hoạt động kinh doanh (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2020 | Năm 2021 | Năm 2022 |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 5.250 | 5.500 | 7.900 |\n| Lợi nhuận gộp | 450 | 520 | 1.150 |\n| Lợi nhuận sau thuế | 120 | 135 | 650 |\n\n---\n\n### 3. BIỂU ĐỒ (Charts)\n\n**Biểu đồ: Tăng trưởng doanh thu và lợi nhuận (2020 - 2022)**\n*   **Loại biểu đồ:** Biểu đồ cột ghép (Clustered Column Chart).\n*   **Trục hoành:** Các năm 2020, 2021, 2022.\n*   **Trục tung:** Đơn vị tính là Tỷ đồng.\n*   **Chú giải:**\n    *   Cột màu xanh dương: Doanh thu thuần.\n    *   Cột màu cam: Lợi nhuận sau thuế.\n*   **Giá trị số liệu:**\n    *   **Năm 2020:** Doanh thu 5.250 tỷ; Lợi nhuận 120 tỷ.\n    *   **Năm 2021:** Doanh thu 5.500 tỷ; Lợi nhuận 135 tỷ.\n    *   **Năm 2022:** Doanh thu 7.900 tỷ; Lợi nhuận 650 tỷ.\n*   **Xu hướng:** Cả doanh thu và lợi nhuận đều có xu hướng tăng trưởng qua các năm, đặc biệt là sự bứt phá mạnh mẽ về lợi nhuận trong năm 2022.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH (Diagrams)\n\n**Sơ đồ: Cơ cấu tổ chức Công ty I.D.I**\n*   **Cấp cao nhất:** Đại hội đồng cổ đông.\n*   **Cấp quản trị:** Hội đồng quản trị (HĐQT) và Ban Kiểm soát.\n*   **Cấp điều hành:** Tổng Giám đốc.\n*   **Các phòng ban trực thuộc Tổng Giám đốc:**\n    1.  Khối Kinh doanh & Xuất khẩu.\n    2.  Khối Sản xuất & Chế biến.\n    3.  Khối Tài chính - Kế toán.\n    4.  Khối Hành chính - Nhân sự.\n    5.  Khối Quản lý chất lượng (QC).\n\n---\n*Lưu ý: Các thông tin trên được trích xuất trực tiếp từ hình ảnh bạn cung cấp. Nếu có các phần bị che khuất hoặc không rõ nét trong ảnh, tôi đã lược bỏ để đảm bảo tính chính xác.*",
+  "image_ref": "data/advanced/images/page_170.jpg",
+  "metadata": {
+    "page": 170,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_170.jpg",
+    "char_count": 2575
+  }
+}

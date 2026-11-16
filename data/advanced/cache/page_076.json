@@ -1,0 +1,15 @@
+{
+  "id": "doc_p076_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 76,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN (Text)\n\n*   **Tiêu đề chính:** BÁO CÁO THƯỜNG NIÊN 2022\n*   **Tiêu đề phụ:** CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ PHÁT TRIỂN ĐA QUỐC GIA I.D.I\n*   **Tiêu đề mục:** CHIẾN LƯỢC PHÁT TRIỂN BỀN VỮNG\n*   **Nội dung văn bản:**\n    *   \"Trong năm 2022, I.D.I đã tập trung nguồn lực để thực hiện chiến lược phát triển bền vững, chú trọng vào việc tối ưu hóa quy trình sản xuất, nâng cao chất lượng sản phẩm và mở rộng thị trường xuất khẩu. Công ty cam kết duy trì các tiêu chuẩn quốc tế về môi trường và trách nhiệm xã hội, đồng thời đảm bảo lợi ích hài hòa cho cổ đông, người lao động và cộng đồng.\"\n*   **Thông tin nhân sự:**\n    *   **Ông Lê Thanh Thuấn** – Chủ tịch Hội đồng Quản trị\n    *   **Ông Nguyễn Thanh Hải** – Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU (Tables)\n\n**Bảng: Kết quả kinh doanh hợp nhất (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2020 | Năm 2021 | Năm 2022 |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 4.645 | 5.350 | 8.850 |\n| Lợi nhuận gộp | 450 | 520 | 1.250 |\n| Lợi nhuận sau thuế | 120 | 135 | 750 |\n| Tổng tài sản | 6.800 | 7.200 | 8.500 |\n\n---\n\n### 3. BIỂU ĐỒ (Charts)\n\n**Biểu đồ: Tăng trưởng doanh thu xuất khẩu (2020 - 2022)**\n*   **Loại biểu đồ:** Biểu đồ cột (Column Chart)\n*   **Trục hoành:** Năm (2020, 2021, 2022)\n*   **Trục tung:** Tỷ đồng\n*   **Giá trị số liệu:**\n    *   Năm 2020: 3.200 tỷ đồng\n    *   Năm 2021: 3.800 tỷ đồng\n    *   Năm 2022: 6.500 tỷ đồng\n*   **Xu hướng:** Doanh thu xuất khẩu tăng trưởng mạnh qua các năm, đặc biệt là sự bứt phá trong năm 2022.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH (Diagrams)\n\n**Sơ đồ: Chuỗi giá trị sản xuất khép kín của I.D.I**\n*   **Bước 1: Vùng nuôi trồng:** Kiểm soát chất lượng con giống và thức ăn.\n*   **Bước 2: Nhà máy chế biến:** Áp dụng tiêu chuẩn HACCP, ISO, BRC.\n*   **Bước 3: Hệ thống kho lạnh:** Đảm bảo lưu trữ và bảo quản sản phẩm.\n*   **Bước 4: Phân phối & Xuất khẩu:** Tiếp cận các thị trường khó tính (Mỹ, EU, Trung Quốc).\n\n---\n*Lưu ý: Các dữ liệu trên được trích xuất trực tiếp từ hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu so với bản gốc do chất lượng ảnh, vui lòng đối chiếu lại với tài liệu gốc.*",
+  "image_ref": "data/advanced/images/page_076.jpg",
+  "metadata": {
+    "page": 76,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_076.jpg",
+    "char_count": 2206
+  }
+}

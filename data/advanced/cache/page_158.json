@@ -1,0 +1,15 @@
+{
+  "id": "doc_p158_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 158,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ hình ảnh báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN (Text)\n\n*   **Tiêu đề chính:** BÁO CÁO THƯỜNG NIÊN 2022\n*   **Tiêu đề phụ:** CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ KINH DOANH NHÀ KHANG ĐIỀN\n*   **Thông điệp chính:** KIẾN TẠO KHÔNG GIAN SỐNG HOÀN HẢO\n*   **Đoạn văn bản (Lời ngỏ):**\n    \"Khang Điền luôn kiên định với mục tiêu phát triển bền vững, lấy chất lượng sản phẩm và uy tín thương hiệu làm nền tảng. Chúng tôi không ngừng nỗ lực kiến tạo những không gian sống hoàn hảo, nơi sự kết nối giữa con người và thiên nhiên được trân trọng, mang lại giá trị gia tăng bền vững cho khách hàng, cổ đông và cộng đồng.\"\n\n---\n\n### 2. BẢNG BIỂU (Tables)\n\n**Bảng: Các chỉ tiêu tài chính hợp nhất (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2020 | Năm 2021 | Năm 2022 |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 4.529 | 5.415 | 2.912 |\n| Lợi nhuận sau thuế | 1.152 | 1.202 | 1.082 |\n| Tổng tài sản | 13.948 | 15.912 | 24.294 |\n| Vốn chủ sở hữu | 7.564 | 8.766 | 11.524 |\n\n---\n\n### 3. BIỂU ĐỒ (Charts)\n\n**Biểu đồ 1: Biểu đồ cột - Doanh thu thuần (2020 - 2022)**\n*   **Loại biểu đồ:** Cột đơn\n*   **Trục hoành:** Năm (2020, 2021, 2022)\n*   **Trục tung:** Tỷ đồng\n*   **Giá trị số liệu:**\n    *   Năm 2020: 4.529\n    *   Năm 2021: 5.415\n    *   Năm 2022: 2.912\n*   **Xu hướng:** Tăng trưởng từ 2020 đến 2021, sau đó giảm mạnh vào năm 2022.\n\n**Biểu đồ 2: Biểu đồ cột - Lợi nhuận sau thuế (2020 - 2022)**\n*   **Loại biểu đồ:** Cột đơn\n*   **Trục hoành:** Năm (2020, 2021, 2022)\n*   **Trục tung:** Tỷ đồng\n*   **Giá trị số liệu:**\n    *   Năm 2020: 1.152\n    *   Năm 2021: 1.202\n    *   Năm 2022: 1.082\n*   **Xu hướng:** Tăng nhẹ từ 2020 đến 2021, giảm nhẹ vào năm 2022.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH (Diagrams)\n\n*   **Hình ảnh minh họa:** Hình ảnh phối cảnh một dự án khu đô thị với nhiều cây xanh, hồ nước và các dãy nhà phố/biệt thự hiện đại, thể hiện đúng thông điệp \"Kiến tạo không gian sống hoàn hảo\".\n*   **Bố cục:** Trang báo cáo được thiết kế theo phong cách tối giản, sử dụng tông màu chủ đạo là xanh dương và trắng, tạo cảm giác chuyên nghiệp và tin cậy.",
+  "image_ref": "data/advanced/images/page_158.jpg",
+  "metadata": {
+    "page": 158,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_158.jpg",
+    "char_count": 2110
+  }
+}

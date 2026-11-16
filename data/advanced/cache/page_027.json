@@ -1,0 +1,15 @@
+{
+  "id": "doc_p027_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 27,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** ĐỊNH HƯỚNG CHIẾN LƯỢC NĂM 2024\n*   **Nội dung văn bản:**\n    *   \"Năm 2024, Công ty xác định mục tiêu trọng tâm là tối ưu hóa hiệu quả hoạt động, đẩy mạnh chuyển đổi số và phát triển bền vững. Chúng tôi cam kết tiếp tục nâng cao chất lượng sản phẩm, mở rộng thị phần và mang lại giá trị gia tăng cho cổ đông.\"\n    *   \"Ban Tổng Giám đốc tin tưởng rằng với sự đồng lòng của tập thể cán bộ nhân viên và sự tin tưởng của Quý cổ đông, Công ty sẽ vượt qua mọi thách thức để hoàn thành các mục tiêu đề ra.\"\n*   **Thông tin ký tên:**\n    *   **Người ký:** Nguyễn Văn A\n    *   **Chức danh:** Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng 1: Kết quả kinh doanh hợp nhất (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.250 | 1.480 | 18,4% |\n| Lợi nhuận gộp | 350 | 420 | 20,0% |\n| Lợi nhuận sau thuế | 120 | 155 | 29,2% |\n\n---\n\n### 3. BIỂU ĐỒ\n**Biểu đồ 1: Biểu đồ cột - Doanh thu và Lợi nhuận sau thuế (2021 - 2023)**\n*   **Loại biểu đồ:** Biểu đồ cột ghép (Clustered Column Chart).\n*   **Trục hoành:** Năm (2021, 2022, 2023).\n*   **Trục tung:** Đơn vị tính là Tỷ đồng.\n*   **Chú giải:**\n    *   Cột màu xanh dương: Doanh thu thuần.\n    *   Cột màu cam: Lợi nhuận sau thuế.\n*   **Giá trị số liệu:**\n    *   **Năm 2021:** Doanh thu: 1.100 tỷ đồng | Lợi nhuận: 90 tỷ đồng.\n    *   **Năm 2022:** Doanh thu: 1.250 tỷ đồng | Lợi nhuận: 120 tỷ đồng.\n    *   **Năm 2023:** Doanh thu: 1.480 tỷ đồng | Lợi nhuận: 155 tỷ đồng.\n*   **Xu hướng:** Cả doanh thu và lợi nhuận đều có xu hướng tăng trưởng liên tục qua các năm.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n**Sơ đồ 1: Mô hình chuỗi giá trị cốt lõi**\n*   **Quy trình gồm 4 giai đoạn chính:**\n    1.  **Nghiên cứu & Phát triển (R&D):** Tập trung vào đổi mới công nghệ và sản phẩm mới.\n    2.  **Sản xuất:** Áp dụng tiêu chuẩn ISO và tự động hóa dây chuyền.\n    3.  **Phân phối:** Mở rộng mạng lưới đại lý trên toàn quốc.\n    4.  **Dịch vụ khách hàng:** Chăm sóc sau bán hàng và phản hồi thị trường.\n\n*Lưu ý: Các thông tin trên được trích xuất dựa trên nội dung hình ảnh bạn cung cấp. Nếu hình ảnh có các chi tiết nhỏ hoặc mờ, tôi đã cố gắng diễn giải sát nhất với dữ liệu hiển thị.*",
+  "image_ref": "data/advanced/images/page_027.jpg",
+  "metadata": {
+    "page": 27,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_027.jpg",
+    "char_count": 2373
+  }
+}

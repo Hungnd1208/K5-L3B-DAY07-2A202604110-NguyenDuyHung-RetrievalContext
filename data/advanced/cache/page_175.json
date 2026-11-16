@@ -1,0 +1,15 @@
+{
+  "id": "doc_p175_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 175,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** ĐỊNH HƯỚNG CHIẾN LƯỢC NĂM 2024\n*   **Nội dung văn bản:**\n    *   \"Năm 2024, Công ty tiếp tục tập trung vào việc tối ưu hóa quy trình sản xuất, nâng cao chất lượng sản phẩm và mở rộng thị phần. Chúng tôi cam kết duy trì sự phát triển bền vững, mang lại giá trị tối đa cho cổ đông và khách hàng.\"\n    *   \"Ban Tổng Giám đốc tin tưởng rằng với sự đồng lòng của tập thể cán bộ nhân viên, Công ty sẽ vượt qua mọi thách thức và đạt được các mục tiêu đề ra.\"\n*   **Thông tin người ký:**\n    *   **NGUYỄN VĂN A**\n    *   Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng: KẾT QUẢ KINH DOANH HỢP NHẤT (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.250 | 1.480 | 18,4% |\n| Lợi nhuận gộp | 320 | 395 | 23,4% |\n| Lợi nhuận sau thuế | 150 | 195 | 30,0% |\n| Biên lợi nhuận ròng | 12,0% | 13,2% | 1,2% |\n\n---\n\n### 3. BIỂU ĐỒ\n**Loại biểu đồ:** Biểu đồ cột (Column Chart)\n**Tiêu đề:** SẢN LƯỢNG TIÊU THỤ SẢN PHẨM (Đơn vị: Nghìn tấn)\n\n*   **Trục hoành:** Năm (2021, 2022, 2023)\n*   **Trục tung:** Sản lượng (Nghìn tấn)\n*   **Giá trị số liệu:**\n    *   Năm 2021: 85 nghìn tấn\n    *   Năm 2022: 98 nghìn tấn\n    *   Năm 2023: 115 nghìn tấn\n*   **Xu hướng:** Sản lượng tiêu thụ có xu hướng tăng trưởng liên tục qua các năm, với mức tăng trưởng ổn định từ 2021 đến 2023.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n**Sơ đồ: CƠ CẤU TỔ CHỨC CÔNG TY**\n\n*   **Cấp cao nhất:** Hội đồng Quản trị\n*   **Cấp điều hành:** Ban Tổng Giám đốc\n*   **Các khối chức năng trực thuộc:**\n    1.  **Khối Kinh doanh & Marketing:** Phụ trách phát triển thị trường và bán hàng.\n    2.  **Khối Sản xuất:** Phụ trách vận hành nhà máy và quản lý chất lượng.\n    3.  **Khối Tài chính - Kế toán:** Phụ trách quản lý dòng tiền và báo cáo tài chính.\n    4.  **Khối Nhân sự & Hành chính:** Phụ trách quản trị nguồn nhân lực và hỗ trợ vận hành.\n\n---\n*Lưu ý: Các thông tin trên được trích xuất trực tiếp từ hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu do chất lượng ảnh, vui lòng đối chiếu với bản gốc.*",
+  "image_ref": "data/advanced/images/page_175.jpg",
+  "metadata": {
+    "page": 175,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_175.jpg",
+    "char_count": 2216
+  }
+}

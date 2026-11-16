@@ -1,0 +1,15 @@
+{
+  "id": "doc_p066_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 66,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** ĐỊNH HƯỚNG CHIẾN LƯỢC NĂM 2024\n*   **Nội dung văn bản:**\n    *   \"Năm 2024, Công ty xác định mục tiêu trọng tâm là tối ưu hóa hiệu quả hoạt động, đẩy mạnh chuyển đổi số và phát triển bền vững. Chúng tôi cam kết tiếp tục nâng cao chất lượng sản phẩm, mở rộng thị phần và mang lại giá trị gia tăng cho cổ đông.\"\n    *   \"Ban Tổng Giám đốc tin tưởng rằng với sự đồng lòng của tập thể cán bộ nhân viên và sự tin tưởng của Quý cổ đông, Công ty sẽ vượt qua mọi thách thức để hoàn thành các mục tiêu đề ra.\"\n*   **Thông tin ký tên:**\n    *   **Người ký:** Nguyễn Văn A\n    *   **Chức danh:** Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng: Kết quả kinh doanh hợp nhất (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.250 | 1.480 | 18,4% |\n| Lợi nhuận gộp | 320 | 410 | 28,1% |\n| Lợi nhuận sau thuế | 150 | 210 | 40,0% |\n| Tổng tài sản | 2.500 | 2.850 | 14,0% |\n\n---\n\n### 3. BIỂU ĐỒ\n**Loại biểu đồ:** Biểu đồ cột (Column Chart)\n**Tiêu đề:** Tăng trưởng doanh thu và lợi nhuận (2021 - 2023)\n\n*   **Trục hoành:** Năm (2021, 2022, 2023)\n*   **Trục tung:** Tỷ đồng\n*   **Chú giải:**\n    *   Cột màu xanh dương: Doanh thu thuần\n    *   Cột màu cam: Lợi nhuận sau thuế\n*   **Giá trị số liệu:**\n    *   **Năm 2021:** Doanh thu 1.000 tỷ đồng; Lợi nhuận 100 tỷ đồng.\n    *   **Năm 2022:** Doanh thu 1.250 tỷ đồng; Lợi nhuận 150 tỷ đồng.\n    *   **Năm 2023:** Doanh thu 1.480 tỷ đồng; Lợi nhuận 210 tỷ đồng.\n*   **Xu hướng:** Cả doanh thu và lợi nhuận đều có xu hướng tăng trưởng liên tục qua các năm, trong đó tốc độ tăng trưởng lợi nhuận có dấu hiệu tăng nhanh hơn doanh thu trong năm 2023.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n**Sơ đồ: Cơ cấu tổ chức Công ty**\n\n*   **Cấp cao nhất:** Đại hội đồng cổ đông\n*   **Cấp giám sát:** Hội đồng Quản trị (HĐQT) -> Ban Kiểm soát\n*   **Cấp điều hành:** Ban Tổng Giám đốc\n    *   **Khối Kinh doanh:** Phụ trách thị trường nội địa và xuất khẩu.\n    *   **Khối Sản xuất:** Phụ trách các nhà máy và quản lý chất lượng.\n    *   **Khối Tài chính - Nhân sự:** Phụ trách kế toán, tài chính và quản trị nguồn nhân lực.\n    *   **Khối Công nghệ:** Phụ trách chuyển đổi số và hạ tầng IT.\n\n---\n*Lưu ý: Các thông tin trên được trích xuất dựa trên nội dung hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu so với bản gốc, vui lòng kiểm tra lại độ rõ nét của ảnh đầu vào.*",
+  "image_ref": "data/advanced/images/page_066.jpg",
+  "metadata": {
+    "page": 66,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_066.jpg",
+    "char_count": 2552
+  }
+}

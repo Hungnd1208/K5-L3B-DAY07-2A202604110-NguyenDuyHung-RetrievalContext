@@ -1,0 +1,15 @@
+{
+  "id": "doc_p075_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 75,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** ĐỊNH HƯỚNG CHIẾN LƯỢC NĂM 2024\n*   **Nội dung văn bản:**\n    \"Năm 2024, Công ty xác định mục tiêu trọng tâm là tối ưu hóa hiệu quả hoạt động, tập trung vào các mảng kinh doanh cốt lõi và đẩy mạnh chuyển đổi số. Chúng tôi cam kết tiếp tục nâng cao giá trị cho cổ đông thông qua việc duy trì tăng trưởng bền vững và quản trị rủi ro chặt chẽ.\"\n*   **Thông tin người ký:**\n    *   **Ký tên:** (Chữ ký)\n    *   **Họ và tên:** Nguyễn Văn A\n    *   **Chức danh:** Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng: Kết quả kinh doanh hợp nhất (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.250 | 1.420 | 13,6% |\n| Lợi nhuận gộp | 310 | 385 | 24,2% |\n| Lợi nhuận sau thuế | 180 | 215 | 19,4% |\n| Biên lợi nhuận ròng | 14,4% | 15,1% | 0,7% |\n\n---\n\n### 3. BIỂU ĐỒ\n*   **Loại biểu đồ:** Biểu đồ cột (Column Chart)\n*   **Tiêu đề:** Tăng trưởng doanh thu qua các năm\n*   **Trục hoành:** Năm (2021, 2022, 2023)\n*   **Trục tung:** Doanh thu (Tỷ đồng)\n*   **Giá trị số liệu:**\n    *   Năm 2021: 1.050 tỷ đồng\n    *   Năm 2022: 1.250 tỷ đồng\n    *   Năm 2023: 1.420 tỷ đồng\n*   **Xu hướng:** Biểu đồ thể hiện xu hướng tăng trưởng liên tục qua 3 năm, với tốc độ tăng trưởng ổn định.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n*   **Mô tả:** Sơ đồ cơ cấu tổ chức cấp cao của Công ty.\n*   **Cấu trúc:**\n    1.  **Đại hội đồng cổ đông** (Cấp cao nhất)\n    2.  **Hội đồng Quản trị** (Giám sát)\n    3.  **Ban Kiểm soát** (Kiểm tra, giám sát)\n    4.  **Ban Tổng Giám đốc** (Điều hành trực tiếp)\n        *   Khối Kinh doanh\n        *   Khối Tài chính - Kế toán\n        *   Khối Vận hành & Sản xuất\n        *   Khối Nhân sự & Hành chính\n\n---\n*Lưu ý: Các thông tin trên được trích xuất dựa trên hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu do chất lượng ảnh, vui lòng đối chiếu với bản gốc.*",
+  "image_ref": "data/advanced/images/page_075.jpg",
+  "metadata": {
+    "page": 75,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_075.jpg",
+    "char_count": 2032
+  }
+}

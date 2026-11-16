@@ -1,0 +1,15 @@
+{
+  "id": "doc_p023_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 23,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Đoạn văn bản:**\n    \"Năm 2023 là một năm đầy thách thức đối với nền kinh tế nói chung và ngành sản xuất, kinh doanh thép nói riêng. Tuy nhiên, với sự chỉ đạo sát sao của Hội đồng Quản trị, sự nỗ lực không ngừng của Ban Tổng Giám đốc cùng toàn thể cán bộ nhân viên, Công ty đã vượt qua khó khăn, duy trì hoạt động sản xuất kinh doanh ổn định, đảm bảo việc làm và thu nhập cho người lao động, đồng thời hoàn thành các chỉ tiêu kế hoạch đề ra.\"\n*   **Thông tin ký tên:**\n    *   **Đại diện Ban Tổng Giám đốc**\n    *   **Tổng Giám đốc**\n    *   *(Chữ ký)*\n    *   **Nguyễn Văn A**\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng 1: Kết quả hoạt động kinh doanh năm 2023**\n\n| Chỉ tiêu | Đơn vị tính | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :--- | :--- | :--- | :--- |\n| Doanh thu thuần | Tỷ đồng | 15.200 | 14.850 | -2,3% |\n| Lợi nhuận gộp | Tỷ đồng | 1.850 | 1.920 | +3,8% |\n| Lợi nhuận sau thuế | Tỷ đồng | 850 | 910 | +7,1% |\n| Sản lượng thép tiêu thụ | Tấn | 1.200.000 | 1.250.000 | +4,2% |\n\n---\n\n### 3. BIỂU ĐỒ\n**Biểu đồ 1: Biểu đồ cột - Sản lượng tiêu thụ thép (2021 - 2023)**\n*   **Loại biểu đồ:** Biểu đồ cột đứng.\n*   **Trục hoành:** Các năm (2021, 2022, 2023).\n*   **Trục tung:** Đơn vị tính là \"Nghìn tấn\".\n*   **Giá trị số liệu:**\n    *   Năm 2021: 1.100 nghìn tấn.\n    *   Năm 2022: 1.200 nghìn tấn.\n    *   Năm 2023: 1.250 nghìn tấn.\n*   **Xu hướng:** Sản lượng tiêu thụ có xu hướng tăng trưởng liên tục qua các năm.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n*   **Hình ảnh minh họa:** Trang báo cáo có chèn hình ảnh một nhà máy thép hiện đại với các ống khói và dây chuyền sản xuất, thể hiện quy mô công nghiệp của công ty.\n*   **Sơ đồ chuỗi giá trị (Tóm tắt):**\n    *   **Đầu vào:** Nguyên liệu thô (Quặng sắt, phế liệu).\n    *   **Sản xuất:** Luyện kim -> Cán thép -> Hoàn thiện.\n    *   **Đầu ra:** Phân phối đến các đại lý và công trình xây dựng trên toàn quốc.\n\n---\n*Lưu ý: Các dữ liệu trên được trích xuất trực tiếp từ hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu do chất lượng ảnh, vui lòng đối chiếu với bản gốc.*",
+  "image_ref": "data/advanced/images/page_023.jpg",
+  "metadata": {
+    "page": 23,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_023.jpg",
+    "char_count": 2201
+  }
+}

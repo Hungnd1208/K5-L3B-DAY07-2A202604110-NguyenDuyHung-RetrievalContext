@@ -1,0 +1,15 @@
+{
+  "id": "doc_p019_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 19,
+  "type": "visual_multimodal",
+  "text": "Dựa trên hình ảnh báo cáo thường niên được cung cấp, dưới đây là phân tích chi tiết các nội dung:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO THƯỜNG NIÊN 2022\n*   **Tiêu đề phụ:** CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ PHÁT TRIỂN ĐA QUỐC GIA I.D.I\n*   **Tiêu đề mục:** 3. CHIẾN LƯỢC PHÁT TRIỂN\n*   **Nội dung chiến lược:**\n    *   **Mục tiêu:** Trở thành doanh nghiệp hàng đầu trong lĩnh vực chế biến và xuất khẩu thủy sản tại Việt Nam.\n    *   **Chiến lược:**\n        *   Tập trung vào chất lượng sản phẩm, đảm bảo tiêu chuẩn quốc tế.\n        *   Mở rộng thị trường xuất khẩu, đặc biệt là các thị trường khó tính như Mỹ, EU, Nhật Bản.\n        *   Đầu tư vào công nghệ chế biến hiện đại, nâng cao giá trị gia tăng cho sản phẩm.\n        *   Xây dựng vùng nuôi bền vững, đảm bảo nguồn nguyên liệu ổn định và chất lượng.\n        *   Phát triển nguồn nhân lực chất lượng cao, chuyên nghiệp.\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng: Kết quả hoạt động kinh doanh (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2020 | Năm 2021 | Năm 2022 |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 4.765 | 5.150 | 7.930 |\n| Lợi nhuận gộp | 350 | 420 | 1.150 |\n| Lợi nhuận sau thuế | 120 | 105 | 650 |\n\n---\n\n### 3. BIỂU ĐỒ\n**Biểu đồ: Tăng trưởng doanh thu và lợi nhuận (2020 - 2022)**\n*   **Loại biểu đồ:** Biểu đồ cột ghép (Clustered Column Chart).\n*   **Trục hoành:** Các năm 2020, 2021, 2022.\n*   **Trục tung:** Đơn vị tính là Tỷ đồng.\n*   **Chú giải:**\n    *   Cột màu xanh dương: Doanh thu thuần.\n    *   Cột màu cam: Lợi nhuận sau thuế.\n*   **Giá trị số liệu:**\n    *   **Năm 2020:** Doanh thu 4.765 tỷ; Lợi nhuận 120 tỷ.\n    *   **Năm 2021:** Doanh thu 5.150 tỷ; Lợi nhuận 105 tỷ.\n    *   **Năm 2022:** Doanh thu 7.930 tỷ; Lợi nhuận 650 tỷ.\n*   **Xu hướng:** Doanh thu tăng trưởng đều qua các năm, đặc biệt tăng mạnh vào năm 2022. Lợi nhuận sau thuế có sự sụt giảm nhẹ vào năm 2021 nhưng bứt phá mạnh mẽ vào năm 2022.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n*   **Hình ảnh minh họa:** Bên phải trang báo cáo là hình ảnh một dây chuyền chế biến thủy sản hiện đại với công nhân đang làm việc trong môi trường sạch sẽ, chuyên nghiệp, thể hiện năng lực sản xuất của công ty.\n*   **Sơ đồ chuỗi giá trị (Mô tả):**\n    *   **Đầu vào:** Vùng nuôi đạt chuẩn (Global GAP, ASC).\n    *   **Sản xuất:** Nhà máy chế biến công nghệ cao.\n    *   **Đầu ra:** Xuất khẩu sang các thị trường quốc tế (Mỹ, EU, Nhật Bản, Trung Quốc).\n    *   **Hỗ trợ:** Hệ thống quản lý chất lượng và đội ngũ nhân sự chuyên môn cao.",
+  "image_ref": "data/advanced/images/page_019.jpg",
+  "metadata": {
+    "page": 19,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_019.jpg",
+    "char_count": 2459
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "doc_p173_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 173,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** ĐỊNH HƯỚNG CHIẾN LƯỢC NĂM 2024\n*   **Nội dung văn bản:**\n    \"Năm 2024, Công ty xác định mục tiêu trọng tâm là tối ưu hóa hiệu quả hoạt động, đẩy mạnh chuyển đổi số và mở rộng thị phần. Chúng tôi cam kết tiếp tục nâng cao giá trị cho cổ đông thông qua việc duy trì tăng trưởng bền vững và quản trị rủi ro chặt chẽ.\"\n*   **Thông tin người ký:**\n    *   **Ký tên:** (Chữ ký)\n    *   **Họ và tên:** Nguyễn Văn A\n    *   **Chức danh:** Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng: Kết quả kinh doanh hợp nhất (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.250 | 1.480 | 18,4% |\n| Lợi nhuận gộp | 320 | 410 | 28,1% |\n| Lợi nhuận sau thuế | 150 | 210 | 40,0% |\n| Biên lợi nhuận ròng | 12% | 14,2% | - |\n\n---\n\n### 3. BIỂU ĐỒ\n**Loại biểu đồ:** Biểu đồ cột (Column Chart)\n**Tiêu đề:** Tăng trưởng doanh thu và lợi nhuận (2021 - 2023)\n*   **Trục hoành:** Năm (2021, 2022, 2023)\n*   **Trục tung:** Tỷ đồng\n*   **Chú giải:**\n    *   Cột màu xanh dương: Doanh thu thuần\n    *   Cột màu cam: Lợi nhuận sau thuế\n*   **Giá trị số liệu:**\n    *   **Năm 2021:** Doanh thu 1.000 tỷ, Lợi nhuận 100 tỷ.\n    *   **Năm 2022:** Doanh thu 1.250 tỷ, Lợi nhuận 150 tỷ.\n    *   **Năm 2023:** Doanh thu 1.480 tỷ, Lợi nhuận 210 tỷ.\n*   **Xu hướng:** Cả doanh thu và lợi nhuận đều có xu hướng tăng trưởng liên tục qua 3 năm.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n**Sơ đồ: Cơ cấu tổ chức Công ty**\n*   **Cấp cao nhất:** Đại hội đồng cổ đông\n*   **Cấp thứ hai:** Hội đồng Quản trị (HĐQT)\n*   **Cấp thứ ba:** Ban Kiểm soát và Ban Tổng Giám đốc\n*   **Cấp thứ tư (dưới Ban Tổng Giám đốc):**\n    *   Khối Kinh doanh\n    *   Khối Tài chính - Kế toán\n    *   Khối Sản xuất\n    *   Khối Nhân sự - Hành chính\n\n---\n*Lưu ý: Các thông tin trên được trích xuất dựa trên nội dung hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu do chất lượng ảnh, vui lòng đối chiếu với bản gốc.*",
+  "image_ref": "data/advanced/images/page_173.jpg",
+  "metadata": {
+    "page": 173,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_173.jpg",
+    "char_count": 2109
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "split": "test",
+  "total": 30,
+  "passed": 30,
+  "accuracy": 100.0,
+  "target_met": true,
+  "category_breakdown": {
+    "table": {
+      "total": 6,
+      "passed": 6
+    },
+    "diagram": {
+      "total": 5,
+      "passed": 5
+    },
+    "chart": {
+      "total": 5,
+      "passed": 5
+    },
+    "multi_hop": {
+      "total": 4,
+      "passed": 4
+    },
+    "text": {
+      "total": 4,
+      "passed": 4
+    },
+    "abstention": {
+      "total": 6,
+      "passed": 6
+    }
+  },
+  "total_elapsed_seconds": 109.98
+}

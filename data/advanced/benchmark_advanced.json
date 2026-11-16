@@ -1,0 +1,454 @@
+[
+  {
+    "id": "adv_dev_tbl_01",
+    "split": "dev",
+    "category": "table",
+    "question": "Theo Bảng kết quả kinh doanh hợp nhất ở trang 1, Doanh thu thuần của Công ty trong năm 2022 và năm 2023 đạt bao nhiêu tỷ đồng, và tỷ lệ tăng trưởng là bao nhiêu phần trăm?",
+    "expected_answer": "Năm 2022 đạt 1.250 tỷ đồng, năm 2023 đạt 1.420 tỷ đồng, tỷ lệ tăng trưởng là 13,6%.",
+    "gold_page": 1,
+    "evidence": "Doanh thu thuần | 1.250 | 1.420 | 13,6%"
+  },
+  {
+    "id": "adv_dev_tbl_02",
+    "split": "dev",
+    "category": "table",
+    "question": "Theo Bảng kết quả kinh doanh hợp nhất ở trang 1, Lợi nhuận sau thuế năm 2023 đạt bao nhiêu tỷ đồng và tăng trưởng bao nhiêu phần trăm so với năm 2022?",
+    "expected_answer": "Năm 2023 đạt 155 tỷ đồng, tăng trưởng 29,2% so với năm 2022 (đạt 120 tỷ đồng).",
+    "gold_page": 1,
+    "evidence": "Lợi nhuận sau thuế | 120 | 155 | 29,2%"
+  },
+  {
+    "id": "adv_dev_tbl_03",
+    "split": "dev",
+    "category": "table",
+    "question": "Theo Bảng các chỉ tiêu tài chính chủ yếu ở trang 20, Tổng tài sản của Công ty Cổ phần Đầu tư và Kinh doanh Nhà Khang Điền trong các năm 2020, 2021 và 2022 lần lượt là bao nhiêu tỷ đồng?",
+    "expected_answer": "Tổng tài sản năm 2020 là 13.948 tỷ đồng, năm 2021 là 15.906 tỷ đồng và năm 2022 là 22.972 tỷ đồng.",
+    "gold_page": 20,
+    "evidence": "Tổng tài sản | 13.948 | 15.906 | 22.972"
+  },
+  {
+    "id": "adv_dev_crt_01",
+    "split": "dev",
+    "category": "chart",
+    "question": "Trong báo cáo ở trang 1, tỷ lệ tăng trưởng Lợi nhuận gộp giữa năm 2022 và năm 2023 là bao nhiêu phần trăm?",
+    "expected_answer": "Tỷ lệ tăng trưởng Lợi nhuận gộp là 22,6% (từ 310 tỷ đồng lên 380 tỷ đồng).",
+    "gold_page": 1,
+    "evidence": "Lợi nhuận gộp | 310 | 380 | 22,6%"
+  },
+  {
+    "id": "adv_dev_crt_02",
+    "split": "dev",
+    "category": "chart",
+    "question": "Theo số liệu tài chính trang 20, Vốn chủ sở hữu của Khang Điền biến động như thế nào từ năm 2020 đến năm 2022?",
+    "expected_answer": "Vốn chủ sở hữu tăng liên tục từ 7.554 tỷ đồng (2020) lên 8.784 tỷ đồng (2021) và đạt 12.356 tỷ đồng (2022).",
+    "gold_page": 20,
+    "evidence": "Vốn chủ sở hữu | 7.554 | 8.784 | 12.356"
+  },
+  {
+    "id": "adv_dev_crt_03",
+    "split": "dev",
+    "category": "chart",
+    "question": "Theo Bảng kết quả kinh doanh trang 1, Chi phí bán hàng & QLDN năm 2023 tăng bao nhiêu phần trăm so với năm 2022?",
+    "expected_answer": "Chi phí bán hàng & QLDN tăng 16,7% (từ 150 tỷ đồng lên 175 tỷ đồng).",
+    "gold_page": 1,
+    "evidence": "Chi phí bán hàng & QLDN | 150 | 175 | 16,7%"
+  },
+  {
+    "id": "adv_dev_dgm_01",
+    "split": "dev",
+    "category": "diagram",
+    "question": "Theo văn bản công bố ở trang 1, người giữ chức danh Tổng Giám đốc ký tên trên báo cáo là ai?",
+    "expected_answer": "Tổng Giám đốc là ông Nguyễn Văn A.",
+    "gold_page": 1,
+    "evidence": "Nguyễn Văn A\n    *   **Chức danh:** Tổng Giám đốc"
+  },
+  {
+    "id": "adv_dev_dgm_02",
+    "split": "dev",
+    "category": "diagram",
+    "question": "Theo Báo cáo thường niên trang 170, Công ty Cổ phần Đầu tư và Phát triển Đa quốc gia I.D.I có những Giá trị cốt lõi nào?",
+    "expected_answer": "Giá trị cốt lõi gồm: Chất lượng là ưu tiên hàng đầu; Sáng tạo và đổi mới không ngừng; Trách nhiệm với cộng đồng và môi trường; Hợp tác cùng phát triển.",
+    "gold_page": 170,
+    "evidence": "Chất lượng là ưu tiên hàng đầu.\n        *   Sáng tạo và đổi mới không ngừng.\n        *   Trách nhiệm với cộng đồng và môi trường.\n        *   Hợp tác cùng phát triển."
+  },
+  {
+    "id": "adv_dev_dgm_03",
+    "split": "dev",
+    "category": "diagram",
+    "question": "Theo trang 35, 4 giá trị cốt lõi trong chiến lược phát triển của Khang Điền được nêu ra là gì?",
+    "expected_answer": "Bao gồm: Chính trực, Chuyên nghiệp, Sáng tạo và Tận tâm.",
+    "gold_page": 35,
+    "evidence": "Chính trực: Trung thực, minh bạch trong mọi hoạt động.\n  *   **Chuyên nghiệp:** Năng lực chuyên môn cao, quy trình làm việc hiệu quả.\n  *   **Sáng tạo:** Luôn tìm kiếm giải pháp mới, tối ưu hóa giá trị.\n  *   **Tận tâm:** Hết lòng vì khách hàng, đối tác và cộng đồng."
+  },
+  {
+    "id": "adv_dev_mhp_01",
+    "split": "dev",
+    "category": "multi_hop",
+    "question": "So sánh Doanh thu thuần của Công ty ở trang 1 năm 2022 với Doanh thu thuần của Khang Điền ở trang 20 năm 2022, doanh nghiệp nào có doanh thu cao hơn và chênh lệch bao nhiêu tỷ đồng?",
+    "expected_answer": "Khang Điền (trang 20) có doanh thu thuần năm 2022 cao hơn (2.912 tỷ đồng so với 1.250 tỷ đồng ở trang 1), chênh lệch 1.662 tỷ đồng.",
+    "gold_pages": [
+      1,
+      20
+    ],
+    "evidence": "Doanh thu thuần | 1.250 | 1.420 | 13,6% ... Doanh thu thuần | 4.513 | 5.454 | 2.912"
+  },
+  {
+    "id": "adv_dev_mhp_02",
+    "split": "dev",
+    "category": "multi_hop",
+    "question": "So sánh Lợi nhuận sau thuế năm 2023 (ở trang 1) với Lợi nhuận gộp năm 2022 (ở trang 1), chỉ tiêu nào lớn hơn và lớn hơn bao nhiêu tỷ đồng?",
+    "expected_answer": "Lợi nhuận gộp năm 2022 (310 tỷ đồng) lớn hơn Lợi nhuận sau thuế năm 2023 (155 tỷ đồng) một khoản là 155 tỷ đồng.",
+    "gold_pages": [
+      1
+    ],
+    "evidence": "Lợi nhuận gộp | 310 | 380 | 22,6% ... Lợi nhuận sau thuế | 120 | 155 | 29,2%"
+  },
+  {
+    "id": "adv_dev_mhp_03",
+    "split": "dev",
+    "category": "multi_hop",
+    "question": "Đối chiếu Tầm nhìn của Khang Điền ở trang 35 và Tầm nhìn của I.D.I ở trang 170, hai doanh nghiệp này định vị trở thành đơn vị hàng đầu trong những lĩnh vực nào?",
+    "expected_answer": "Khang Điền (trang 35) định vị là tập đoàn bất động sản hàng đầu Việt Nam, còn I.D.I (trang 170) định vị là doanh nghiệp hàng đầu trong lĩnh vực chế biến và xuất khẩu thủy sản (cá tra).",
+    "gold_pages": [
+      35,
+      170
+    ],
+    "evidence": "Trở thành tập đoàn bất động sản hàng đầu Việt Nam ... Trở thành doanh nghiệp hàng đầu trong lĩnh vực chế biến và xuất khẩu thủy sản tại Việt Nam"
+  },
+  {
+    "id": "adv_dev_txt_01",
+    "split": "dev",
+    "category": "text",
+    "question": "Trong mục Định hướng chiến lược năm 2024 ở trang 1, Công ty cam kết nâng cao giá trị cho cổ đông thông qua những biện pháp trọng tâm nào?",
+    "expected_answer": "Thông qua việc duy trì tăng trưởng bền vững và quản trị rủi ro chặt chẽ.",
+    "gold_page": 1,
+    "evidence": "Chúng tôi cam kết tiếp tục nâng cao giá trị cho cổ đông thông qua việc duy trì tăng trưởng bền vững và quản trị rủi ro chặt chẽ."
+  },
+  {
+    "id": "adv_dev_txt_02",
+    "split": "dev",
+    "category": "text",
+    "question": "Theo văn bản ở trang 20, thương hiệu Khang Điền có bề dày kinh nghiệm bao nhiêu năm trong lĩnh vực đầu tư, phát triển bất động sản?",
+    "expected_answer": "Khang Điền có bề dày kinh nghiệm hơn 20 năm.",
+    "gold_page": 20,
+    "evidence": "Khang Điền là thương hiệu uy tín, có bề dày kinh nghiệm hơn 20 năm trong lĩnh vực đầu tư, phát triển bất động sản."
+  },
+  {
+    "id": "adv_dev_txt_03",
+    "split": "dev",
+    "category": "text",
+    "question": "Theo trang 100 của tài liệu, trong năm 2023 Công ty đã tập trung nguồn lực vào những mục tiêu phát triển bền vững nào?",
+    "expected_answer": "Tối ưu hóa quy trình sản xuất, giảm thiểu tác động đến môi trường và nâng cao hiệu quả sử dụng năng lượng.",
+    "gold_page": 100,
+    "evidence": "Trong năm 2023, Công ty đã tập trung nguồn lực để tối ưu hóa quy trình sản xuất, giảm thiểu tác động đến môi trường và nâng cao hiệu quả sử dụng"
+  },
+  {
+    "id": "adv_dev_abs_01",
+    "split": "dev",
+    "category": "abstention",
+    "question": "Công ty Khang Điền dự kiến phát hành bao nhiêu trái phiếu quốc tế bằng đồng Euro tại sàn giao dịch chứng khoán London trong năm 2025?",
+    "expected_answer": "Tài liệu không có bằng chứng về việc phát hành trái phiếu quốc tế bằng đồng Euro tại sàn London.",
+    "answerable": false,
+    "absence_reason": "Tài liệu chỉ nêu chiến lược trong nước và các dự án tại TP.HCM, không có kế hoạch phát hành trái phiếu quốc tế."
+  },
+  {
+    "id": "adv_dev_abs_02",
+    "split": "dev",
+    "category": "abstention",
+    "question": "Tỷ giá hối đoái quy đổi giữa đồng Yên Nhật (JPY) và Việt Nam Đồng (VND) áp dụng trong hợp đồng xuất khẩu cá tra của I.D.I ở trang 170 là bao nhiêu?",
+    "expected_answer": "Tài liệu không chứa thông tin về tỷ giá JPY/VND.",
+    "answerable": false,
+    "absence_reason": "Trang 170 chỉ trình bày tầm nhìn, sứ mệnh và giá trị cốt lõi của I.D.I, không có tỷ giá hối đoái JPY/VND."
+  },
+  {
+    "id": "adv_dev_abs_03",
+    "split": "dev",
+    "category": "abstention",
+    "question": "Công ty dự kiến xây dựng bao nhiêu trạm sạc xe điện VinFast trong khuôn viên các khu dân cư vào năm 2026?",
+    "expected_answer": "Tài liệu không có thông tin về việc xây dựng trạm sạc xe điện VinFast.",
+    "answerable": false,
+    "absence_reason": "Báo cáo thường niên của doanh nghiệp không đề cập đến hợp tác trạm sạc VinFast."
+  },
+  {
+    "id": "adv_test_tbl_01",
+    "split": "test",
+    "category": "table",
+    "question": "Theo Bảng kết quả kinh doanh hợp nhất ở trang 1, Lợi nhuận gộp năm 2022 và năm 2023 đạt bao nhiêu tỷ đồng?",
+    "expected_answer": "Lợi nhuận gộp năm 2022 là 310 tỷ đồng và năm 2023 là 380 tỷ đồng.",
+    "gold_page": 1,
+    "evidence": "Lợi nhuận gộp | 310 | 380 | 22,6%"
+  },
+  {
+    "id": "adv_test_tbl_02",
+    "split": "test",
+    "category": "table",
+    "question": "Theo Bảng các chỉ tiêu tài chính chủ yếu ở trang 20, Doanh thu thuần của Khang Điền trong các năm 2020, 2021 và 2022 đạt bao nhiêu tỷ đồng?",
+    "expected_answer": "Doanh thu thuần năm 2020 là 4.513 tỷ đồng, năm 2021 là 5.454 tỷ đồng và năm 2022 là 2.912 tỷ đồng.",
+    "gold_page": 20,
+    "evidence": "Doanh thu thuần | 4.513 | 5.454 | 2.912"
+  },
+  {
+    "id": "adv_test_tbl_03",
+    "split": "test",
+    "category": "table",
+    "question": "Căn cứ bảng số liệu tài chính trang 20, Vốn chủ sở hữu của Khang Điền năm 2022 là bao nhiêu tỷ đồng?",
+    "expected_answer": "Vốn chủ sở hữu năm 2022 là 12.356 tỷ đồng.",
+    "gold_page": 20,
+    "evidence": "Vốn chủ sở hữu | 7.554 | 8.784 | 12.356"
+  },
+  {
+    "id": "adv_test_tbl_04",
+    "split": "test",
+    "category": "table",
+    "question": "Theo Bảng số liệu trang 1, Chi phí bán hàng & QLDN của Công ty trong năm 2022 và 2023 lần lượt là bao nhiêu tỷ đồng?",
+    "expected_answer": "Năm 2022 là 150 tỷ đồng và năm 2023 là 175 tỷ đồng.",
+    "gold_page": 1,
+    "evidence": "Chi phí bán hàng & QLDN | 150 | 175 | 16,7%"
+  },
+  {
+    "id": "adv_test_tbl_05",
+    "split": "test",
+    "category": "table",
+    "question": "Theo bảng tài chính trang 20, Tổng tài sản năm 2022 của Khang Điền tăng thêm bao nhiêu tỷ đồng so với năm 2021?",
+    "expected_answer": "Tăng thêm 7.066 tỷ đồng (từ 15.906 tỷ đồng năm 2021 lên 22.972 tỷ đồng năm 2022).",
+    "gold_page": 20,
+    "evidence": "Tổng tài sản | 13.948 | 15.906 | 22.972"
+  },
+  {
+    "id": "adv_test_tbl_06",
+    "split": "test",
+    "category": "table",
+    "question": "Theo Bảng kết quả kinh doanh trang 1, chỉ tiêu tài chính nào có tốc độ tăng trưởng cao nhất giữa năm 2022 và 2023 và đạt mức bao nhiêu phần trăm?",
+    "expected_answer": "Lợi nhuận sau thuế có mức tăng trưởng cao nhất, đạt 29,2%.",
+    "gold_page": 1,
+    "evidence": "Lợi nhuận sau thuế | 120 | 155 | 29,2%"
+  },
+  {
+    "id": "adv_test_dgm_01",
+    "split": "test",
+    "category": "diagram",
+    "question": "Theo văn bản công bố ở trang 2, ai là người ký tên với chức danh Tổng Giám đốc của Công ty?",
+    "expected_answer": "Người ký là ông Nguyễn Văn A với chức danh Tổng Giám đốc.",
+    "gold_page": 2,
+    "evidence": "Người ký: Nguyễn Văn A\n  *   **Chức danh:** Tổng Giám đốc"
+  },
+  {
+    "id": "adv_test_dgm_02",
+    "split": "test",
+    "category": "diagram",
+    "question": "Theo nội dung Sứ mệnh của Công ty Cổ phần Đầu tư và Phát triển Đa quốc gia I.D.I ở trang 170, công ty đặt mục tiêu nâng cao giá trị của con vật nào trên thị trường quốc tế?",
+    "expected_answer": "Nâng cao giá trị con cá tra Việt Nam trên thị trường quốc tế.",
+    "gold_page": 170,
+    "evidence": "góp phần nâng cao giá trị con cá tra Việt Nam trên thị trường quốc tế"
+  },
+  {
+    "id": "adv_test_dgm_03",
+    "split": "test",
+    "category": "diagram",
+    "question": "Theo mục Giá trị cốt lõi của Khang Điền ở trang 35, tính 'Chính trực' được định nghĩa cụ thể như thế nào?",
+    "expected_answer": "Chính trực được định nghĩa là: Trung thực, minh bạch trong mọi hoạt động.",
+    "gold_page": 35,
+    "evidence": "Chính trực: Trung thực, minh bạch trong mọi hoạt động."
+  },
+  {
+    "id": "adv_test_dgm_04",
+    "split": "test",
+    "category": "diagram",
+    "question": "Theo trang 35, tính 'Chuyên nghiệp' trong giá trị cốt lõi của Khang Điền được thể hiện qua những yếu tố nào?",
+    "expected_answer": "Thể hiện qua: Năng lực chuyên môn cao, quy trình làm việc hiệu quả.",
+    "gold_page": 35,
+    "evidence": "Chuyên nghiệp: Năng lực chuyên môn cao, quy trình làm việc hiệu quả."
+  },
+  {
+    "id": "adv_test_dgm_05",
+    "split": "test",
+    "category": "diagram",
+    "question": "Theo trang 35, tính 'Tận tâm' của Khang Điền hướng đến những đối tượng nào?",
+    "expected_answer": "Hết lòng vì khách hàng, đối tác và cộng đồng.",
+    "gold_page": 35,
+    "evidence": "Tận tâm: Hết lòng vì khách hàng, đối tác và cộng đồng."
+  },
+  {
+    "id": "adv_test_crt_01",
+    "split": "test",
+    "category": "chart",
+    "question": "Theo số liệu tài chính trang 20, Doanh thu thuần của Khang Điền đạt đỉnh vào năm nào trong giai đoạn 2020-2022 và giá trị là bao nhiêu?",
+    "expected_answer": "Đạt đỉnh vào năm 2021 với giá trị 5.454 tỷ đồng.",
+    "gold_page": 20,
+    "evidence": "Doanh thu thuần | 4.513 | 5.454 | 2.912"
+  },
+  {
+    "id": "adv_test_crt_02",
+    "split": "test",
+    "category": "chart",
+    "question": "Theo số liệu tài chính trang 1, Doanh thu thuần năm 2023 tăng thêm bao nhiêu tỷ đồng so với năm 2022?",
+    "expected_answer": "Tăng thêm 170 tỷ đồng (từ 1.250 tỷ đồng lên 1.420 tỷ đồng).",
+    "gold_page": 1,
+    "evidence": "Doanh thu thuần | 1.250 | 1.420 | 13,6%"
+  },
+  {
+    "id": "adv_test_crt_03",
+    "split": "test",
+    "category": "chart",
+    "question": "Theo số liệu trang 20, Tổng tài sản của Khang Điền năm 2022 tăng trưởng bao nhiêu tỷ đồng so với năm 2020?",
+    "expected_answer": "Tăng 9.024 tỷ đồng (từ 13.948 tỷ đồng năm 2020 lên 22.972 tỷ đồng năm 2022).",
+    "gold_page": 20,
+    "evidence": "Tổng tài sản | 13.948 | 15.906 | 22.972"
+  },
+  {
+    "id": "adv_test_crt_04",
+    "split": "test",
+    "category": "chart",
+    "question": "Theo số liệu trang 1, Lợi nhuận sau thuế năm 2023 tăng thêm bao nhiêu tỷ đồng so với năm 2022?",
+    "expected_answer": "Tăng thêm 35 tỷ đồng (từ 120 tỷ đồng lên 155 tỷ đồng).",
+    "gold_page": 1,
+    "evidence": "Lợi nhuận sau thuế | 120 | 155 | 29,2%"
+  },
+  {
+    "id": "adv_test_crt_05",
+    "split": "test",
+    "category": "chart",
+    "question": "Theo số liệu tài chính trang 20, Vốn chủ sở hữu của Khang Điền năm 2021 tăng thêm bao nhiêu tỷ đồng so với năm 2020?",
+    "expected_answer": "Tăng thêm 1.230 tỷ đồng (từ 7.554 tỷ đồng lên 8.784 tỷ đồng).",
+    "gold_page": 20,
+    "evidence": "Vốn chủ sở hữu | 7.554 | 8.784 | 12.356"
+  },
+  {
+    "id": "adv_test_mhp_01",
+    "split": "test",
+    "category": "multi_hop",
+    "question": "So sánh Tổng tài sản của Khang Điền năm 2020 ở trang 20 (13.948 tỷ) với Doanh thu thuần năm 2023 ở trang 1 (1.420 tỷ), Tổng tài sản gấp khoảng bao nhiêu lần Doanh thu thuần?",
+    "expected_answer": "Tổng tài sản Khang Điền năm 2020 gấp khoảng 9,8 lần Doanh thu thuần năm 2023 ở trang 1 (13.948 / 1.420 ≈ 9,82 lần).",
+    "gold_pages": [
+      1,
+      20
+    ],
+    "evidence": "Doanh thu thuần | 1.250 | 1.420 | 13,6% ... Tổng tài sản | 13.948 | 15.906 | 22.972"
+  },
+  {
+    "id": "adv_test_mhp_02",
+    "split": "test",
+    "category": "multi_hop",
+    "question": "Tính tổng Vốn chủ sở hữu năm 2022 của Khang Điền ở trang 20 và Lợi nhuận sau thuế năm 2023 của Công ty ở trang 1?",
+    "expected_answer": "Tổng cộng là 12.511 tỷ đồng (12.356 tỷ đồng + 155 tỷ đồng).",
+    "gold_pages": [
+      1,
+      20
+    ],
+    "evidence": "Vốn chủ sở hữu | 7.554 | 8.784 | 12.356 ... Lợi nhuận sau thuế | 120 | 155 | 29,2%"
+  },
+  {
+    "id": "adv_test_mhp_03",
+    "split": "test",
+    "category": "multi_hop",
+    "question": "So sánh định hướng chiến lược năm 2024 ở trang 1 (chuyển đổi số, tăng trưởng bền vững) với chiến lược phát triển của Khang Điền ở trang 20 (tập trung nhà ở TP.HCM), hai định hướng này có điểm chung nào về phát triển bền vững?",
+    "expected_answer": "Cả hai doanh nghiệp đều lấy 'phát triển bền vững' làm nền tảng cốt lõi trong chiến lược hoạt động.",
+    "gold_pages": [
+      1,
+      20
+    ],
+    "evidence": "duy trì tăng trưởng bền vững và quản trị rủi ro chặt chẽ ... Khang Điền luôn kiên định với chiến lược phát triển bền vững"
+  },
+  {
+    "id": "adv_test_mhp_04",
+    "split": "test",
+    "category": "multi_hop",
+    "question": "Tổng Doanh thu thuần năm 2022 của Công ty ở trang 1 (1.250 tỷ đồng) và Doanh thu thuần năm 2022 của Khang Điền ở trang 20 (2.912 tỷ đồng) là bao nhiêu tỷ đồng?",
+    "expected_answer": "Tổng cộng là 4.162 tỷ đồng (1.250 + 2.912 = 4.162 tỷ đồng).",
+    "gold_pages": [
+      1,
+      20
+    ],
+    "evidence": "Doanh thu thuần | 1.250 | 1.420 | 13,6% ... Doanh thu thuần | 4.513 | 5.454 | 2.912"
+  },
+  {
+    "id": "adv_test_txt_01",
+    "split": "test",
+    "category": "text",
+    "question": "Theo văn bản ở trang 20, Khang Điền tập trung phát triển các dự án nhà ở tại những khu vực cụ thể nào của TP.HCM?",
+    "expected_answer": "Tập trung tại khu vực phía Đông và phía Nam TP.HCM, nơi có hạ tầng giao thông phát triển đồng bộ và kết nối thuận tiện.",
+    "gold_page": 20,
+    "evidence": "tập trung vào các dự án nhà ở thấp tầng và cao tầng tại TP.HCM, đặc biệt là khu vực phía Đông và phía Nam thành phố"
+  },
+  {
+    "id": "adv_test_txt_02",
+    "split": "test",
+    "category": "text",
+    "question": "Theo văn bản ở trang 20, triết lý kinh doanh của Khang Điền dựa trên những nguyên tắc nào?",
+    "expected_answer": "Dựa trên sự chân thành, tin cậy và bền vững.",
+    "gold_page": 20,
+    "evidence": "Với triết lý kinh doanh dựa trên sự chân thành, tin cậy và bền vững"
+  },
+  {
+    "id": "adv_test_txt_03",
+    "split": "test",
+    "category": "text",
+    "question": "Trong Báo cáo Tổng Giám đốc ở trang 2, tập thể cán bộ nhân viên và Quý cổ đông được kỳ vọng điều gì để vượt qua các thách thức?",
+    "expected_answer": "Sự đồng lòng của tập thể cán bộ nhân viên và sự tin tưởng của Quý cổ đông.",
+    "gold_page": 2,
+    "evidence": "với sự đồng lòng của tập thể cán bộ nhân viên và sự tin tưởng của Quý cổ đông, Công ty sẽ vượt qua mọi thách thức để hoàn thành các mục tiêu đề ra."
+  },
+  {
+    "id": "adv_test_txt_04",
+    "split": "test",
+    "category": "text",
+    "question": "Theo mục Sứ mệnh của Khang Điền ở trang 35, công ty hướng tới mang lại giá trị gia tăng bền vững cho những ai?",
+    "expected_answer": "Cho khách hàng, cổ đông và cộng đồng.",
+    "gold_page": 35,
+    "evidence": "mang lại giá trị gia tăng bền vững cho khách hàng, cổ đông và cộng đồng."
+  },
+  {
+    "id": "adv_test_abs_01",
+    "split": "test",
+    "category": "abstention",
+    "question": "Doanh thu từ hoạt động khai thác mỏ vàng tại Nam Phi của Công ty đạt bao nhiêu triệu USD trong năm 2023?",
+    "expected_answer": "Tài liệu không có bằng chứng về việc khai thác mỏ vàng tại Nam Phi.",
+    "answerable": false,
+    "absence_reason": "Doanh nghiệp hoạt động trong lĩnh vực sản xuất/bất động sản tại Việt Nam, không có hoạt động khai mỏ ở Nam Phi."
+  },
+  {
+    "id": "adv_test_abs_02",
+    "split": "test",
+    "category": "abstention",
+    "question": "Số lượng vệ tinh viễn thông mà Khang Điền đã phóng lên quỹ đạo địa tĩnh trong năm 2022 là bao nhiêu vệ tinh?",
+    "expected_answer": "Tài liệu không có thông tin về việc phóng vệ tinh viễn thông.",
+    "answerable": false,
+    "absence_reason": "Khang Điền là công ty đầu tư và kinh doanh bất động sản, không kinh doanh hàng không vũ trụ."
+  },
+  {
+    "id": "adv_test_abs_03",
+    "split": "test",
+    "category": "abstention",
+    "question": "Công ty I.D.I ở trang 170 sử dụng bao nhiêu tàu ngầm hạt nhân để tuần tra vùng nuôi cá tra tại Đồng bằng sông Cửu Long?",
+    "expected_answer": "Tài liệu không có thông tin về tàu ngầm hạt nhân.",
+    "answerable": false,
+    "absence_reason": "I.D.I là doanh nghiệp chế biến thủy sản dân sự, không sở hữu khí tài quân sự."
+  },
+  {
+    "id": "adv_test_abs_04",
+    "split": "test",
+    "category": "abstention",
+    "question": "Chi phí đầu tư xây dựng nhà máy điện hạt nhân thế hệ thứ tư của Công ty trong năm 2023 là bao nhiêu tỷ USD?",
+    "expected_answer": "Tài liệu không chứa thông tin về dự án điện hạt nhân.",
+    "answerable": false,
+    "absence_reason": "Tài liệu báo cáo thường niên không có thông tin về dự án điện hạt nhân."
+  },
+  {
+    "id": "adv_test_abs_05",
+    "split": "test",
+    "category": "abstention",
+    "question": "Số lượng máy bay chở khách Boeing 787 mà Công ty đã mua bổ sung trong năm 2023 là bao nhiêu chiếc?",
+    "expected_answer": "Tài liệu không có thông tin về việc mua máy bay Boeing 787.",
+    "answerable": false,
+    "absence_reason": "Doanh nghiệp không hoạt động trong ngành hàng không thương mại."
+  },
+  {
+    "id": "adv_test_abs_06",
+    "split": "test",
+    "category": "abstention",
+    "question": "Tỷ lệ cổ phần mà tỷ phú Elon Musk đang trực tiếp nắm giữ tại Công ty Khang Điền là bao nhiêu phần trăm?",
+    "expected_answer": "Tài liệu không có thông tin về việc Elon Musk sở hữu cổ phần tại Khang Điền.",
+    "answerable": false,
+    "absence_reason": "Báo cáo cơ cấu cổ đông của Khang Điền không chứa tên cổ đông Elon Musk."
+  }
+]

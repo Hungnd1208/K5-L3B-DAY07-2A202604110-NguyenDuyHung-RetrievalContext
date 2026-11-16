@@ -1,0 +1,15 @@
+{
+  "id": "doc_p100_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 100,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** CHIẾN LƯỢC PHÁT TRIỂN BỀN VỮNG\n*   **Nội dung văn bản:**\n    *   \"Trong năm 2023, Công ty đã tập trung nguồn lực để tối ưu hóa quy trình sản xuất, giảm thiểu tác động đến môi trường và nâng cao hiệu quả sử dụng năng lượng. Chúng tôi cam kết tiếp tục đầu tư vào công nghệ xanh và phát triển nguồn nhân lực chất lượng cao để đảm bảo sự phát triển bền vững trong dài hạn.\"\n*   **Thông tin người ký:**\n    *   **NGUYỄN VĂN A**\n    *   Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng: Kết quả hoạt động kinh doanh (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.200 | 1.450 | 20,8% |\n| Lợi nhuận gộp | 350 | 420 | 20,0% |\n| Lợi nhuận sau thuế | 150 | 190 | 26,7% |\n\n---\n\n### 3. BIỂU ĐỒ\n**Loại biểu đồ:** Biểu đồ cột (Column Chart)\n**Tiêu đề:** Sản lượng sản xuất qua các năm (Đơn vị: Nghìn tấn)\n\n*   **Trục hoành (Năm):** 2021, 2022, 2023\n*   **Trục tung (Sản lượng):** Đơn vị tính là Nghìn tấn\n*   **Giá trị số liệu:**\n    *   Năm 2021: 80 nghìn tấn\n    *   Năm 2022: 95 nghìn tấn\n    *   Năm 2023: 110 nghìn tấn\n*   **Xu hướng:** Sản lượng sản xuất có xu hướng tăng trưởng đều đặn qua các năm, với mức tăng trưởng ổn định từ 2021 đến 2023.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n**Sơ đồ: Chuỗi giá trị bền vững**\nSơ đồ thể hiện quy trình khép kín gồm 4 giai đoạn chính:\n1.  **Nguồn nguyên liệu:** Thu mua từ các nhà cung cấp đạt chuẩn bền vững.\n2.  **Sản xuất:** Áp dụng công nghệ tiết kiệm năng lượng và giảm phát thải.\n3.  **Phân phối:** Tối ưu hóa hệ thống logistics để giảm dấu chân carbon.\n4.  **Khách hàng:** Cung cấp sản phẩm thân thiện với môi trường và dịch vụ hậu mãi.\n\n*Lưu ý: Các thông tin trên được trích xuất trực tiếp từ hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu do chất lượng ảnh, vui lòng đối chiếu với bản gốc.*",
+  "image_ref": "data/advanced/images/page_100.jpg",
+  "metadata": {
+    "page": 100,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_100.jpg",
+    "char_count": 2002
+  }
+}

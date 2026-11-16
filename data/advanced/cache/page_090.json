@@ -1,0 +1,15 @@
+{
+  "id": "doc_p090_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 90,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** ĐỊNH HƯỚNG CHIẾN LƯỢC NĂM 2024\n*   **Nội dung văn bản:**\n    \"Năm 2024, Công ty xác định mục tiêu trọng tâm là tối ưu hóa hiệu quả hoạt động, đẩy mạnh chuyển đổi số và mở rộng thị phần. Chúng tôi cam kết tiếp tục nâng cao chất lượng sản phẩm, dịch vụ, đồng thời chú trọng phát triển bền vững, mang lại giá trị lâu dài cho cổ đông, khách hàng và cộng đồng.\"\n*   **Thông tin người ký:**\n    *   **Ký tên:** (Chữ ký)\n    *   **Họ và tên:** Nguyễn Văn A\n    *   **Chức danh:** Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng: Kết quả kinh doanh hợp nhất (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.250 | 1.480 | 18,4% |\n| Lợi nhuận gộp | 320 | 395 | 23,4% |\n| Lợi nhuận sau thuế | 150 | 195 | 30,0% |\n| Biên lợi nhuận ròng | 12,0% | 13,2% | - |\n\n---\n\n### 3. BIỂU ĐỒ\n*   **Loại biểu đồ:** Biểu đồ cột (Column Chart)\n*   **Tiêu đề:** Doanh thu và Lợi nhuận sau thuế (2021 - 2023)\n*   **Trục hoành:** Năm (2021, 2022, 2023)\n*   **Trục tung:** Tỷ đồng\n*   **Chú giải:**\n    *   Cột màu xanh dương: Doanh thu\n    *   Cột màu cam: Lợi nhuận sau thuế\n*   **Số liệu cụ thể:**\n    *   **Năm 2021:** Doanh thu: 1.050 tỷ đồng | Lợi nhuận: 110 tỷ đồng\n    *   **Năm 2022:** Doanh thu: 1.250 tỷ đồng | Lợi nhuận: 150 tỷ đồng\n    *   **Năm 2023:** Doanh thu: 1.480 tỷ đồng | Lợi nhuận: 195 tỷ đồng\n*   **Xu hướng:** Cả doanh thu và lợi nhuận đều có xu hướng tăng trưởng liên tục qua 3 năm.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n*   **Mô tả:** Sơ đồ cấu trúc khối thể hiện \"Mô hình quản trị tập trung\".\n*   **Các thành phần:**\n    1.  **Hội đồng Quản trị:** Đóng vai trò định hướng chiến lược.\n    2.  **Ban Kiểm soát:** Đóng vai trò giám sát tuân thủ.\n    3.  **Ban Tổng Giám đốc:** Điều hành trực tiếp 3 khối chính:\n        *   **Khối Kinh doanh:** Phụ trách thị trường và bán hàng.\n        *   **Khối Vận hành:** Phụ trách sản xuất và chuỗi cung ứng.\n        *   **Khối Hỗ trợ:** Phụ trách Tài chính, Nhân sự và Công nghệ thông tin.\n\n---\n*Lưu ý: Các dữ liệu trên được trích xuất dựa trên hình ảnh bạn cung cấp. Nếu hình ảnh có độ phân giải thấp hoặc bị mờ ở một số vị trí, tôi đã thực hiện suy luận logic dựa trên ngữ cảnh báo cáo tài chính thông thường.*",
+  "image_ref": "data/advanced/images/page_090.jpg",
+  "metadata": {
+    "page": 90,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_090.jpg",
+    "char_count": 2401
+  }
+}

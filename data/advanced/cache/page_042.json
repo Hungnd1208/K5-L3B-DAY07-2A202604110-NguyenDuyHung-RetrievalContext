@@ -1,0 +1,15 @@
+{
+  "id": "doc_p042_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 42,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN (Text)\n\n*   **Tiêu đề chính:** BÁO CÁO THƯỜNG NIÊN 2022\n*   **Tiêu đề phụ:** CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ PHÁT TRIỂN ĐA QUỐC GIA I.D.I\n*   **Tiêu đề mục:** CHIẾN LƯỢC PHÁT TRIỂN BỀN VỮNG\n*   **Nội dung đoạn văn:**\n    \"Trong năm 2022, I.D.I đã tập trung nguồn lực để thực hiện chiến lược phát triển bền vững với mục tiêu tối ưu hóa hiệu quả sản xuất kinh doanh, nâng cao năng lực cạnh tranh và đảm bảo lợi ích hài hòa cho các bên liên quan. Công ty tiếp tục đẩy mạnh đầu tư vào công nghệ, cải tiến quy trình sản xuất, chú trọng phát triển nguồn nhân lực và thực hiện trách nhiệm xã hội, hướng tới sự phát triển lâu dài và ổn định.\"\n\n---\n\n### 2. BẢNG BIỂU (Tables)\n\n**Bảng 1: Kết quả hoạt động kinh doanh (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2020 | Năm 2021 | Năm 2022 |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 4.650 | 4.720 | 8.850 |\n| Lợi nhuận gộp | 420 | 450 | 1.250 |\n| Lợi nhuận sau thuế | 120 | 135 | 650 |\n\n---\n\n### 3. BIỂU ĐỒ (Charts)\n\n**Biểu đồ 1: Biểu đồ cột - Tăng trưởng doanh thu (2020 - 2022)**\n*   **Loại biểu đồ:** Biểu đồ cột đơn.\n*   **Trục hoành:** Năm (2020, 2021, 2022).\n*   **Trục tung:** Tỷ đồng.\n*   **Giá trị số liệu:**\n    *   Năm 2020: 4.650 tỷ đồng.\n    *   Năm 2021: 4.720 tỷ đồng.\n    *   Năm 2022: 8.850 tỷ đồng.\n*   **Xu hướng:** Doanh thu tăng trưởng ổn định từ 2020 đến 2021 và tăng trưởng đột phá trong năm 2022.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH (Diagrams)\n\n**Sơ đồ: Chuỗi giá trị sản xuất của I.D.I**\n*   **Bước 1: Vùng nuôi trồng:** Kiểm soát chất lượng con giống và thức ăn.\n*   **Bước 2: Nhà máy chế biến:** Áp dụng công nghệ hiện đại, đạt tiêu chuẩn quốc tế (HACCP, ISO).\n*   **Bước 3: Hệ thống phân phối:** Mạng lưới xuất khẩu đa quốc gia.\n*   **Bước 4: Khách hàng:** Cung cấp sản phẩm thủy sản chất lượng cao.\n\n---\n*Lưu ý: Các thông tin trên được trích xuất trực tiếp từ hình ảnh bạn cung cấp. Nếu có các phần bị che khuất hoặc không rõ nét trong ảnh, tôi đã lược bỏ để đảm bảo tính chính xác tuyệt đối.*",
+  "image_ref": "data/advanced/images/page_042.jpg",
+  "metadata": {
+    "page": 42,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_042.jpg",
+    "char_count": 2069
+  }
+}

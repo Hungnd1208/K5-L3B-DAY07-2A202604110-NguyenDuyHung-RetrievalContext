@@ -1,0 +1,15 @@
+{
+  "id": "doc_p145_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 145,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** CHIẾN LƯỢC PHÁT TRIỂN BỀN VỮNG\n*   **Nội dung đoạn văn:**\n    \"Trong năm 2023, Công ty đã tập trung nguồn lực để tối ưu hóa quy trình sản xuất, giảm thiểu tác động đến môi trường và nâng cao hiệu quả sử dụng năng lượng. Chúng tôi cam kết tiếp tục đầu tư vào công nghệ xanh và phát triển nguồn nhân lực chất lượng cao để đảm bảo sự phát triển bền vững trong dài hạn.\"\n*   **Thông tin người ký:**\n    *   **Ký tên:** (Chữ ký)\n    *   **Họ và tên:** Nguyễn Văn A\n    *   **Chức danh:** Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng: Kết quả hoạt động kinh doanh (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.200 | 1.450 | 20,8% |\n| Lợi nhuận gộp | 350 | 420 | 20,0% |\n| Chi phí bán hàng & QLDN | 150 | 180 | 20,0% |\n| Lợi nhuận sau thuế | 160 | 192 | 20,0% |\n\n---\n\n### 3. BIỂU ĐỒ\n**Loại biểu đồ:** Biểu đồ cột (Column Chart)\n**Tiêu đề:** Tăng trưởng doanh thu và lợi nhuận (2022 - 2023)\n\n*   **Trục hoành:** Năm (2022, 2023)\n*   **Trục tung:** Đơn vị tính là Tỷ đồng\n*   **Chú giải:**\n    *   Cột màu xanh dương: Doanh thu thuần\n    *   Cột màu cam: Lợi nhuận sau thuế\n*   **Giá trị số liệu:**\n    *   **Năm 2022:** Doanh thu 1.200 tỷ đồng; Lợi nhuận 160 tỷ đồng.\n    *   **Năm 2023:** Doanh thu 1.450 tỷ đồng; Lợi nhuận 192 tỷ đồng.\n*   **Xu hướng:** Cả doanh thu và lợi nhuận đều có xu hướng tăng trưởng tích cực qua các năm.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n**Sơ đồ: Quy trình sản xuất xanh**\n\n*   **Bước 1: Nguyên liệu đầu vào** (Biểu tượng: Lá cây) - Kiểm soát nguồn gốc bền vững.\n*   **Bước 2: Sản xuất** (Biểu tượng: Nhà máy) - Sử dụng năng lượng tái tạo.\n*   **Bước 3: Phân phối** (Biểu tượng: Xe tải) - Tối ưu hóa lộ trình vận chuyển.\n*   **Bước 4: Tái chế/Xử lý** (Biểu tượng: Mũi tên xoay vòng) - Giảm thiểu rác thải ra môi trường.\n\n---\n*Lưu ý: Các thông tin trên được trích xuất dựa trên hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu so với bản gốc, vui lòng kiểm tra lại chất lượng hình ảnh đầu vào.*",
+  "image_ref": "data/advanced/images/page_145.jpg",
+  "metadata": {
+    "page": 145,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_145.jpg",
+    "char_count": 2192
+  }
+}

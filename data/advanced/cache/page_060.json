@@ -1,0 +1,15 @@
+{
+  "id": "doc_p060_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 60,
+  "type": "visual_multimodal",
+  "text": "Dựa vào hình ảnh bạn đã cung cấp, trang báo cáo này hoàn toàn là một trang trắng (không chứa bất kỳ văn bản, bảng biểu, biểu đồ hay hình ảnh nào). \n\nVì vậy, tôi không thể trích xuất thêm thông tin nào từ hình ảnh này. Vui lòng cung cấp hình ảnh tài liệu chính xác có chứa nội dung để tôi có thể hỗ trợ bạn phân tích chi tiết!",
+  "image_ref": "data/advanced/images/page_060.jpg",
+  "metadata": {
+    "page": 60,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_060.jpg",
+    "char_count": 325
+  }
+}

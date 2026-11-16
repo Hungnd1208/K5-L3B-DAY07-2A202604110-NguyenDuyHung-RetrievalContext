@@ -1,0 +1,15 @@
+{
+  "id": "doc_p020_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 20,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN (Text)\n\n*   **Tiêu đề chính:** BÁO CÁO THƯỜNG NIÊN 2022\n*   **Tiêu đề phụ:** CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ KINH DOANH NHÀ KHANG ĐIỀN\n*   **Tiêu đề mục:** 1. TỔNG QUAN VỀ CÔNG TY\n*   **Đoạn văn bản:**\n    *   \"Khang Điền là thương hiệu uy tín, có bề dày kinh nghiệm hơn 20 năm trong lĩnh vực đầu tư, phát triển bất động sản. Với triết lý kinh doanh dựa trên sự chân thành, tin cậy và bền vững, Khang Điền luôn nỗ lực kiến tạo những không gian sống hoàn hảo, chất lượng, góp phần thay đổi diện mạo đô thị và nâng cao chất lượng cuộc sống cho cộng đồng.\"\n    *   \"Khang Điền luôn kiên định với chiến lược phát triển bền vững, tập trung vào các dự án nhà ở thấp tầng và cao tầng tại TP.HCM, đặc biệt là khu vực phía Đông và phía Nam thành phố, nơi có hạ tầng giao thông phát triển đồng bộ và kết nối thuận tiện.\"\n\n### 2. BẢNG BIỂU (Tables)\n\n**Bảng 1: Các chỉ tiêu tài chính chủ yếu (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2020 | Năm 2021 | Năm 2022 |\n| :--- | :---: | :---: | :---: |\n| Tổng tài sản | 13.948 | 15.906 | 22.972 |\n| Vốn chủ sở hữu | 7.554 | 8.784 | 12.356 |\n| Doanh thu thuần | 4.513 | 5.454 | 2.912 |\n| Lợi nhuận sau thuế | 1.152 | 1.204 | 1.082 |\n\n### 3. BIỂU ĐỒ (Charts)\n\n**Biểu đồ 1: Cơ cấu doanh thu theo phân khúc sản phẩm năm 2022**\n*   **Loại biểu đồ:** Biểu đồ tròn (Pie Chart)\n*   **Chú giải:**\n    *   Nhà thấp tầng: 65%\n    *   Căn hộ cao tầng: 30%\n    *   Dịch vụ & Khác: 5%\n*   **Xu hướng:** Doanh thu chủ yếu đến từ phân khúc nhà thấp tầng, chiếm tỷ trọng áp đảo trong cơ cấu doanh thu của công ty.\n\n### 4. SƠ ĐỒ / HÌNH ẢNH (Diagrams)\n\n**Sơ đồ 1: Mô hình chuỗi giá trị của Khang Điền**\n*   **Bước 1: Quỹ đất sạch:** Tập trung tại các vị trí chiến lược.\n*   **Bước 2: Phát triển dự án:** Thiết kế, quy hoạch và xây dựng.\n*   **Bước 3: Kinh doanh & Tiếp thị:** Phân phối sản phẩm đến khách hàng.\n*   **Bước 4: Quản lý vận hành:** Dịch vụ quản lý khu dân cư sau bàn giao.\n\n---\n*Lưu ý: Các dữ liệu trên được trích xuất trực tiếp từ hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu do chất lượng ảnh, vui lòng đối chiếu với bản gốc tài liệu.*",
+  "image_ref": "data/advanced/images/page_020.jpg",
+  "metadata": {
+    "page": 20,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_020.jpg",
+    "char_count": 2183
+  }
+}

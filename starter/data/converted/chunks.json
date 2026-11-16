@@ -1,0 +1,1637 @@
+[
+  {
+    "id": "bao-cao-cnn_p01_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 1,
+    "text": "1",
+    "metadata": {
+      "chapter": "loi_mo_dau",
+      "char_count": 1728,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 1,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p01_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 1,
+    "text": "LỜI MỞ ĐẦU Trong những năm gần đây, sự phát triển mạnh mẽ của trí tuệ nhân tạo đã tạo ra nhiều bước tiến quan trọng trong lĩnh vực khoa học và công nghệ. Đặc biệt, lĩnh vực Deep Learning đã trở thành một trong những hướng nghiên cứu nổi bật của Machine Learning nhờ khả năng xử lý dữ liệu lớn và tự động trích xuất đặc trưng từ dữ liệu. Các mô hình học sâu đã được ứng dụng rộng rãi trong nhiều lĩnh vực như nhận dạng hình ảnh, xử lý ngôn ngữ tự nhiên, nhận dạng giọng nói và xe tự hành. Trong số các mô hình học sâu, Convolutional Neural Network (CNN) là một kiến trúc mạng nơ-ron đặc biệt hiệu quả trong việc xử lý dữ liệu dạng hình ảnh. CNN",
+    "metadata": {
+      "chapter": "loi_mo_dau",
+      "char_count": 1728,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 643,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p01_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 1,
+    "text": "có khả năng tự động học các đặc trưng quan trọng từ dữ liệu thông qua các lớp tích chập, giúp cải thiện đáng kể hiệu suất trong các bài toán như phân loại ảnh, phát hiện vật thể và nhận diện khuôn mặt. Nhờ những ưu điểm này, CNN đã trở thành một trong những mô hình cốt lõi trong lĩnh vực thị giác máy tính. Xuất phát từ tầm quan trọng đó, báo cáo này được thực hiện với mục tiêu tìm hiểu về kiến trúc và nguyên lý hoạt động của mô hình CNN trong Deep Learning. Nội dung báo cáo tập trung trình bày các thành phần chính của CNN như Convolution Layer, Pooling Layer, Activation Function và Fully Connected Layer. Bên cạnh đó, báo cáo cũng giới thiệu một số kiến trúc CNN tiêu biểu và ứng dụng của mô",
+    "metadata": {
+      "chapter": "loi_mo_dau",
+      "char_count": 1728,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 698,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p01_para_003",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 1,
+    "text": "hình trong thực tế. Thông qua việc nghiên cứu và tổng hợp các tài liệu liên quan, báo cáo nhằm cung cấp cái nhìn tổng quan về mô hình CNN cũng như vai trò của nó trong các bài toán xử lý hình ảnh hiện nay. Đồng thời, kết quả của báo cáo có thể giúp người đọc hiểu rõ hơn về cá ch thức hoạt động của các mô hình học sâu và tiềm năng ứng dụng của chúng trong nhiều lĩnh vực khác nhau.",
+    "metadata": {
+      "chapter": "loi_mo_dau",
+      "char_count": 1728,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 382,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p02_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 2,
+    "text": "2",
+    "metadata": {
+      "chapter": "chuong_1",
+      "char_count": 1890,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 1,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p02_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 2,
+    "text": "CHƯƠNG 1: TỔNG QUAN VỀ DEEP LEARNING 1.1 Khái niệm Machine Learning Machine Learning (ML) là một nhánh của trí tuệ nhân tạo cho phép máy tính học từ dữ liệu và cải thiện hiệu suất theo thời gian mà không cần lập trình chi tiết cho từng nhiệm vụ cụ thể. Thay vì xây dựng các thuật toán cố định để giải quyết bài toán, Machine Learning sử dụng các mô hình thống kê để phát hiện quy luật và mẫu dữ liệu từ tập dữ liệu đầu vào. Trong Machine Learning, dữ liệu đóng vai trò rất quan trọng. Thông qua quá trình huấn luyện, mô hình có thể học được mối quan hệ giữa dữ liệu đầu vào và kết quả đầu ra. Sau khi được huấn luyện, mô hình có thể đưa ra dự đoán hoặc quyết định khi gặp dữ liệu mới.",
+    "metadata": {
+      "chapter": "chuong_1",
+      "char_count": 1890,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 684,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p02_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 2,
+    "text": "Các loại Machine Learning phổ biến gồm: • Học có giám sát (Supervised Learning): mô hình học từ dữ liệu đã được gán nhãn. • Học không giám sát (Unsupervised Learning):  mô hình tự tìm cấu trúc trong dữ liệu chưa gán nhãn. • Học tăng cường (Reinforcement Learning): mô hình học thông qua quá trình tương tác với môi trường. Machine Learning được ứng dụng rộng rãi trong nhiều lĩnh vực như phân tích dữ liệu, dự đoán thị trường, nhận dạng hình ảnh, hệ thống gợi ý và xử lý ngôn ngữ tự nhiên.",
+    "metadata": {
+      "chapter": "chuong_1",
+      "char_count": 1890,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 489,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p02_para_003",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 2,
+    "text": "1.2 Khái niệm Deep Learning Deep Learning là một nhánh con của Machine Learning, sử dụng các mạng nơ - ron nhân tạo nhiều lớp để mô phỏng cách hoạt động của bộ não con người trong việc xử lý và học từ dữ liệu. Điểm đặc trưng của Deep Learning là khả năng tự động học các đặc trưng từ dữ liệu thông qua nhiều tầng xử lý khác nhau. Mỗi tầng trong mạng nơ -ron sẽ học một mức độ biểu diễn dữ liệu khác nhau, từ các đặc trưng đơn giản đến các đặc trưng phức tạp hơn. Các mô hình Deep Learning thường được xây dựng dựa trên Artificial Neural Network (ANN). Nhờ sự phát triển của phần cứng như GPU và sự gia tăng của dữ liệu lớn, Deep Learning đã đạt được nhiều thành công trong các lĩnh vực như:",
+    "metadata": {
+      "chapter": "chuong_1",
+      "char_count": 1890,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 690,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p02_para_004",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 2,
+    "text": "• Nhận dạng hình ảnh",
+    "metadata": {
+      "chapter": "chuong_1",
+      "char_count": 1890,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 20,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p03_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 3,
+    "text": "3\n\n• Nhận dạng giọng nói\n• Xử lý ngôn ngữ tự nhiên\n• Hệ thống xe tự lái",
+    "metadata": {
+      "chapter": "chuong_1",
+      "char_count": 1438,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 71,
+      "paragraph_count": 2
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p03_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 3,
+    "text": "1.3 Ứng dụng của Deep Learning Deep Learning hiện nay được ứng dụng rộng rãi trong nhiều lĩnh vực của đời sống và công nghệ. 1.3.1 Nhận dạng hình ảnh Deep Learning có khả năng nhận diện và phân loại hình ảnh với độ chính xác cao. Các hệ thống nhận dạng khuôn mặt, phân loại ảnh và phát hiện vật thể đều sử dụng các mô hình Deep Learning như Convolutional Neural Network. 1.3.2 Nhận dạng giọng nói Deep Learning được sử dụng để chuyển đổi giọng nói thành văn bản trong các trợ lý ảo và hệ thống điều khiển bằng giọng nói. 1.3.3 Ứng dụng trong y tế Trong lĩnh vực y tế, Deep Learning có thể hỗ trợ bác sĩ phân tích hình ảnh y khoa",
+    "metadata": {
+      "chapter": "chuong_1",
+      "char_count": 1438,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 628,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p03_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 3,
+    "text": "như X-quang, MRI và CT để phát hiện bệnh sớm và nâng cao hiệu quả chẩn đoán. 1.3.4 Xe tự lái Các hệ thống xe tự lái sử dụng Deep Learning để nhận diện đường, biển báo giao thông, người đi bộ và các phương tiện khác.",
+    "metadata": {
+      "chapter": "chuong_1",
+      "char_count": 1438,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 215,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p03_para_003",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 3,
+    "text": "1.4 Các mô hình phổ biến trong Deep Learning\nMột số kiến trúc mạng nơ-ron phổ biến trong Deep Learning bao gồm:\n1.4.1 Artificial Neural Network (ANN)\nArtificial Neural Network là mô hình mạng nơ-ron cơ bản gồm nhiều lớp neuron\nkết nối với nhau. ANN thường được sử dụng cho các bài toán phân loại và dự\nđoán dữ liệu.\n1.4.2 Convolutional Neural Network (CNN)\nConvolutional Neural Network là mô hình mạng nơ-ron chuyên dùng để xử lý dữ\nliệu dạng hình ảnh. CNN sử dụng các phép tích chập để trích xuất đặc trưng từ dữ\nliệu.",
+    "metadata": {
+      "chapter": "chuong_1",
+      "char_count": 1438,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 519,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p04_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 4,
+    "text": "4\n\n1.4.3 Recurrent Neural Network (RNN)\nRecurrent Neural Network là mô hình mạng nơ-ron được thiết kế để xử lý dữ liệu\nchuỗi như văn bản, âm thanh và dữ liệu thời gian.\n\nCHƯƠNG 2: TỔNG QUAN VỀ CNN",
+    "metadata": {
+      "chapter": "chuong_1",
+      "char_count": 1363,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 196,
+      "paragraph_count": 3
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p04_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 4,
+    "text": "2.1 Giới thiệu tổng quan về CNN\nCNN (Convolutional Neural Networks - Mạng nơ-ron tích chập) là một lớp\nchuyên biệt của mạng nơ-ron sâu, được thiết kế đặc biệt để xử lý các dạng dữ liệu\ncó cấu trúc lưới (grid-like topology), điển hình nhất là dữ liệu hình ảnh 2D.\nKhác với mạng nơ-ron truyền thống (MLP) coi mỗi điểm ảnh là độc lập, CNN\ntận dụng cấu trúc không gian c ục bộ của ảnh để trích xuất đặc trưng hi ệu quả\nthông qua việc chia sẻ trọng số (weight sharing), giúp giảm thiểu đáng kể số lượng\ntham số cần huấn luyện.",
+    "metadata": {
+      "chapter": "chuong_1",
+      "char_count": 1363,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 521,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p04_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 4,
+    "text": "Hình 1 - Sơ đồ kiến trúc tổng quan của Mạng nơ-ron tích chập (CNN) từ đầu vào,\nqua các lớp ẩn đến đầu ra dự đoán.\n2.2 .Các ứng dụng chủ yếu của CNN\n2.2.1 Xử lý ảnh (Image Processing)\nCơ chế hoạt động: Phép toán cốt lõi ở đây là tích chập (Convolution). Các bộ\nlọc (kernels/filters) sẽ trượt (slide) qua toàn bộ ma trận điểm ảnh ban đầu. Tại mỗi\nvị trí, nó tính toán tích vô hướng để tạo ra các bản đồ đặc trưng (feature maps).\nỨng dụng: Tự động học và trích xuất các đặc trưng như các góc cạnh (edges),\nđường nét, màu s ắc, độ tương phản mà không c ần sự can thiệp thủ công. Ngoài\nra, CNN còn dùng để khử nhiễu hoặc tăng cường chất lượng ảnh.",
+    "metadata": {
+      "chapter": "chuong_1",
+      "char_count": 1363,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 642,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p05_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 5,
+    "text": "5",
+    "metadata": {
+      "chapter": "chuong_2",
+      "char_count": 921,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 1,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p05_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 5,
+    "text": "Hình 2 - Minh họa phép toán tích ch ập 2D (2D Convolution) quét qua ma tr ận điểm ảnh để trích xuất đặc trưng. 2.2.2 Nhận dạng khuôn mặt (Face Recognition) Cơ chế trích xuất phân cấp: CNN xử lý nhận dạng thông qua kiến trúc phân cấp (Hierarchical Features) - Lớp nông (Early layers): Nhận diện các đường nét đơn giản, mảng sáng tối, các đoạn thẳng hoặc cạnh chéo. - Lớp giữa (Middle layers): Kết hợp các đường nét để nhận diện các bộ phận phức tạp hơn như mắt, mũi, miệng. - Lớp sâu (Deep layers): Ghép n ối toàn bộ thông tin để hình thành và nhận dạng một khuôn mặt hoàn chỉnh. Ưu điểm: Tính bất biến dịch chuyển (translation invariance) giúp mô hình vẫn",
+    "metadata": {
+      "chapter": "chuong_2",
+      "char_count": 921,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 655,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p05_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 5,
+    "text": "nhận ra khuôn mặt dù đối tượng di chuyển sang góc khác hoặc khung hình bị lệch.",
+    "metadata": {
+      "chapter": "chuong_2",
+      "char_count": 921,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 79,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p05_para_003",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 5,
+    "text": "Hình 3 - Cơ chế học đặc trưng phân cấp (Hierarchical Features) của CNN trong\nbài toán nhận dạng khuôn mặt: từ đường nét cơ bản đến tổng thể\n2.2.3 Thị giác máy tính (Computer Vision)",
+    "metadata": {
+      "chapter": "chuong_2",
+      "char_count": 921,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 181,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p06_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 6,
+    "text": "6",
+    "metadata": {
+      "chapter": "chuong_2",
+      "char_count": 1315,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 1,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p06_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 6,
+    "text": "Thị giác máy tính là lĩnh vực ứng dụng rộng lớn nhất của CNN, đóng vai trò \"xương sống\" cho các hệ thống thông minh. Các bài toán cốt lõi bao gồm: - Phân loại ảnh (Image Classification): Xác định đối tượng chính trong ảnh là gì. Trong thực tế, các kiến trúc này là nền tảng cho nhiều ứng dụng phổ biến. Ví dụ, khi xây dựng một website nhận diện hoa và trái cây, CNN được ứng dụng để trích xuất đặc trưng c ủa từng loại lá, cánh hoa hay màu s ắc quả, từ đó mô hình có thể phân loại chính xác hình ảnh người dùng tải lên thuộc giống cây nào. - Phát hiện đối tượng (Object Detection): Không ch ỉ phân loại mà còn xác định vị trí chính xác của nhiều đối tượng trong cùng một bức ảnh bằng các",
+    "metadata": {
+      "chapter": "chuong_2",
+      "char_count": 1315,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 687,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p06_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 6,
+    "text": "khung bao quanh (bounding boxes). - Phân đoạn ảnh (Segmentation): Phân loại ở cấp độ chi tiết nhất: gán nhãn cho từng điểm ảnh (pixel) để xác định ranh giới chính xác c ủa đối tượng (ví dụ: bóc tách nền, nhận diện làn đường cho xe tự lái).",
+    "metadata": {
+      "chapter": "chuong_2",
+      "char_count": 1315,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 239,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p06_para_003",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 6,
+    "text": "Hình 4 - So sánh các bài toán c ốt lõi trong Th ị giác máy tính: Phân lo ại ảnh\n(Classification), Phát hi ện đ ối tư ợng (Object Detection) và Phân đo ạn ảnh\n(Segmentation).\n2.3 .Các đặc tính ưu việt của CNN trong xử lý hình ảnh\nTính bất biến dịch chuyển (Translation Invariance): M ột đối tượng (ví d ụ:\nkhuôn mặt người) dù nằm ở góc trái, góc phải hay trung tâm bức ảnh thì mô hình",
+    "metadata": {
+      "chapter": "chuong_2",
+      "char_count": 1315,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 383,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p07_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 7,
+    "text": "7\n\nvẫn phải nhận diện được là cùng một đối tượng. CNN giải quyết vấn đề này bằng\ncách dùng chung các bộ lọc trọng số (weight sharing) quét qua toàn bộ bức ảnh.\nTính địa phương (Locality): Trong m ột bức ảnh, các đi ểm ảnh (pixel) n ằm\ngần nhau thư ờng có m ối liên h ệ mật thiết để tạo nên m ột chi ti ết cụ thể (ví dụ:\ncụm pixel tạo nên mắt, mũi, miệng). Các lớp của CNN tập trung trích xuất thông\ntin từ các vùng cục bộ này trước, sau đó m ới tổng hợp lại ở các lớp sâu hơn đ ể\nhiểu được bức ảnh một cách toàn cục.\n\nCHƯƠNG 3: KIẾN TRÚC MÔ HÌNH CNN",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2051,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 549,
+      "paragraph_count": 3
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p07_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 7,
+    "text": "3.1 Cấu trúc tổng thể của CNN Convolutional Neural Network (CNN) là một loại mạng nơ-ron nhân tạo được thiết kế đặc biệt để xử lý dữ liệu dạng lưới như hình ảnh. Mô hình CNN được xây dựng dựa trên ý tưởng mô phỏng cách hệ thống thị giác của con người xử lý thông tin hình ảnh. Nhờ khả năng tự động trích xuất đặc trưng từ dữ liệu, CNN đã trở thành một trong những mô hình quan trọng nhất trong lĩnh vực thị giác máy tính. Một mô hình CNN điển hình thường bao gồm nhiều lớp khác nhau được sắp xếp theo một cấu trúc nhất định. Mỗi lớp đảm nhận một chức năng riêng trong quá trình xử lý dữ liệu đầu vào. Các lớp này phối hợp với nhau để trích xuất đặc trưng và đưa ra kết quả dự đoán cuối cùng.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2051,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 691,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p07_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 7,
+    "text": "Cấu trúc tổng thể của một mạng CNN thường bao gồm các thành phần chính sau: 1. Input Layer (Lớp đầu vào) Đây là lớp nhận dữ liệu đầu vào của mô hình. Trong các bài toán x ử lý hình ảnh, dữ liệu đầu vào thường là các ma tr ận pixel biểu diễn hình ảnh. Ví dụ, một ảnh màu có thể được biểu diễn dưới dạng ma trận ba chiều gồm chiều cao, chiều rộng và số kênh màu (RGB). 2. Convolution Layer (Lớp tích chập) Lớp tích chập là thành phần quan trọng nhất của CNN. Lớp này sử dụng các bộ lọc (filter hoặc kernel) để quét qua dữ liệu đầu vào và trích xuất các đặc trưng quan trọng như cạnh, góc hoặc hình dạng. Quá trình này giúp giảm số lượng tham số cần học và tăng khả năng phát hiện đặc trưng của mô hình.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2051,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 700,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p07_para_003",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 7,
+    "text": "3. Activation Function (Hàm kích hoạt) Sau mỗi lớp tích chập, dữ liệu thường được đưa qua một hàm kích hoạt",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2051,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 107,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p08_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 8,
+    "text": "8",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2180,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 1,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p08_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 8,
+    "text": "nhằm tạo tính phi tuyến cho mô hình. Một hàm kích hoạt phổ biến trong CNN là ReLU (Rectified Linear Unit), giúp tăng tốc độ huấn luyện và cải thiện hiệu suất của mạng. 4. Pooling Layer (Lớp gộp) Lớp Pooling được sử dụng để giảm kích thước của bản đồ đặc trưng (feature map) sau quá trình tích chập. Điều này giúp giảm số lượng tham số của mô hình, giảm chi phí tính toán và hạn chế hiện tượng quá khớp (overfitting). Hai phương pháp phổ biến của lớp này là Max Pooling và Average Pooling. 5. Fully Connected Layer (Lớp kết nối đầy đủ) Sau khi d ữ liệu đã đư ợc trích xu ất đ ặc trưng qua các l ớp convolution và pooling, dữ liệu sẽ được đưa vào lớp Fully Connected. Tại đây, tất cả các neuron",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2180,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 692,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p08_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 8,
+    "text": "đều được kết nối với nhau giống như trong m ạng nơ-ron truyền thống. Lớp này có nhiệm vụ tổng hợp các đặc trưng đã học và đưa ra kết quả phân loại cuối cùng. 6. Output Layer (Lớp đầu ra) Đây là lớp cuối cùng của mạng CNN, nơi mô hình đưa ra k ết quả dự đoán. Trong các bài toán phân lo ại, lớp này thường sử dụng hàm Softmax đ ể tính xác suất của từng lớp và chọn lớp có xác suất cao nhất làm kết quả. Tóm lại, cấu trúc tổng thể của CNN bao gồm nhiều lớp xử lý khác nhau, t ừ việc nhận dữ liệu đầu vào, trích xuất đặc trưng, giảm kích thước dữ liệu cho đến phân loại kết quả. Sự kết hợp giữa các lớp này giúp CNN có khả năng học và nhận",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2180,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 636,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p08_para_003",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 8,
+    "text": "dạng các đặc trưng phức tạp trong dữ liệu hình ảnh một cách hiệu quả.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2180,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 69,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p08_para_004",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 8,
+    "text": "3.2 Convolution Layer Lớp tích ch ập thực hi ện phép toán tương quan chéo (cross -correlation) để trích xuất đặc trưng. Mặc dù về mặt toán học chuẩn, phép tích chập (convolution) yêu cầu đảo ngược kernel (d ấu trừ trong chỉ số), nhưng trong Deep Learning, chúng ta sử dụng dấu cộng để đơn giản hóa. Vì các tham số kernel được học trực tiếp từ dữ liệu, sự khác biệt về dấu này là không quan trọng. 3.2.1. Các tham số điều khiển • Kernel (Bộ lọc): Một ma trận trọng số nhỏ trượt qua dữ liệu. CNN sử dụng cơ chế chia sẻ trọng số (weight sharing), nghĩa là cùng một kernel được dùng để trích xuất một loại đặc trưng tại mọi vị trí không gian.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2180,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 638,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p08_para_005",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 8,
+    "text": "• Padding (Đệm): Thêm các hàng/cột (thường là giá tr ị 0) quanh biên ảnh để kiểm soát kích thước đầu ra và tránh mất mát thông tin ở rìa.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2180,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 137,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p09_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 9,
+    "text": "9\n\n• Stride (Bước trượt): Khoảng cách di chuyển của kernel sau mỗi phép tính.\nStride >1 giúp gi ảm kích thước không gian của bản đồ đặc trưng (feature\nmap).\n3.2.2. Đa kênh (Multiple Channels)\nẢnh thực tế thường là tensor 3 chi ều (Height, Width, Channels). Do đó, b ộ\nlọc V được định nghĩa là một tensor 4 chiều (a,b,c,d) với a,b là kích thước không\ngian, c là số kênh đầu vào và d là số lượng bộ lọc (tương ứng số kênh đầu ra).\nCông thức toán học tổng quát: Giả sử kernel có kích thước không gian là k×k,\nta đặt k=2Δ+1 (với Δ là bán kính bộ lọc). Giá trị tại vị trí (i,j) của kênh đầu ra thứ\nd được tính như sau:\n𝐻𝑖,𝑗,𝑑 =  ∑ ∑ ∑ 𝑉𝑎,𝑏,𝑐,𝑑𝑋𝑖+𝑎,𝑗+𝑏,𝑐\n𝑐\n∆\n𝑏=−∆\n∆\n𝑎=−∆\n\nTriển khai với PyTorch:",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1548,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 689,
+      "paragraph_count": 3
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p09_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 9,
+    "text": "3.3 Activation Function Trong các mô hình mạng nơ-ron, hàm kích hoạt (Activation Function) đóng vai trò rất quan trọng trong việc giúp mô hình học được các mối quan hệ phi tuyến giữa dữ liệu đầu vào và đầu ra. Nếu không có hàm kích ho ạt, toàn bộ mạng nơ- ron sẽ chỉ thực hiện các phép biến đổi tuyến tính và không thể giải quyết các bài toán phức tạp. Trong Convolutional Neural Network (CNN), hàm kích hoạt thường được áp dụng sau mỗi lớp tích chập (Convolution Layer) nhằm tạo tính phi tuyến cho mô hình. Nhờ đó, mạng có th ể học được nhiều đặc trưng khác nhau t ừ dữ liệu đầu vào, đặc biệt là trong các bài toán xử lý hình ảnh. Một số hàm kích hoạt phổ biến trong Deep Learning bao gồm:",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1548,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 690,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p09_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 9,
+    "text": "3.3.1 ReLU (Rectified Linear Unit) Rectified Linear Unit (ReLU) là hàm kích ho ạt được sử dụng phổ biến nhất trong các mô hình CNN. Hàm này có dạng: 𝑓(𝑥) = max (0, 𝑥)",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1548,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 166,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p10_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 10,
+    "text": "10\n\nĐiều này có nghĩa là:\n• Nếu giá trị đầu vào lớn hơn 0 thì kết quả giữ nguyên.\n• Nếu giá trị đầu vào nhỏ hơn hoặc bằng 0 thì kết quả bằng 0.\nƯu điểm của ReLU:\n• Tốc độ tính toán nhanh.\n• Giảm hiện tượng vanishing gradient trong quá trình huấn luyện.\n• Giúp mô hình hội tụ nhanh hơn.\nTuy nhiên, ReLU cũng có một hạn chế là hiện tượng “dead neuron”, khi một\nsố neuron luôn cho đầu ra bằng 0 trong quá trình huấn luyện.\n3.3.2 Sigmoid\nSigmoid function là một trong những hàm kích hoạt được sử dụng trong các\nmô hình mạng nơ-ron truyền thống. Hàm Sigmoid có dạng:\n𝑓(𝑥) = 1 1 + 𝑒−𝑥",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1185,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 578,
+      "paragraph_count": 2
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p10_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 10,
+    "text": "Giá trị đầu ra của hàm Sigmoid nằm trong khoảng từ 0 đến 1, do đó hàm này\nthường được sử dụng trong các bài toán phân loại nhị phân.\nƯu điểm của Sigmoid:\n• Dễ hiểu và dễ triển khai.\n• Phù hợp với các bài toán dự đoán xác suất.\nTuy nhiên, hàm Sigmoid có nhược điểm là dễ gặp phải hiện tượng vanishing\ngradient, làm cho quá trình huấn luyện mạng sâu trở nên khó khăn.\n3.3.3 Tanh\nHyperbolic tangent (Tanh) là m ột biến thể của hàm Sigmoid. Hàm này có\ndạng:\n𝑓(𝑥) = 𝑒 𝑥 − 𝑒−𝑥\n𝑒𝑥 + 𝑒−𝑥\n\nGiá trị đầu ra của hàm Tanh nằm trong khoảng từ -1 đến 1.\nƯu điểm của Tanh:\n• Dữ liệu đầu ra được chuẩn hóa quanh giá trị 0.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1185,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 605,
+      "paragraph_count": 2
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p11_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 11,
+    "text": "11\n\n• Thường cho hiệu quả tốt hơn Sigmoid trong một số trường hợp.\nTuy nhiên, giống như Sigmoid, hàm Tanh cũng có thể gặp vấn đề vanishing\ngradient khi mạng quá sâu.\n3.3.4 Vai trò của Activation Function trong CNN\nTrong CNN, hàm kích hoạt giúp:\n• Tạo tính phi tuyến cho mô hình.\n• Cho phép mạng học các đặc trưng phức tạp trong dữ liệu.\n• Cải thiện khả năng phân loại và dự đoán của mô hình.\nTrong th ực t ế, ReLU thường đư ợc s ử dụng nhi ều nh ất trong các l ớp\nconvolution của CNN do hiệu suất tính toán cao và khả năng giảm hiện tượng mất\ngradient.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1895,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 552,
+      "paragraph_count": 2
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p11_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 11,
+    "text": "3.4 Pooling Layer Trong nhiều bài toán nhận dạng ảnh, mục tiêu cuối cùng thường là trả lời một câu hỏi tổng quát, ví dụ: trong ảnh có con mèo hay không . Vì vậy, lớp cuối của mạng nơ-ron cần “nhìn” được toàn bộ bức ảnh chứ không chỉ một phần nhỏ. Để làm được điều đó, mạng CNN sẽ xử lý ảnh qua nhiều lớp. Mỗi lớp sẽ gộp thông tin từ lớp trước, làm cho đặc trưng ngày càng “to và tổng quát hơn”. Càng đi sâu vào m ạng, mỗi nơ -ron sẽ quan sát đư ợc một vùng ảnh l ớn hơn (g ọi là receptive field). Khi ta gi ảm kích thước ảnh (giảm độ phân giải), thì mỗi bộ lọc tích chập sẽ bao phủ một vùng lớn hơn, giúp mạng hiểu ảnh ở mức tổng thể nhanh hơn.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1895,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 644,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p11_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 11,
+    "text": "Ngoài ra, khi phát hiện các đặc trưng cơ bản như cạnh, ta muốn mạng không quá nhạy cảm với việc vật thể bị dịch chuyển một chút. Ví dụ, nếu cả ảnh bị dịch sang phải 1 pixel, thì cạnh trong ảnh cũng chỉ dịch 1 pixel. Nhưng nếu mạng quá nhạy, chỉ dịch 1 pixel cũng làm kết quả thay đổi rất nhiều. Trong thực tế, vật thể trong ảnh hiếm khi nằm đúng một vị trí cố định, và ngay cả máy ảnh cũng có thể rung nhẹ làm ảnh bị lệch vài pixel. Vì vậy, người ta dùng lớp pooling. Pooling có hai tác dụng chính: 1. Làm mạng ít nhạy cảm với vị trí chính xác của vật thể (tăng tính bất biến với dịch chuyển). 2. Giảm kích thước ảnh đặc trưng (downsampling) để mạng chạy nhanh hơn và học đặc trưng tổng quát hơn.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1895,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 696,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p12_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 12,
+    "text": "12",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1787,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 2,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p12_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 12,
+    "text": "3.4.1.Maximum Pooling and Average Pooling( gộp tối đa và gộp trung bình) Giống như các lớp tích chập, các toán tử pooling cũng sử dụng một cửa sổ có kích thước cố định trượt qua toàn b ộ vùng của đầu vào theo bư ớc nhảy (stride), và tại mỗi vị trí mà cửa sổ đi qua, nó sẽ tạo ra một giá trị đầu ra duy nhất (cửa sổ này còn được gọi là pooling window). Tuy nhiên, khác với lớp convolution thực hiện phép tương quan chéo gi ữa đầu vào và kernel, l ớp pooling không có tham số để học (không có kernel). Thay vào đó, pooling th ực hiện các phép toán c ố định, thường là lấy giá trị lớn nhất hoặc giá trị trung bình của các phần tử trong cửa sổ pooling.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1787,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 648,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p12_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 12,
+    "text": "Hai phép toán này lần lượt được gọi là max pooling và average pooling. Average pooling xuất hiện từ rất sớm trong các mạng CNN. Ý tưởng của nó giống với việc giảm độ phân giải của ảnh: thay vì chỉ lấy giá trị của mỗi pixel thứ hai hoặc thứ ba, ta lấy trung bình các pixel li ền kề để tạo ra ảnh có độ phân giải thấp hơn nhưng ít nhiễu hơn, vì thông tin từ nhiều pixel được gộp lại. Max pooling được giới thiệu trong công trình của Riesenhuber và Poggio (1999) trong lĩnh vực khoa học thần kinh nhận thức để mô tả cách thông tin được tổng hợp theo cấu trúc phân cấp nhằm nhận dạng vật thể; trước đó, một phiên bản tương tự đã được dùng trong nhận dạng tiếng nói.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1787,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 661,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p12_para_003",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 12,
+    "text": "Trong h ầu hết các trư ờng hợp thực tế, max pooling thường được ưa chuộng hơn average pooling. Trong cả hai trường hợp, tương tự như toán tử tương quan chéo, ta có thể hình dung cửa sổ pooling bắt đầu từ góc trên bên trái của tensor đầu vào và trượt từ trái sang phải, từ trên xuống dưới. Tại mỗi vị trí mà cửa sổ pooling đi qua, nó sẽ tính giá trị lớn nhất hoặc giá trị trung bình của vùng con trong c ửa sổ, tùy thuộc vào việc ta sử dụng max pooling hay average pooling.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1787,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 472,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p13_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 13,
+    "text": "13",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1077,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 2,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p13_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 13,
+    "text": "Max-pooling với hình dạng cửa sổ pooling là 2x2. Nói chung, ta có thể định nghĩa một lớp pooling kích thước p×qp \\times qp×q bằng cách tổng hợp thông tin trên một vùng có kích thước như vậy. Quay lại bài toán phát hiện cạnh, ta sử dụng đầu ra của lớp tích chập làm đầu vào cho lớp max- pooling 2 × 2. Gọi XXX là đầu vào của lớp tích chập và YYY là đầu ra của lớp pooling. B ất k ể các giá tr ị của X[i,j]X[i, j]X[i,j], X[i,j+1]X[i, j+1]X[i,j+1], X[i+1,j]X[i+1, j]X[i+1,j] và X[i+1,j+1]X[i+1, j+1]X[i+1,j+1] có khác nhau hay không, l ớp pooling luôn g ộp chúng l ại thành m ột giá tr ị duy nh ất Y[i,j]Y[i, j]Y[i,j]. Nói cách khác, c ửa sổ pooling di chuy ển trên ảnh và m ỗi lần chỉ dịch",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1077,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 687,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p13_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 13,
+    "text": "chuyển tối đa một phần tử theo chiều cao hoặc chiều rộng. Trong đoạn mã bên dưới, chúng ta cài đặt quá trình lan truyền xuôi (forward propagation) của lớp pooling trong hàm pool2d. Hàm này tương tự với hàm corr2d đã giới thiệu trong Mục 7.2. Tuy nhiên, l ớp pooling không cần kernel, mà chỉ tính đầu ra bằng cách lấy giá trị lớn nhất hoặc giá trị trung bình của mỗi vùng trong đầu vào:",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1077,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 385,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p14_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 14,
+    "text": "14\n\n3.4.2.Padding and Stride\nGiống như các l ớp tích chập, các lớp pooling cũng làm thay đ ổi kích thước\nđầu ra. Tương tự như trước, chúng ta có thể điều chỉnh phép toán để đạt được kích\nthước đầu ra mong muốn bằng cách thêm padding vào đầu vào và điều chỉnh\nstride. Chúng ta có thể minh họa cách sử dụng padding và stride trong lớp pooling\nbằng hàm max-pooling hai chiều có sẵn trong thư viện deep learning. Trước tiên,\nta tạo một tensor đầu vào XXX có bốn chiều, trong đó số lượng mẫu (batch size)\nvà số lượng kênh đều bằng 1.\n\nX = torch.arange(16, dtype=torch.float32).reshape((1, 1, 4, 4))\nX\n\ntensor([[[[ 0.,  1.,  2.,  3.],\n[ 4.,  5.,  6.,  7.],\n[ 8.,  9., 10., 11.],\n[12., 13., 14., 15.]]]])",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 979,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 697,
+      "paragraph_count": 4
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p14_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 14,
+    "text": "Vì phép gộp tập hợp thông tin từ một vùng, các framework học sâu mặc định\nsẽ khớp kích thước cửa sổ gộp và bước nhảy. Ví dụ, nếu chúng ta sử dụng cửa sổ\ngộp có hình dạng (3, 3), chúng ta sẽ nhận được bước nhảy có hình dạng (3, 3) theo\nmặc định.\n\npool2d = nn.MaxPool2d(3)\npool2d(X)",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 979,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 280,
+      "paragraph_count": 2
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p15_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 15,
+    "text": "15\n\ntensor([[[[10.]]]])\n\n3.4.3.Multiple Channels\nKhi xử lý dữ liệu đầu vào có nhiều kênh (multi-channel), lớp pooling s ẽ\nthực hiện pooling riêng biệt trên từng kênh đầu vào, thay vì cộng gộp các kênh\nlại với nhau như trong lớp tích chập. Điều này có nghĩa là số lượng kênh đầu ra\ncủa lớp pooling sẽ bằng với số lượng kênh đầu vào.\nTrong phần dưới, chúng ta sẽ nối (concatenate) hai tensor XXX và X+1X +\n1X+1 theo chiều kênh để tạo ra một đầu vào có hai kênh.\nX = torch.cat((X, X + 1), 1)\nX\ntensor([[[[ 0.,  1.,  2.,  3.],\n[ 4.,  5.,  6.,  7.],\n[ 8.,  9., 10., 11.],\n[12., 13., 14., 15.]],\n\n[[ 1.,  2.,  3.,  4.],\n[ 5.,  6.,  7.,  8.],\n[ 9., 10., 11., 12.],\n[13., 14., 15., 16.]]]])",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 857,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 682,
+      "paragraph_count": 4
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p15_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 15,
+    "text": "Như chúng ta thấy, số lượng kênh đầu ra vẫn là hai sau khi gộp lại.\n\npool2d = nn.MaxPool2d(3, padding=1, stride=2)\npool2d(X)\ntensor([[[[ 5.,  7.],\n[13., 15.]],\n\n[[ 6.,  8.],",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 857,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 173,
+      "paragraph_count": 3
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p16_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 16,
+    "text": "16\n\n[14., 16.]]]])",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2038,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 18,
+      "paragraph_count": 2
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p16_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 16,
+    "text": "3.4.4.Kết luận Pooling là một phép toán rất đơn giản. Nó đúng như tên gọi của mình: gộp (tổng hợp) thông tin trong một cửa sổ các giá trị. Tất cả các khái niệm đã học trong convolution, như stride và padding, cũng được áp dụng cho pooling theo cùng một cách. Lưu ý r ằng pooling không quan tâm đ ến số kênh (channels), nghĩa là nó giữ nguyên số lượng kênh đầu vào và xử lý từng kênh một cách độc lập. Cuối cùng, trong hai l ựa chọn pooling phổ biến, max-pooling thường được ưu tiên hơn average pooling, vì nó giúp đầu ra có tính bất biến (invariance) tốt hơn đối với sự thay đổi nhỏ trong vị trí. Một lựa chọn phổ biến là dùng cửa sổ",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2038,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 633,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p16_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 16,
+    "text": "pooling có kích thước cửa sổ 2x2, khi đó độ phân giải không gian của đầu ra sẽ giảm xuống còn 1/4 so với ban đầu. Cần lưu ý rằng pooling không phải là cách duy nhất để giảm độ phân giải. Ví dụ, trong stochastic pooling và fractional max-pooling, người ta kết hợp việc gộp thông tin với yếu tố ngẫu nhiên, điều này có thể cải thiện độ chính xác trong một số trường hợp. Ngoài ra, như chúng ta sẽ thấy sau này với cơ chế attention, còn có những cách t ổng hợp thông tin tinh vi hơn, ch ẳng hạn như d ựa trên m ức độ tương quan giữa vector truy vấn (query) và các vector biểu diễn (representation). 3.5 Fully Connected Layer Trong lĩnh v ực h ọc sâu (Deep Learning), m ạng nơ -ron tích ch ập",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2038,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 688,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p16_para_003",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 16,
+    "text": "(Convolutional Neural Network – CNN) là một trong những kiến trúc phổ biến nhất để xử lý dữ liệu hình ảnh, âm thanh và video. M ột thành ph ần quan tr ọng trong kiến trúc CNN là lớp Fully Connected (FC), thường xuất hiện ở cuối mạng để thực hiện phân loại hoặc hồi quy.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2038,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 269,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p16_para_004",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 16,
+    "text": "Lớp Fully Connected (k ết nối đầy đủ) là l ớp mà m ỗi neuron trong l ớp này\nđược kết nối với tất cả neuron của lớp trước đó. Điều này tương tự như mạng nơ-\nron truy ền th ống (Multilayer Perceptron – MLP). Trong CNN, các l ớp\nconvolution và pooling trích xu ất đặc trưng t ừ dữ liệu đầu vào, sau đó các đ ặc\ntrưng này được chuyển thành một vector 1 chi ều (Flatten) để đưa vào lớp Fully\nConnected.\n\n3.5.1.Nguyên lý hoạt động",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2038,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 424,
+      "paragraph_count": 2
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p17_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 17,
+    "text": "17",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1876,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 2,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p17_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 17,
+    "text": "Giả sử đầu vào của lớp Fully Connected là một vector đặc trưng x = (x1, x2, ..., xn). Mỗi neuron trong lớp FC tính toán đầu ra theo công thức: y = f(Wx + b) Trong đó: • W là ma trận trọng số (weights) • b là vector độ lệch (bias) • f là hàm kích hoạt (ReLU, Sigmoid, Softmax, v.v.) Mỗi neuron học cách kết hợp các đặc trưng đầu vào để đưa ra dự đoán cuối cùng. 3.5.2.Vai trò của Fully Connected trong CNN Trong CNN, các l ớp convolution và pooling ch ỉ trích xuất đặc trưng cục bộ (cạnh, góc, texture). L ớp Fully Connected có nhi ệm vụ tổng hợp các đ ặc trưng này và thực hiện phân loại hoặc hồi quy. Ví dụ, trong bài toán phân loại ảnh mèo",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1876,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 641,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p17_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 17,
+    "text": "và chó, lớp FC sẽ quyết định ảnh thuộc lớp mèo hay chó d ựa trên các đặc trưng đã học. 3.5.3.Nhược điểm của Fully Connected • Số lượng tham số rất lớn, dễ gây overfitting. • Tốn bộ nhớ và thời gian huấn luyện. • Không khai thác được cấu trúc không gian của dữ liệu ảnh. Ví dụ: nếu đầu vào là feature map kích thước 7×7×512 thì số neuron đầu vào là 25.088. Nếu lớp FC có 4.096 neuron thì số tham số là hơn 100 triệu. 3.5.4.Xu hướng thay thế Fully Connected Trong các kiến trúc CNN hiện đại như ResNet, MobileNet, EfficientNet, lớp Fully Connected lớn thường được thay thế bằng Global Average Pooling (GAP) để giảm số lượng tham số và tăng khả năng tổng quát hóa. Ngoài ra, các cơ ch ế",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1876,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 683,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p17_para_003",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 17,
+    "text": "Attention cũng được sử dụng để tổng hợp đặc trưng thay cho FC truyền thống. 3.5.5.Kết luận Lớp Fully Connected đóng vai trò quan tr ọng trong CNN truyền thống, đặc biệt trong các mô hình phân lo ại ảnh cổ điển như AlexNet, VGG, LeNet. Tuy nhiên, do số lượng tham số lớn và nguy cơ overfitting, các kiến trúc hiện đại đang giảm dần vai trò c ủa FC và thay th ế bằng các phương pháp t ổng hợp đặc trưng hiệu quả hơn. Dù v ậy, Fully Connected v ẫn là m ột thành ph ần cơ b ản và quan trọng trong học sâu, đặc biệt đối với sinh viên và người mới học.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1876,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 546,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p18_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 18,
+    "text": "18",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1567,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 2,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p18_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 18,
+    "text": "3.6 Thuật toán huấn luyện Backpropagation trong CNN 3.6.1. Cơ sở toán học và cơ chế vận hành của thuật toán lan truyền ngược Lan truyền ngược, là nền tảng cốt lõi cho phép các mạng thần kinh đa lớp có thể huấn luyện được. Về bản chất, đây là một ứng dụng có hệ thống của quy tắc chuỗi (chain rule) t ừ giải tích để tính toán độ dốc (đạo hàm riêng) c ủa hàm mất mát đối với từng tham số trong mạng. Trong bối cảnh của CNN, quá trình này trở nên phức tạp hơn do bản chất chia sẻ trọng số và các phép toán phi tuyến tính đặc thù. 3.6.2. Đồ thị tính toán và Quy tắc chuỗi Mọi hoạt động bên trong CNN có th ể được biểu diễn dưới dạng một đồ thị",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1567,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 639,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p18_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 18,
+    "text": "tính toán (computational graph), nơi m ỗi nút là m ột phép toán và m ỗi cạnh đại diện cho dòng dữ liệu. Quá trình huấn luyện mô hình là một chu trình lặp lại, bắt đầu bằng lượt truyền tiến (forward pass) – nơi dữ liệu đầu vào đư ợc xử lý qua từng lớp để tạo ra dự đoán và tính toán hàm mất mát L nhằm đánh giá sai lệch so với thực tế. Ngay sau đó, thuật toán lan truyền ngược thực hiện lượt truyền nghịch (backward pass), xuất phát t ừ sai số tại đầu ra và lan truy ền ngược về phía đầu vào để xác định mức độ ảnh hưởng của từng tham số đối với hàm mất mát thông qua việc tính toán các gradient.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1567,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 595,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p18_para_003",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 18,
+    "text": "Tại mỗi nút trong đồ thị, thuật toán tính toán hai thành phần: gradient cục bộ\n(local gradient) của đầu ra nút đó đối với các đầu vào của nó, và gradient thượng\nnguồn (upstream gradient) nhận được từ các lớp phía sau. Tích của hai giá trị này,\ntheo quy tắc chuỗi, sẽ tạo ra gradient truyền xuống các lớp phía trước. Ví dụ, nếu",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1567,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 326,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p19_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 19,
+    "text": "19\n\nmột nút thực hiện phép toán f(x, y), và ta nh ận được Lz từ phía sau, thì gradient\nđối với x sẽ là Lx=Lz*zx. Sự phân tách này cho phép backpropagation trở thành\nmột quá trình cục bộ, nơi mỗi lớp chỉ cần biết các giá trị trung gian của chính nó\nđể tính toán các cập nhật cần thiết.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1022,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 284,
+      "paragraph_count": 2
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p19_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 19,
+    "text": "3.6.3. Lan truyền ngược trong lớp tích chập Lớp tích ch ập là nơi di ễn ra các phép toán n ặng n ề nhất và cũng là nơi backpropagation thể hiện sự tinh tế nhất. Trong lư ợt truyền tiến, một hình ảnh hoặc bản đồ đặc trưng đầu vào I đư ợc kết hợp với một bộ lọc (kernel) K thông qua phép toán tích chập để tạo ra đầu ra O: O=I*k+b Ở đây, * ký hi ệu cho phép toán tích ch ập và b là đ ộ lệch (bias). Trong lư ợt truyền nghịch, mục tiêu là tính toán LK để cập nhật trọng số bộ lọc và LI để truyền sai số về lớp trước đó. Đối với việc cập nhật bộ lọc, một quan sát toán h ọc quan trọng là đạo hàm của hàm mất mát đối với các trọng số trong bộ lọc chính là kết quả của phép tương",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1022,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 673,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p19_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 19,
+    "text": "quan chéo giữa đầu vào I và gradient của đầu ra LO : LK = I*LO",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1022,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 62,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p20_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 20,
+    "text": "20\n\nĐiều này có nghĩa là l ớp tích ch ập sử dụng chính cơ ch ế vận hành c ủa nó\ntrong lượt truyền nghịch để tự điều chỉnh. Tuy nhiên, khi tính toán gradient đ ối\nvới đầu vào LI, ta cần thực hiện phép tích chập\nLI = rot180(K)*LO\n\nViệc xoay 180 độ của bộ lọc K là bắt buộc để đảm bảo rằng các gradient được\nphân bổ chính xác trở lại các vị trí ảnh hưởng đến giá trị đầu ra ban đầu.\n3.6.4. Cơ chế dãn truyền qua các lớp Pooling\nLớp Pooling, ch ẳng hạn như Max Pooling ho ặc Average Pooling, đóng vai\ntrò quan trọng trong việc giảm kích thước không gian và tăng tính b ất biến cục",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 576,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 576,
+      "paragraph_count": 3
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p21_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 21,
+    "text": "21\n\nbộ. Mặc dù các l ớp này không có tham s ố để học, chúng vẫn phải tham gia vào\nquá trình lan truyền ngược để định hướng dòng chảy của gradient.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1539,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 146,
+      "paragraph_count": 2
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p21_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 21,
+    "text": "Loại\nPooling\nCơ ch ế truyền\ntiến\nCơ ch ế truyền ngh ịch\n(Gradient Routing)\nMax\nPooling\nChọn giá trị lớn\nnhất trong c ửa s ổ\ntrượt.\nGradient được truyền 100% v ề\nvị trí của giá tr ị lớn nhất đã ch ọn;\ncác vị trí khác nhận gradient bằng 0.\nAverage\nPooling\nTính giá tr ị\ntrung bình c ủa các\nphần t ử trong c ửa\nsổ.\nGradient thư ợng ngu ồn đư ợc\nchia đều cho tất cả các phần tử trong\ncửa sổ (1/N, với N là kích thước cửa\nsổ).\nTrong Max Pooling, mạng thường lưu trữ một \"mặt nạ\" (mask) hoặc các chỉ\nsố (indices) của các ph ần tử cực đại trong quá trình truy ền tiến. Nếu không có\nthông tin này, thuật toán sẽ không biết phải gửi gradient về đâu, dẫn đến việc đóng\nbăng quá trình học tập tại các lớp dưới.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1539,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 699,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p21_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 21,
+    "text": "3.6.5. Các chiến lược tối ưu hóa: SGD và Adam\nSau khi lan truyền ngược cung cấp các gradient, bộ tối ưu hóa (optimizer) sẽ\nđảm nhận trách nhiệm thực hiện các thay đổi thực tế đối với trọng số. Sự lựa chọn\nbộ tối ưu hóa ảnh hưởng trực tiếp đến tốc độ hội tụ, độ ổn định của quá trình huấn\nluyện và khả năng tổng quát hóa của mô hình cuối cùng.\n3.6.6. Stochastic Gradient Descent (SGD) và Sức mạnh của sự đơn giản\nSGD là biến thể phổ biến nhất của thuật toán hạ gradient (Gradient Descent)\ntruyền thống. Thay vì tính toán gradient trên toàn b ộ tập dữ liệu (vốn không khả\nthi về mặt bộ nhớ với dữ liệu lớn), SGD cập nhật tham số dựa trên một ví dụ đơn\nlẻ hoặc một nhóm nhỏ ví dụ (mini-batch):",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1539,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 690,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p22_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 22,
+    "text": "22",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2092,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 2,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p22_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 22,
+    "text": "-  J(; B) Trong đó  là t ốc độ học (learning rate) và B là m ột tập hợp con ngẫu nhiên của dữ liệu huấn luyện. Mặc dù đơn giản, SGD mang lại một số lợi ích sâu sắc: 1. Tính ngẫu nhiên và Thoát kh ỏi cực tiểu cục bộ: Những biến động do việc tính gradient trên các t ập dữ liệu nhỏ tạo ra m ột loại \"nhiễu\" có l ợi, giúp mô hình nh ảy ra kh ỏi các c ực tiểu cục bộ nông hoặc các đi ểm yên ngựa (saddle points). 2. Hiệu quả bộ nhớ: SGD cho phép hu ấn luyện với dữ liệu khổng lồ bằng cách nạp từng phần vào GPU, tối ưu hóa tốc độ tính toán song song. 3. Khả năng Tổng quát hóa (Generalization): SGD có xu hư ớng tìm đ ến các Cực tiểu phẳng (Flat Minima). Tại đây, nếu dữ liệu thực tế có sai lệch",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2092,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 691,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p22_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 22,
+    "text": "nhỏ so với dữ liệu huấn luyện, hàm mất mát cũng không thay đổi quá lớn, giúp mô hình hoạt động ổn định hơn trên dữ liệu mới. Tuy nhiên, SGD có như ợc điểm là đường đi thư ờng bị \"zic-zac\" (dao động mạnh) và hội tụ chậm. Để khắc phục, các kỹ thuật bổ trợ thường được dùng kèm: 1. Momentum (Đ ộng lượng): Tích lũy v ận t ốc t ừ các bư ớc trư ớc đ ể đẩy nhanh quá trình hội tụ và làm mượt quỹ đạo. 2. Learning Rate Decay : Giảm dần tốc độ học theo th ời gian đ ể mô hình \"lắng dịu\" lại và h ội tụ chính xác vào đi ểm tối ưu ở cuối quá trình hu ấn luyện. Adam: Sự kết hợp của Động lượng và Tốc độ học thích nghi Adam (Adaptive Moment Estimation) là bộ tối ưu hóa \"tiêu chuẩn\" nhờ khả",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2092,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 679,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p22_para_003",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 22,
+    "text": "năng tự điều chỉnh tốc độ học cho từng tham số riêng biệt. Adam kết hợp hai cơ chế: Momentum (tích lũy hướng đi) và RMSProp (điều chỉnh độ dài bước đi dựa trên độ lớn của gradient). Quy trình toán học của Adam bao gồm: • Moment thứ nhất (vt): Trung bình đ ộng của gradient, đóng vai trò như \"quán tính\" giúp vượt qua các vùng phẳng và ổn định hướng đi. • Moment thứ hai (st): Trung bình động của bình phương gradient, dùng để tỷ lệ hóa tốc độ học. Tham số nào có gradient biến động quá lớn sẽ bị \"hãm\" lại, tham số nào có gradient nhỏ/thưa sẽ được \"thúc đẩy\" đi nhanh hơn. • Hiệu chỉnh độ lệch (Bias Correction):  Giúp thuật toán không b ị chệch",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2092,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 645,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p22_para_004",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 22,
+    "text": "hướng trong những bước đầu tiên khi các moment còn đang khởi tạo từ 0.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 2092,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 70,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p23_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 23,
+    "text": "23\n\nCông th ức c ập nh ật c ủa Adam tích h ợp cơ ch ế hiệu ch ỉnh đ ộ lệch (bias\ncorrection) để bù đắp cho vi ệc khởi tạo các moment b ằng 0, đi ều này đ ặc biệt\nquan trọng trong những bước huấn luyện đầu tiên:\n\nTham số được cập nhật theo quy tắc:",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1196,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 247,
+      "paragraph_count": 3
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p23_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 23,
+    "text": "xtxt-1 - st +  vt\nViệc lựa chọn giữa SGD và Adam không ch ỉ đơn giản là ch ọn thuật toán\n\"nhanh hơn\". Nó liên quan đ ến sự đánh đổi phức tạp giữa tốc độ huấn luyện và\nchất lượng của mô hình cuối cùng.\nMặc dù Adam thường hội tụ nhanh hơn nhiều so với SGD trong giai đoạn đầu\ncủa quá trình huấn luyện, nhiều thực nghiệm trên các tập dữ liệu như CIFAR-10\nhoặc ImageNet cho thấy SGD với Momentum thường đạt được độ chính xác kiểm\ntra (test accuracy) cao hơn.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1196,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 454,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p23_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 23,
+    "text": "Đặc điểm Stochastic\nGradient Descent\n(SGD)\nAdam Optimizer\nTốc độ hội tụ Chậm hơn, đ ặc biệt\nở giai đoạn đầu.\nRất nhanh, lý tư ởng\ncho vi ệc th ử nghiệm\nnhanh.\nĐộ nhạy\nHyperparameter\nRất nhạy với tốc độ\nhọc ban đầu.\nÍt nh ạy hơn, các giá\ntrị mặc định thường hoạt\nđộng tốt.\nKhả năng t ổng\nquát hóa\nThường t ốt hơn, d ễ\ntìm thấy flat minima.\nCó th ể kém hơn, d ễ\nbị kẹt ở sharp minima.\nYêu c ầu tài\nnguyên\nThấp, ch ỉ lưu tr ữ\ngradient hiện tại.\nCao hơn, cần lưu trữ\nhai moment cho m ỗi\ntham số.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1196,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 491,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p24_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 24,
+    "text": "24\n\nĐộ ổn định Có thể dao động nếu\ntốc đ ộ học không phù\nhợp.\nRất ổn định nhờ việc\nchuẩn hóa gradient b ằng\nmoment thứ hai.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1401,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 123,
+      "paragraph_count": 2
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p24_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 24,
+    "text": "Sự khác biệt này có th ể giải thích thông qua lý thuy ết về \"Thời gian thoát\" (Escaping Time). Nhiễu gradient của SGD có đặc tính \"đuôi nặng\" (heavy-tailed), cho phép nó thoát kh ỏi các vùng h ẹp trong không gian l ỗi hiệu quả hơn Adam. Ngược lại, việc Adam thích nghi hóa t ốc độ học theo từng tọa độ làm giảm tính bất đối xứng của nhiễu, khiến nó khó thoát khỏi các cực tiểu cục bộ không tối ưu hơn. Tác động của kích thước Batch (Batch Size) Kích thước batch đóng vai trò như m ột bộ điều chỉnh sự cân bằng giữa tính xác định và tính ng ẫu nhiên. Batch l ớn cung c ấp ước lượng gradient chính xác hơn nhưng lại làm giảm khả năng thoát khỏi các vùng sharp minima của bộ tối ưu hóa.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1401,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 683,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p24_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 24,
+    "text": "Đối với Adam, hi ệu suất tổng quát hóa thư ờng giảm mạnh khi kích thư ớc batch tăng lên do hi ện tượng \"làm phẳng mất mát\" (loss flattening) di ễn ra sớm hơn. Để khắc phục, các kỹ thuật như AdamW (tách rời suy giảm trọng số - weight decay) hoặc LAWN đã được đề xuất để cải thiện khả năng thích nghi của trọng số và thu hẹp khoảng cách với SGD. Các vấn đề phát sinh trong huấn luyện và Giải pháp khắc phục Quá trình hu ấn luyện CNN không ph ải lúc nào cũng suôn s ẻ. Bản chất sâu của mạng tạo ra những rào cản vật lý và toán học cho dòng chảy của thông tin. Sự biến mất và Bùng nổ của Gradient",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1401,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 592,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p25_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 25,
+    "text": "25",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1007,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 2,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p25_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 25,
+    "text": "Trong mạng Nơ-ron sâu, việc nhân liên tiếp các đạo hàm qua nhiều lớp gây ra hai vấn đề chính: • Vanishing Gradient (Bi ến mất): Gradient ti ến về 0 (khi tr ị tuyệt đối đạo hàm < 1), khiến các lớp đầu ngừng học. • Exploding Gradient (Bùng nổ): Gradient tăng vọt (khi trị tuyệt đối đạo hàm > 1), gây mất ổn định hoặc lỗi NaN. Các giải pháp hiện đại bao gồm: • Khởi tạo trọng số (He/Xavier): Duy trì phương sai ổn định giữa các lớp. • Batch Normalization: Chuẩn hóa dữ liệu về phân phối chuẩn để kiểm soát biên độ gradient. Hiện tượng \"ReLU chết\" (Dead ReLU) Mặc dù ReLU rất hiệu quả, nó có một điểm yếu: nếu một nơ-ron nhận giá trị đầu vào âm, nó sẽ trả về 0 và đạo hàm cũng bằng 0.",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1007,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 680,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p25_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 25,
+    "text": "Nếu điều này xảy ra liên tục do một bước cập nhật trọng số quá lớn, nơ-ron đó có th ể bị \"chết\" vĩnh viễn vì gradient không bao giờ chạy qua nó để điều chỉnh lại trọng số. Việc giảm tốc độ học hoặc sử dụng các biến thể như Leaky ReLU (với một độ dốc nhỏ ở vùng âm) là những cách phổ biến để giữ cho các nơ-ron luôn \"sống\".",
+    "metadata": {
+      "chapter": "chuong_3",
+      "char_count": 1007,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 322,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p26_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 26,
+    "text": "26\n\nKết luận và Tầm nhìn tương lai\nHuấn luyện CNN là một sự phối hợp nhịp nhàng: Backpropagation đóng vai\ntrò là \"người truyền tin\" báo lỗi, trong khi SGD và Adam là \"người đưa ra quyết\nđịnh\" điều chỉnh tham số.\n• Adam mang lại sự tiện dụng và tốc độ vượt trội trong giai đoạn thử nghiệm.\n• SGD với Momentum vẫn là \"tiêu chu ẩn\" để đạt được các Flat Minima,\ngiúp mô hình CNN có khả năng tổng quát hóa tốt nhất trên dữ liệu thực tế.\nViệc thấu hiểu những rào cản như biến mất gradient hay vùng cực tiểu phẳng\nchính là chìa khóa để cải thiện CNN.\n\nCHƯƠNG 4: MỘT SỐ KIẾN TRÚC CNN NỔI TIẾNG",
+    "metadata": {
+      "chapter": "chuong_4",
+      "char_count": 1669,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 585,
+      "paragraph_count": 3
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p26_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 26,
+    "text": "Trong quá trình phát tri ển của Convolutional Neural Network (CNN), nhi ều\nkiến trúc khác nhau đã được đề xuất nhằm cải thiện hiệu suất của mô hình trong\ncác bài toán xử lý hình ảnh. Các kiến trúc này không chỉ giúp tăng độ chính xác\nmà còn giảm chi phí tính toán và khắc phục các hạn chế của những mô hình trước\nđó. Một số kiến trúc CNN nổi bật bao gồm LeNet, AlexNet, VGGNet, GoogLeNet\nvà ResNet.",
+    "metadata": {
+      "chapter": "chuong_4",
+      "char_count": 1669,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 398,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p26_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 26,
+    "text": "4.1 LeNet-5\nLeNet-5 là một trong những mô hình CNN đầu tiên được phát triển bởi Yann\nLeCun vào năm 1998. Mô hình này đư ợc giới thiệu trong nghiên cứu Gradient-\nBased Learning Applied to Document Recognition và được sử dụng chủ yếu cho\nbài toán nhận dạng chữ viết tay.\nKiến trúc của LeNet-5 bao gồm các lớp chính sau:\n• Lớp Convolution\n• Lớp Pooling\n• Lớp Fully Connected\nMô hình nhận đầu vào là hình ảnh kích thước 32×32 pixel. Sau khi trải qua\ncác lớp tích chập và pooling, dữ liệu được đưa vào các lớp fully connected để thực\nhiện phân loại. LeNet-5 đã chứng minh rằng CNN có thể đạt hiệu quả cao trong\ncác bài toán nhận dạng hình ảnh, đặc biệt là với bộ dữ liệu chữ số viết tay.",
+    "metadata": {
+      "chapter": "chuong_4",
+      "char_count": 1669,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 682,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p27_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 27,
+    "text": "27\n\nMặc dù kiến trúc của LeNet khá đơn giản so với các mô hình hiện đại, nhưng\nnó đã đặt nền tảng quan trọng cho sự phát triển của các kiến trúc CNN sau này.",
+    "metadata": {
+      "chapter": "chuong_4",
+      "char_count": 1401,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 157,
+      "paragraph_count": 2
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p27_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 27,
+    "text": "4.2 AlexNet AlexNet là m ột bước tiến quan tr ọng trong lĩnh v ực thị giác máy tính. Mô hình này được đề xuất bởi Alex Krizhevsky, Ilya Sutskever và Geoffrey Hinton vào năm 2012 trong nghiên cứu ImageNet Classification with Deep Convolutional Neural Networks. AlexNet đã đ ạt thành tích vư ợt trội trong cu ộc thi ImageNet Large Scale Visual Recognition Challenge (ILSVRC) năm 2012 và đánh dấu sự bùng nổ của Deep Learning trong xử lý hình ảnh. Kiến trúc AlexNet gồm: • 5 lớp Convolution • 3 lớp Fully Connected • Sử dụng hàm kích hoạt ReLU • Áp dụng kỹ thuật Dropout để giảm overfitting • Sử dụng GPU để tăng tốc huấn luyện",
+    "metadata": {
+      "chapter": "chuong_4",
+      "char_count": 1401,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 624,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p27_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 27,
+    "text": "Nhờ những cải tiến này, AlexNet đã giảm đáng kể sai số phân loại trong cuộc thi ImageNet và mở ra kỷ nguyên mới cho các mô hình Deep Learning.",
+    "metadata": {
+      "chapter": "chuong_4",
+      "char_count": 1401,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 142,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p27_para_003",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 27,
+    "text": "4.3 VGGNet\nVGGNet đư ợc phát tri ển b ởi Karen Simonyan và Andrew Zisserman t ại\nUniversity of Oxford vào năm 2014 trong nghiên c ứu Very Deep Convolutional\nNetworks for Large-Scale Image Recognition.\nĐiểm đặc biệt của VGGNet là s ử dụng các bộ lọc kích thư ớc nhỏ (3×3)\nnhưng tăng số lượng lớp mạng lên rất sâu. Hai phiên b ản phổ biến của mô hình\nlà:\n• VGG16\n• VGG19\nƯu điểm của VGGNet:\n• Kiến trúc đơn giản và dễ hiểu\n• Hiệu quả cao trong các bài toán nhận dạng hình ảnh",
+    "metadata": {
+      "chapter": "chuong_4",
+      "char_count": 1401,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 473,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p28_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 28,
+    "text": "28\n\n• Dễ dàng áp dụng trong nhiều hệ thống khác nhau\nTuy nhiên, VGGNet có số lượng tham số rất lớn nên yêu cầu tài nguyên tính\ntoán cao.",
+    "metadata": {
+      "chapter": "chuong_4",
+      "char_count": 1353,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 136,
+      "paragraph_count": 2
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p28_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 28,
+    "text": "4.4 GoogLeNet (Inception)\nGoogLeNet (Inception) được giới thiệu bởi Christian Szegedy và cộng sự vào\nnăm 2015 trong nghiên cứu Going Deeper with Convolutions.\nĐiểm nổi bật của GoogLeNet là vi ệc sử dụng Inception Module, cho phép\nthực hiện nhiều phép tích ch ập với kích thư ớc khác nhau trong cùng m ột tầng\nmạng. Điều này giúp mô hình có th ể trích xuất đặc trưng ở nhiều mức độ khác\nnhau.\nMột số đặc điểm chính của GoogLeNet:\n• Sử dụng Inception Module\n• Mạng rất sâu (khoảng 22 lớp)\n• Giảm số lượng tham số so với các mô hình trước\nNhờ kiến trúc này, GoogLeNet đạt hiệu suất rất cao trong cuộc thi ImageNet\nnăm 2014.",
+    "metadata": {
+      "chapter": "chuong_4",
+      "char_count": 1353,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 620,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p28_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 28,
+    "text": "4.5 ResNet\nResNet (Residual Network) đư ợc phát tri ển bởi Kaiming He và c ộng sự tại\nMicrosoft vào năm 2015 trong nghiên c ứu Deep Residual Learning for Image\nRecognition.\nResNet được thiết kế để giải quyết vấn đề vanishing gradient khi mạng trở\nnên quá sâu. Mô hình này giới thiệu khái niệm Residual Learning, cho phép các\nlớp mạng học phần sai lệch (residual) thay vì học trực tiếp toàn bộ hàm ánh xạ.\nKiến trúc ResNet sử dụng skip connection (kết nối tắt), cho phép tín hiệu đi\nqua nhiều lớp mà không bị suy giảm.\nMột số phiên bản phổ biến của ResNet:\n• ResNet-50\n• ResNet-101\n• ResNet-152",
+    "metadata": {
+      "chapter": "chuong_4",
+      "char_count": 1353,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 593,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p29_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 29,
+    "text": "29\n\nResNet đã đ ạt thành tích r ất cao trong cu ộc thi ImageNet và tr ở thành một\ntrong những kiến trúc CNN được sử dụng rộng rãi nhất hiện nay.\n\nCHƯƠNG 5: ƯU ĐIỂM VÀ HẠN CHẾ CỦA CNN",
+    "metadata": {
+      "chapter": "chuong_5",
+      "char_count": 1773,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 182,
+      "paragraph_count": 3
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p29_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 29,
+    "text": "Convolutional Neural Network (CNN) là m ột trong nh ững mô hình quan trọng trong lĩnh vực Deep Learning và được ứng dụng rộng rãi trong các bài toán xử lý hình ảnh. Nhờ cấu trúc đặc biệt với các lớp tích chập và pooling, CNN có khả năng trích xuất đặc trưng từ dữ liệu một cách hiệu quả. Tuy nhiên, bên cạnh những ưu điểm nổi bật, mô hình này vẫn tồn tại một số hạn chế nhất định. 5.1 Ưu điểm của CNN CNN có nhiều ưu điểm vượt trội so với các mô hình mạng nơ-ron truyền thống trong việc xử lý dữ liệu hình ảnh. Thứ nhất, khả năng tự động trích xu ất đặc trưng t ừ dữ liệu. Khác với các phương pháp truyền thống yêu cầu người dùng phải thiết kế đặc trưng thủ công,",
+    "metadata": {
+      "chapter": "chuong_5",
+      "char_count": 1773,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 663,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p29_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 29,
+    "text": "CNN có khả năng tự động học và trích xuất các đặc trưng quan trọng từ dữ liệu thông qua các lớp tích chập. Điều này giúp giảm công sức thiết kế đặc trưng và tăng độ chính xác của mô hình. Thứ hai, giảm số lượng tham s ố cần huấn luyện. Nhờ sử dụng các b ộ lọc (filter) trong lớp convolution và cơ chế chia sẻ trọng số, CNN giúp giảm đáng kể số lượng tham số so với các mạng nơ-ron fully connected. Điều này giúp mô hình hoạt động hiệu quả hơn khi xử lý dữ liệu lớn. Thứ ba, khả năng phát hi ện đặc trưng không ph ụ thuộc vị trí. CNN có kh ả năng nhận diện các đặc trưng của hình ảnh như cạnh, góc hoặc hình dạng ở nhiều vị trí khác nhau trong ảnh.",
+    "metadata": {
+      "chapter": "chuong_5",
+      "char_count": 1773,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 647,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p29_para_003",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 29,
+    "text": "Điều này giúp mô hình hoạt động tốt trong các bài toán nhận dạng hình ảnh. Thứ tư, hi ệu qu ả cao trong các bài toán th ị giác máy tính. CNN đã đạt được nhiều thành công trong các lĩnh vực như: • Nhận dạng khuôn mặt • Phân loại hình ảnh • Phát hiện vật thể • Hệ thống xe tự lái",
+    "metadata": {
+      "chapter": "chuong_5",
+      "char_count": 1773,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 277,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p30_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 30,
+    "text": "30\n\nNhờ những ưu đi ểm trên, CNN hi ện nay được xem là m ột trong những mô\nhình quan trọng nhất trong lĩnh vực thị giác máy tính.",
+    "metadata": {
+      "chapter": "chuong_5",
+      "char_count": 1742,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 129,
+      "paragraph_count": 2
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p30_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 30,
+    "text": "5.2 Hạn chế của CNN Mặc dù có nhiều ưu điểm, CNN vẫn tồn tại một số hạn chế cần được xem xét trong quá trình sử dụng. Thứ nhất, yêu cầu lượng dữ liệu lớn. Để đạt được hiệu quả cao, CNN cần một lượng dữ liệu huấn luyện lớn. Trong nhiều trường hợp, việc thu thập và gán nhãn dữ liệu có thể tốn nhiều thời gian và chi phí. Thứ hai, chi phí tính toán cao. Các mô hình CNN thường có nhiều lớp và tham số, do đó quá trình huấn luyện đòi hỏi tài nguyên tính toán lớn, đặc biệt là GPU. Thứ ba, khó giải thích mô hình. CNN thường được xem là một “hộp đen” vì rất khó để giải thích chính xác cách mà mô hình đưa ra quy ết định. Điều này có",
+    "metadata": {
+      "chapter": "chuong_5",
+      "char_count": 1742,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 629,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p30_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 30,
+    "text": "thể gây khó khăn trong một số lĩnh vực yêu cầu tính minh bạch cao như y tế hoặc tài chính. Thứ tư, dễ xảy ra hiện tượng overfitting. Nếu mô hình quá phức tạp hoặc dữ liệu huấn luyện không đủ đa dạng, CNN có thể học quá sát dữ liệu huấn luyện và hoạt động kém khi gặp dữ liệu mới.",
+    "metadata": {
+      "chapter": "chuong_5",
+      "char_count": 1742,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 279,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p30_para_003",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 30,
+    "text": "5.3 Hướng phát triển trong tương lai\nTrong những năm g ần đây, nhi ều nghiên c ứu đã đư ợc thực hiện nhằm cải\nthiện hiệu suất của CNN và khắc phục các hạn chế của mô hình.\nMột trong những hướng phát triển quan trọng là xây dựng các kiến trúc mạng\nsâu hơn và hiệu quả hơn, chẳng hạn như ResNet và GoogLeNet (Inception). Các\nkiến trúc này giúp cải thiện độ chính xác của mô hình mà vẫn kiểm soát được số\nlượng tham số.\nNgoài ra, các kỹ thuật như Transfer Learning và Data Augmentation cũng\nđược sử dụng rộng rãi để cải thiện hiệu quả của CNN khi dữ liệu huấn luyện hạn\nchế.\nTrong tương lai, CNN dự kiến sẽ tiếp tục đóng vai trò quan trọng trong nhiều\nlĩnh vực như:\n• Thị giác máy tính\n• Y tế thông minh",
+    "metadata": {
+      "chapter": "chuong_5",
+      "char_count": 1742,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 700,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p31_para_000",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 31,
+    "text": "31\n\n• Hệ thống xe tự lái\n• Phân tích dữ liệu hình ảnh\nNhờ sự phát triển của phần cứng và các thu ật toán m ới, các mô hình CNN\nngày càng tr ở nên mạnh mẽ và hiệu quả hơn trong vi ệc giải quyết các bài toán\nphức tạp.\n\nKẾT LUẬN",
+    "metadata": {
+      "chapter": "ket_luan",
+      "char_count": 1774,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 225,
+      "paragraph_count": 3
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p31_para_001",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 31,
+    "text": "Trong những năm gần đây, lĩnh vực Deep Learning đã đạt được nhiều thành tựu quan trọng, đặc biệt trong các bài toán liên quan đến xử lý hình ảnh và thị giác máy tính. Trong đó, Convolutional Neural Network (CNN) được xem là một trong những mô hình hiệu quả và được sử dụng rộng rãi nhất. Báo cáo này đã trình bày t ổng quan v ề mạng CNN, bao g ồm khái ni ệm, nguyên lý hoạt động và các thành ph ần chính trong ki ến trúc của mạng như lớp tích chập (Convolutional Layer), lớp kích hoạt (Activation Layer), lớp pooling và lớp kết nối đầy đủ (Fully Connected Layer). Bên cạnh đó, báo cáo cũng giới thiệu một số kiến trúc CNN n ổi tiếng như AlexNet, VGGNet và ResNet, nh ững mô",
+    "metadata": {
+      "chapter": "ket_luan",
+      "char_count": 1774,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 673,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p31_para_002",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 31,
+    "text": "hình đã góp ph ần quan trọng trong việc phát triển các hệ thống nhận dạng hình ảnh hiện đại. Ngoài việc trình bày lý thuyết, báo cáo còn phân tích các ưu điểm và hạn chế của CNN trong quá trình ứng dụng thực tế. CNN có khả năng tự động trích xuất đặc trưng từ dữ liệu và đạt hiệu suất cao trong nhi ều bài toán th ị giác máy tính. Tuy nhiên, mô hình này cũng yêu cầu lượng dữ liệu huấn luyện lớn và chi phí tính toán cao. Trong tương lai, với sự phát triển của công nghệ phần cứng và các thuật toán tối ưu mới, CNN sẽ tiếp tục được cải tiến để nâng cao hiệu quả và mở rộng phạm vi ứng dụng trong nhiều lĩnh vực như y tế, giao thông thông minh và phân tích dữ liệu hình ảnh.",
+    "metadata": {
+      "chapter": "ket_luan",
+      "char_count": 1774,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 673,
+      "paragraph_count": 1
+    }
+  },
+  {
+    "id": "bao-cao-cnn_p31_para_003",
+    "source_id": "bao-cao-cnn",
+    "source": "starter/data/BÁO CÁO LÝ THUYẾT CNN.pdf",
+    "page": 31,
+    "text": "TÀI LIỆU THAM KHẢO\n[1] Aston Zhang, Zachary C. Lipton, Mu Li, and Alexander J. Smola. Dive into Deep\nLearning.\n[2] Ian Goodfellow , Yoshua Bengio , Aaron Courville  (2016).\nDeep Learning. MIT Press.",
+    "metadata": {
+      "chapter": "ket_luan",
+      "char_count": 1774,
+      "is_content_page": true,
+      "strategy": "B_C",
+      "chunk_size": 198,
+      "paragraph_count": 1
+    }
+  }
+]

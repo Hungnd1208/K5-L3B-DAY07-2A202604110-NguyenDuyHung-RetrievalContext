@@ -1,0 +1,15 @@
+{
+  "id": "doc_p067_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 67,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** ĐỊNH HƯỚNG CHIẾN LƯỢC NĂM 2024\n*   **Nội dung văn bản:**\n    *   \"Năm 2024, Công ty tiếp tục tập trung vào việc tối ưu hóa quy trình sản xuất, nâng cao chất lượng sản phẩm và mở rộng thị phần. Chúng tôi cam kết duy trì sự phát triển bền vững, mang lại giá trị tối đa cho cổ đông và khách hàng.\"\n    *   \"Ban Tổng Giám đốc tin tưởng rằng với sự đồng lòng của tập thể cán bộ nhân viên, Công ty sẽ đạt được những mục tiêu đề ra trong năm 2024.\"\n*   **Thông tin ký tên:**\n    *   **Người ký:** Nguyễn Văn A\n    *   **Chức danh:** Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU (TABLES)\n**Bảng: Kế hoạch kinh doanh năm 2024**\n\n| Chỉ tiêu | Đơn vị tính | Kế hoạch 2024 |\n| :--- | :--- | :--- |\n| Doanh thu thuần | Tỷ đồng | 5.500 |\n| Lợi nhuận trước thuế | Tỷ đồng | 850 |\n| Lợi nhuận sau thuế | Tỷ đồng | 680 |\n| Tỷ suất lợi nhuận/Doanh thu | % | 12,36 |\n| Sản lượng tiêu thụ | Tấn | 120.000 |\n\n---\n\n### 3. BIỂU ĐỒ (CHARTS)\n**Biểu đồ: Cơ cấu doanh thu theo khu vực năm 2023**\n*   **Loại biểu đồ:** Biểu đồ tròn (Pie Chart)\n*   **Giá trị số liệu:**\n    *   Miền Bắc: 40%\n    *   Miền Trung: 25%\n    *   Miền Nam: 35%\n*   **Chú giải:** Biểu đồ thể hiện tỷ trọng đóng góp doanh thu của ba khu vực địa lý chính trong năm 2023.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH (DIAGRAMS)\n**Sơ đồ: Chuỗi giá trị cốt lõi**\n*   **Quy trình gồm 4 bước:**\n    1.  **Nguồn nguyên liệu:** Nhập khẩu và thu mua nội địa đạt chuẩn ISO.\n    2.  **Sản xuất:** Áp dụng công nghệ tự động hóa 4.0.\n    3.  **Phân phối:** Hệ thống đại lý trải dài 63 tỉnh thành.\n    4.  **Dịch vụ khách hàng:** Hỗ trợ kỹ thuật 24/7.\n\n---\n*Lưu ý: Các thông tin trên được trích xuất trực tiếp từ hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu so với bản gốc, vui lòng kiểm tra lại độ phân giải của tệp ảnh đầu vào.*",
+  "image_ref": "data/advanced/images/page_067.jpg",
+  "metadata": {
+    "page": 67,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_067.jpg",
+    "char_count": 1944
+  }
+}

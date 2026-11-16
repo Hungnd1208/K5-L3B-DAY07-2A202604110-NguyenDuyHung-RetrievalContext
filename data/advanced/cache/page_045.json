@@ -1,0 +1,15 @@
+{
+  "id": "doc_p045_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 45,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** ĐỊNH HƯỚNG CHIẾN LƯỢC NĂM 2024\n*   **Nội dung văn bản:**\n    *   \"Năm 2024, Công ty xác định mục tiêu trọng tâm là tối ưu hóa hiệu quả hoạt động, đẩy mạnh chuyển đổi số và phát triển bền vững. Chúng tôi cam kết tiếp tục nâng cao chất lượng sản phẩm, mở rộng thị phần và mang lại giá trị gia tăng cho cổ đông.\"\n    *   \"Ban Tổng Giám đốc tin tưởng rằng với nền tảng vững chắc đã xây dựng, Công ty sẽ vượt qua các thách thức của thị trường và đạt được những cột mốc tăng trưởng mới.\"\n*   **Thông tin người ký:**\n    *   **Ký tên:** (Chữ ký)\n    *   **Họ và tên:** Nguyễn Văn A\n    *   **Chức danh:** Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU (Tables)\n**Bảng: Kết quả kinh doanh hợp nhất (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.250 | 1.480 | 18,4% |\n| Lợi nhuận gộp | 320 | 410 | 28,1% |\n| Lợi nhuận sau thuế | 150 | 210 | 40,0% |\n| Biên lợi nhuận ròng | 12,0% | 14,2% | - |\n\n---\n\n### 3. BIỂU ĐỒ (Charts)\n*   **Loại biểu đồ:** Biểu đồ cột (Column Chart)\n*   **Tiêu đề:** Tăng trưởng doanh thu qua các năm (2021 - 2023)\n*   **Trục hoành:** Năm (2021, 2022, 2023)\n*   **Trục tung:** Tỷ đồng\n*   **Giá trị số liệu:**\n    *   Năm 2021: 1.050 tỷ đồng\n    *   Năm 2022: 1.250 tỷ đồng\n    *   Năm 2023: 1.480 tỷ đồng\n*   **Xu hướng:** Doanh thu có xu hướng tăng trưởng liên tục qua 3 năm, với tốc độ tăng trưởng ổn định.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH (Diagrams)\n*   **Mô tả:** Sơ đồ cấu trúc quản trị chiến lược năm 2024.\n*   **Các thành phần:**\n    1.  **Hội đồng Quản trị:** Định hướng chiến lược cấp cao.\n    2.  **Ban Tổng Giám đốc:** Điều hành và thực thi.\n    3.  **Khối Kinh doanh:** Tập trung mở rộng thị phần.\n    4.  **Khối Vận hành:** Tối ưu hóa quy trình và chuyển đổi số.\n    5.  **Khối Tài chính:** Quản trị rủi ro và hiệu quả vốn.\n*   **Mối quan hệ:** Các khối chức năng báo cáo trực tiếp cho Ban Tổng Giám đốc, chịu sự giám sát của Hội đồng Quản trị.",
+  "image_ref": "data/advanced/images/page_045.jpg",
+  "metadata": {
+    "page": 45,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_045.jpg",
+    "char_count": 2129
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "doc_p133_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 133,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** ĐỊNH HƯỚNG CHIẾN LƯỢC NĂM 2024\n*   **Nội dung văn bản:**\n    \"Năm 2024, Công ty xác định mục tiêu trọng tâm là tối ưu hóa hiệu quả hoạt động, đẩy mạnh chuyển đổi số và mở rộng thị phần. Chúng tôi cam kết tiếp tục nâng cao chất lượng sản phẩm, dịch vụ, đồng thời chú trọng phát triển bền vững, mang lại giá trị gia tăng cho cổ đông, khách hàng và cộng đồng.\"\n*   **Thông tin người ký:**\n    *   **Ký tên:** (Chữ ký)\n    *   **Họ và tên:** Nguyễn Văn A\n    *   **Chức danh:** Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU\n**Bảng 1: Kết quả kinh doanh hợp nhất (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.250 | 1.480 | 18,4% |\n| Lợi nhuận gộp | 320 | 410 | 28,1% |\n| Lợi nhuận sau thuế | 150 | 195 | 30,0% |\n\n---\n\n### 3. BIỂU ĐỒ\n**Biểu đồ 1: Cơ cấu doanh thu theo khu vực năm 2023**\n*   **Loại biểu đồ:** Biểu đồ tròn (Pie Chart)\n*   **Tiêu đề:** Cơ cấu doanh thu theo khu vực năm 2023\n*   **Số liệu chi tiết:**\n    *   Miền Bắc: 45%\n    *   Miền Trung: 20%\n    *   Miền Nam: 35%\n*   **Chú giải:** Biểu đồ thể hiện tỷ trọng đóng góp doanh thu của ba khu vực địa lý chính.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH\n**Sơ đồ 1: Quy trình chuỗi cung ứng**\n*   **Mô tả:** Sơ đồ dạng khối (Flowchart) thể hiện quy trình từ đầu vào đến đầu ra:\n    1.  **Nhà cung cấp:** Cung ứng nguyên vật liệu đầu vào.\n    2.  **Sản xuất:** Nhà máy chế biến và đóng gói.\n    3.  **Kho vận:** Hệ thống kho bãi và trung tâm phân phối.\n    4.  **Khách hàng:** Hệ thống đại lý, siêu thị và người tiêu dùng cuối cùng.\n*   **Mũi tên:** Các mũi tên một chiều kết nối các khối theo trình tự từ 1 đến 4.\n\n---\n*Lưu ý: Các dữ liệu trên được trích xuất trực tiếp từ hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu do chất lượng ảnh, vui lòng đối chiếu với bản gốc.*",
+  "image_ref": "data/advanced/images/page_133.jpg",
+  "metadata": {
+    "page": 133,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_133.jpg",
+    "char_count": 1994
+  }
+}

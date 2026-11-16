@@ -1,0 +1,276 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Khái niệm Machine Learning (Học máy) được định nghĩa như thế nào?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 2,
+        "evidence": "Machine Learning (ML) là một nhánh của trí tuệ nhân tạo cho phép máy tính học từ dữ liệu và cải thiện hiệu suất theo thời gian mà không cần lập trình chi tiết cho từng nhiệm vụ cụ thể."
+      }
+    ],
+    "expected_answer": "Machine Learning là một nhánh của trí tuệ nhân tạo cho phép máy tính học từ dữ liệu và cải thiện hiệu suất theo thời gian mà không cần lập trình chi tiết cho từng nhiệm vụ cụ thể."
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Mô hình Recurrent Neural Network (RNN) được thiết kế chuyên biệt để xử lý dạng dữ liệu nào?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 4,
+        "evidence": "Recurrent Neural Network là mô hình mạng nơ-ron được thiết kế để xử lý dữ liệu\nchuỗi như văn bản, âm thanh và dữ liệu thời gian."
+      }
+    ],
+    "expected_answer": "RNN được thiết kế để xử lý dữ liệu chuỗi như văn bản, âm thanh và dữ liệu thời gian."
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Trong bài toán thị giác máy tính, phân loại ảnh (Image Classification) có nhiệm vụ gì?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 6,
+        "evidence": "- Phân loại ảnh (Image Classification): Xác định đối tượng chính trong ảnh là gì."
+      }
+    ],
+    "expected_answer": "Xác định đối tượng chính trong ảnh là gì."
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Hàm kích hoạt phổ biến nào trong CNN giúp tăng tốc độ huấn luyện và cải thiện hiệu suất của mạng?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 8,
+        "evidence": "Một hàm kích hoạt phổ biến trong CNN là ReLU (Rectified Linear Unit), giúp tăng tốc độ huấn luyện và cải thiện hiệu suất của mạng."
+      }
+    ],
+    "expected_answer": "Hàm ReLU (Rectified Linear Unit)."
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Trong lớp tích chập, tham số Stride (Bước trượt) là gì và Stride lớn hơn 1 có tác dụng gì?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 9,
+        "evidence": "• Stride (Bước trượt): Khoảng cách di chuyển của kernel sau mỗi phép tính.\nStride >1 giúp gi ảm kích thước không gian của bản đồ đặc trưng (feature\nmap)."
+      }
+    ],
+    "expected_answer": "Stride là khoảng cách di chuyển của kernel sau mỗi phép tính; Stride > 1 giúp giảm kích thước không gian của bản đồ đặc trưng."
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Hàm kích hoạt ReLU xử lý giá trị đầu vào nhỏ hơn hoặc bằng 0 như thế nào?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 10,
+        "evidence": "• Nếu giá trị đầu vào nhỏ hơn hoặc bằng 0 thì kết quả bằng 0."
+      }
+    ],
+    "expected_answer": "Nếu giá trị đầu vào nhỏ hơn hoặc bằng 0 thì kết quả bằng 0."
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Hàm kích hoạt Tanh có thể gặp phải vấn đề nghiêm trọng gì khi cấu trúc mạng quá sâu?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 11,
+        "evidence": "Tuy nhiên, giống như Sigmoid, hàm Tanh cũng có thể gặp vấn đề vanishing\ngradient khi mạng quá sâu."
+      }
+    ],
+    "expected_answer": "Gặp vấn đề vanishing gradient (biến mất gradient) giống như hàm Sigmoid."
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Điểm khác biệt cơ bản giữa lớp Pooling và lớp Convolution về mặt tham số là gì?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 21,
+        "evidence": "Mặc dù các l ớp này không có tham s ố để học, chúng vẫn phải tham gia vào\nquá trình lan truyền ngược để định hướng dòng chảy của gradient."
+      }
+    ],
+    "expected_answer": "Lớp Pooling không có tham số để học trong quá trình huấn luyện."
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Công thức tính toán đầu ra của một neuron trong lớp Fully Connected là gì?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 17,
+        "evidence": "Mỗi neuron trong lớp FC tính toán đầu ra theo công thức: y = f(Wx + b)"
+      }
+    ],
+    "expected_answer": "y = f(Wx + b), trong đó W là ma trận trọng số, x là vector đặc trưng đầu vào, b là bias."
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Nhược điểm lớn nhất của lớp Fully Connected là gì?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 17,
+        "evidence": "3.5.3.Nhược điểm của Fully Connected • Số lượng tham số rất lớn, dễ gây overfitting. • Tốn bộ nhớ và thời gian huấn luyện."
+      }
+    ],
+    "expected_answer": "Số lượng tham số rất lớn, dễ gây overfitting và tốn bộ nhớ cũng như thời gian huấn luyện."
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Thuật toán lan truyền ngược (Backpropagation) dựa trên nguyên lý toán học nào từ giải tích để tính đạo hàm riêng?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 18,
+        "evidence": "Về bản chất, đây là một ứng dụng có hệ thống của quy tắc chuỗi (chain rule) t ừ giải tích để tính toán độ dốc (đạo hàm riêng)"
+      }
+    ],
+    "expected_answer": "Ứng dụng có hệ thống của quy tắc chuỗi (chain rule)."
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Hiện tượng Vanishing Gradient xảy ra trong điều kiện nào khi nhân liên tiếp các đạo hàm qua nhiều lớp?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 25,
+        "evidence": "• Vanishing Gradient (Bi ến mất): Gradient ti ến về 0 (khi tr ị tuyệt đối đạo hàm < 1), khiến các lớp đầu ngừng học."
+      }
+    ],
+    "expected_answer": "Gradient tiến về 0 khi trị tuyệt đối của đạo hàm nhỏ hơn 1."
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Trong Chương 3 về kiến trúc mô hình, thuật toán tối ưu Adam tích hợp cơ chế nào để bù đắp việc khởi tạo moment bằng 0?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 23,
+        "evidence": "Công th ức c ập nh ật c ủa Adam tích h ợp cơ ch ế hiệu ch ỉnh đ ộ lệch (bias\ncorrection) để bù đắp cho vi ệc khởi tạo các moment b ằng 0"
+      }
+    ],
+    "expected_answer": "Cơ chế hiệu chỉnh độ lệch (bias correction).",
+    "filter": {
+      "chapter": "chuong_3"
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Trong Chương 4 về các kiến trúc nổi tiếng, mô hình AlexNet được đề xuất bởi những tác giả nào?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 27,
+        "evidence": "Mô hình này được đề xuất bởi Alex Krizhevsky, Ilya Sutskever và Geoffrey Hinton"
+      }
+    ],
+    "expected_answer": "Alex Krizhevsky, Ilya Sutskever và Geoffrey Hinton.",
+    "filter": {
+      "chapter": "chuong_4"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Mô hình VGGNet sử dụng kích thước bộ lọc (filter/kernel) nào làm đặc trưng nổi bật?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 27,
+        "evidence": "Điểm đặc biệt của VGGNet là s ử dụng các bộ lọc kích thư ớc nhỏ (3×3)\nnhưng tăng số lượng lớp mạng lên rất sâu."
+      }
+    ],
+    "expected_answer": "Sử dụng các bộ lọc kích thước nhỏ (3×3) nhưng tăng số lượng lớp mạng lên rất sâu."
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Kiến trúc ResNet sử dụng giải pháp kỹ thuật nào để thông tin truyền qua nhiều lớp mà không bị suy giảm?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 28,
+        "evidence": "Kiến trúc ResNet sử dụng skip connection (kết nối tắt), cho phép tín hiệu đi\nqua nhiều lớp mà không bị suy giảm."
+      }
+    ],
+    "expected_answer": "Sử dụng skip connection (kết nối tắt)."
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Trong Chương 4, mô hình GoogLeNet (Inception) được giới thiệu vào năm nào và bởi ai?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 28,
+        "evidence": "GoogLeNet (Inception) được giới thiệu bởi Christian Szegedy và cộng sự vào\nnăm 2015 trong nghiên cứu Going Deeper with Convolutions."
+      }
+    ],
+    "expected_answer": "Được giới thiệu bởi Christian Szegedy và cộng sự vào năm 2015 trong nghiên cứu Going Deeper with Convolutions.",
+    "filter": {
+      "chapter": "chuong_4"
+    }
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Trong cơ chế lan truyền ngược của lớp Max Pooling, gradient được truyền như thế nào?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 21,
+        "evidence": "Gradient được truyền 100% v ề\nvị trí của giá tr ị lớn nhất đã ch ọn;\ncác vị trí khác nhận gradient bằng 0."
+      }
+    ],
+    "expected_answer": "Gradient được truyền 100% về vị trí của giá trị lớn nhất đã chọn; các vị trí khác nhận gradient bằng 0."
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Ưu điểm quan trọng của CNN so với các phương pháp truyền thống trong việc trích xuất đặc trưng là gì?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 29,
+        "evidence": "CNN có khả năng tự động học và trích xuất các đặc trưng quan trọng từ dữ liệu thông qua các lớp tích chập."
+      },
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 29,
+        "evidence": "Khác với các phương pháp truyền thống yêu cầu người dùng phải thiết kế đặc trưng thủ công,"
+      }
+    ],
+    "expected_answer": "CNN có khả năng tự động học và trích xuất các đặc trưng quan trọng từ dữ liệu thông qua các lớp tích chập mà không cần thiết kế đặc trưng thủ công."
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Tính chất 'hộp đen' (Black Box) của CNN gây ra trở ngại gì trong việc giải thích quyết định?",
+    "gold": [
+      {
+        "source_id": "bao-cao-cnn",
+        "page": 30,
+        "evidence": "Thứ ba, khó giải thích mô hình. CNN thường được xem là một “hộp đen” vì rất khó để giải thích chính xác cách mà mô hình đưa ra quy ết định."
+      }
+    ],
+    "expected_answer": "Rất khó để giải thích chính xác cách mà mô hình đưa ra quyết định, gây khó khăn trong y tế hoặc tài chính."
+  }
+]

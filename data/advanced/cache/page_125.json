@@ -1,0 +1,15 @@
+{
+  "id": "doc_p125_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 125,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN\n*   **Tiêu đề chính:** BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\n*   **Tiêu đề phụ:** ĐỊNH HƯỚNG CHIẾN LƯỢC NĂM 2024\n*   **Nội dung văn bản:**\n    *   \"Năm 2024, Công ty xác định mục tiêu trọng tâm là tối ưu hóa hiệu quả hoạt động, đẩy mạnh chuyển đổi số và mở rộng thị phần. Chúng tôi cam kết tiếp tục nâng cao chất lượng sản phẩm, dịch vụ nhằm mang lại giá trị bền vững cho cổ đông, khách hàng và cộng đồng.\"\n    *   \"Ban Tổng Giám đốc tin tưởng rằng với nền tảng vững chắc đã xây dựng, Công ty sẽ vượt qua các thách thức của thị trường để đạt được những mục tiêu đề ra.\"\n*   **Thông tin người ký:**\n    *   **Người ký:** Nguyễn Văn A\n    *   **Chức danh:** Tổng Giám đốc\n\n---\n\n### 2. BẢNG BIỂU (TABLES)\n**Bảng: Kết quả kinh doanh hợp nhất (Đơn vị: Tỷ đồng)**\n\n| Chỉ tiêu | Năm 2022 | Năm 2023 | Tăng trưởng (%) |\n| :--- | :---: | :---: | :---: |\n| Doanh thu thuần | 1.250 | 1.480 | 18,4% |\n| Lợi nhuận gộp | 320 | 410 | 28,1% |\n| Lợi nhuận sau thuế | 150 | 205 | 36,7% |\n| Biên lợi nhuận ròng | 12% | 13,8% | - |\n\n---\n\n### 3. BIỂU ĐỒ (CHARTS)\n**Loại biểu đồ:** Biểu đồ cột (Column Chart)\n**Tiêu đề:** Doanh thu và Lợi nhuận sau thuế (2021 - 2023)\n*   **Trục hoành:** Năm (2021, 2022, 2023)\n*   **Trục tung:** Tỷ đồng\n*   **Chú giải:**\n    *   Cột màu xanh dương: Doanh thu\n    *   Cột màu cam: Lợi nhuận sau thuế\n*   **Giá trị số liệu:**\n    *   **Năm 2021:** Doanh thu: 1.050 tỷ đồng | Lợi nhuận: 110 tỷ đồng\n    *   **Năm 2022:** Doanh thu: 1.250 tỷ đồng | Lợi nhuận: 150 tỷ đồng\n    *   **Năm 2023:** Doanh thu: 1.480 tỷ đồng | Lợi nhuận: 205 tỷ đồng\n*   **Xu hướng:** Cả doanh thu và lợi nhuận đều có xu hướng tăng trưởng liên tục qua 3 năm.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH (DIAGRAMS)\n**Sơ đồ: Cơ cấu tổ chức Công ty**\n*   **Cấp cao nhất:** Đại hội đồng cổ đông\n*   **Cấp thứ hai:** Hội đồng Quản trị (HĐQT)\n*   **Cấp thứ ba:** Ban Tổng Giám đốc\n*   **Cấp thứ tư (Các khối chức năng):**\n    1.  Khối Kinh doanh & Marketing\n    2.  Khối Tài chính - Kế toán\n    3.  Khối Sản xuất & Vận hành\n    4.  Khối Nhân sự & Hành chính\n\n*Lưu ý: Các thông tin trên được trích xuất trực tiếp từ hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu do chất lượng ảnh, vui lòng đối chiếu với bản gốc.*",
+  "image_ref": "data/advanced/images/page_125.jpg",
+  "metadata": {
+    "page": 125,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_125.jpg",
+    "char_count": 2300
+  }
+}

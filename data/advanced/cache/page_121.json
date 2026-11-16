@@ -1,0 +1,15 @@
+{
+  "id": "doc_p121_visual",
+  "source_id": "Vinamilk",
+  "source": "data/Vinamilk.pdf",
+  "page": 121,
+  "type": "visual_multimodal",
+  "text": "Dưới đây là phân tích chi tiết nội dung từ trang báo cáo thường niên mà bạn đã cung cấp:\n\n### 1. TIÊU ĐỀ & VĂN BẢN (Text)\n\n*   **Tiêu đề chính:** BÁO CÁO THƯỜNG NIÊN 2022\n*   **Tiêu đề phụ:** CÔNG TY CỔ PHẦN SỮA VIỆT NAM (VINAMILK)\n*   **Tiêu đề phần:** CHIẾN LƯỢC PHÁT TRIỂN BỀN VỮNG\n*   **Nội dung đoạn văn:**\n    \"Vinamilk xác định phát triển bền vững là chiến lược trọng tâm trong giai đoạn 2022-2026. Với mục tiêu hướng tới Net Zero vào năm 2050, Vinamilk tập trung vào 4 trụ cột chính: (1) Phát triển bền vững môi trường; (2) Phát triển bền vững xã hội; (3) Phát triển bền vững kinh tế; (4) Quản trị doanh nghiệp bền vững. Trong năm 2022, Vinamilk đã đạt được những kết quả khả quan trong việc giảm phát thải khí nhà kính, tiết kiệm năng lượng và sử dụng tài nguyên hiệu quả.\"\n\n---\n\n### 2. BẢNG BIỂU (Tables)\n\n**Bảng 1: Kết quả thực hiện các chỉ tiêu phát triển bền vững năm 2022**\n\n| Chỉ tiêu | Đơn vị tính | Kế hoạch 2022 | Thực hiện 2022 | Tỷ lệ hoàn thành |\n| :--- | :--- | :--- | :--- | :--- |\n| Giảm phát thải khí nhà kính | Tấn CO2e | 50.000 | 52.500 | 105% |\n| Tiết kiệm năng lượng | GJ | 150.000 | 165.000 | 110% |\n| Tỷ lệ sử dụng năng lượng tái tạo | % | 10% | 12% | 120% |\n| Tỷ lệ bao bì có thể tái chế | % | 85% | 88% | 103,5% |\n\n---\n\n### 3. BIỂU ĐỒ (Charts)\n\n**Biểu đồ 1: Biểu đồ cột - Xu hướng giảm phát thải khí nhà kính (2020 - 2022)**\n*   **Trục hoành:** Năm (2020, 2021, 2022)\n*   **Trục tung:** Tấn CO2e (nghìn tấn)\n*   **Số liệu cụ thể:**\n    *   Năm 2020: 60.000 tấn CO2e\n    *   Năm 2021: 56.000 tấn CO2e\n    *   Năm 2022: 52.500 tấn CO2e\n*   **Xu hướng:** Giảm dần qua các năm, thể hiện nỗ lực cắt giảm khí thải của doanh nghiệp.\n\n---\n\n### 4. SƠ ĐỒ / HÌNH ẢNH (Diagrams)\n\n**Sơ đồ: 4 Trụ cột Phát triển bền vững của Vinamilk**\nSơ đồ dạng hình tròn chia làm 4 phần bằng nhau, bao quanh biểu tượng \"Net Zero 2050\" ở trung tâm:\n\n1.  **Phát triển bền vững môi trường:** Tập trung vào giảm phát thải, năng lượng tái tạo, quản lý chất thải.\n2.  **Phát triển bền vững xã hội:** Tập trung vào phúc lợi nhân viên, cộng đồng, an toàn thực phẩm.\n3.  **Phát triển bền vững kinh tế:** Tập trung vào tăng trưởng doanh thu, hiệu quả vận hành, chuỗi cung ứng bền vững.\n4.  **Quản trị doanh nghiệp bền vững:** Tập trung vào đạo đức kinh doanh, minh bạch thông tin, tuân thủ pháp luật.\n\n---\n*Lưu ý: Các thông tin trên được trích xuất trực tiếp từ hình ảnh bạn cung cấp. Nếu có bất kỳ sai lệch nào về số liệu so với bản gốc, vui lòng kiểm tra lại chất lượng hình ảnh đầu vào.*",
+  "image_ref": "data/advanced/images/page_121.jpg",
+  "metadata": {
+    "page": 121,
+    "is_visual": true,
+    "image_path": "data/advanced/images/page_121.jpg",
+    "char_count": 2485
+  }
+}
